@@ -1,0 +1,678 @@
+<!-- ============================================ -->
+<!-- AGENT TAX CONSULT IRPJ - VERSÃO FRAGMENTO   -->
+<!-- Para ser carregado dentro do menu principal -->
+<!-- ============================================ -->
+
+<style>
+    /* ============================= */
+    /* ESTILOS DO CONTAINER DO CHAT */
+    /* ============================= */
+    #chat-container {
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 180px); /* Usa quase toda a altura disponível */
+        min-height: 700px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    /* ============================= */
+    /* CABEÇALHO DO CHAT */
+    /* ============================= */
+    #chat-header {
+        background: linear-gradient(135deg, #1D762F 0%, #000000 100%);
+        color: white;
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        flex-shrink: 0; /* Não encolhe */
+    }
+
+    #chat-header i {
+        font-size: 1.8rem;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+
+    /* ============================= */
+    /* JANELA DE MENSAGENS DO CHAT */
+    /* ============================= */
+    .chat-window {
+        flex: 1; /* Ocupa todo o espaço disponível */
+        padding: 30px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+        min-height: 0; /* Importante para flex funcionar corretamente */
+    }
+    
+    /* Scrollbar personalizada */
+    .chat-window::-webkit-scrollbar { 
+        width: 8px; 
+    }
+    
+    .chat-window::-webkit-scrollbar-track { 
+        background: #f1f1f1; 
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+    
+    .chat-window::-webkit-scrollbar-thumb { 
+        background: linear-gradient(180deg, #1D762F, #000000);
+        border-radius: 4px;
+    }
+    
+    .chat-window::-webkit-scrollbar-thumb:hover { 
+        background: linear-gradient(180deg, #28a745, #1D762F);
+    }
+
+    /* ============================= */
+    /* MENSAGENS DO CHAT */
+    /* ============================= */
+    @keyframes message-in {
+        from {
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+    
+    .chat-message {
+        max-width: 75%;
+        padding: 16px 22px;
+        border-radius: 20px;
+        line-height: 1.7;
+        font-size: 0.98rem;
+        word-wrap: break-word;
+        animation: message-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+    
+    /* Mensagem do usuário */
+    .chat-message.user {
+        background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+        color: white;
+        border-bottom-right-radius: 6px;
+        align-self: flex-end;
+        margin-left: auto;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .chat-message.user::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: -8px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 20px 10px;
+        border-color: transparent transparent #1a1a1a transparent;
+    }
+
+    /* Mensagem do bot */
+    .chat-message.bot {
+        background-color: #ffffff;
+        color: #333;
+        border: 1px solid #e0e0e0;
+        border-bottom-left-radius: 6px;
+        align-self: flex-start;
+    }
+
+    .chat-message.bot::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -8px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 20px 0;
+        border-color: transparent #ffffff transparent transparent;
+    }
+    
+    /* ============================= */
+    /* FORMATAÇÃO MARKDOWN NAS MENSAGENS DO BOT */
+    /* ============================= */
+    .chat-message.bot p { 
+        margin: 0 0 12px 0; 
+    }
+    
+    .chat-message.bot p:last-child { 
+        margin-bottom: 0; 
+    }
+
+    .chat-message.bot strong {
+        color: #1D762F;
+        font-weight: 700;
+    }
+
+    .chat-message.bot em {
+        color: #666;
+        font-style: italic;
+    }
+    
+    .chat-message.bot code {
+        background-color: rgba(29, 118, 47, 0.1);
+        color: #1D762F;
+        padding: 3px 8px;
+        border-radius: 4px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.92em;
+        font-weight: 600;
+    }
+    
+    .chat-message.bot pre {
+        background-color: #2d2d2d;
+        color: #f1f1f1;
+        padding: 18px;
+        border-radius: 10px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin: 15px 0;
+        font-family: 'Courier New', Courier, monospace;
+        overflow-x: auto;
+        border-left: 4px solid #1D762F;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .chat-message.bot pre code {
+        background: none;
+        color: #f1f1f1;
+        padding: 0;
+        font-weight: normal;
+    }
+
+    .chat-message.bot ul, 
+    .chat-message.bot ol {
+        margin: 12px 0;
+        padding-left: 25px;
+    }
+
+    .chat-message.bot li {
+        margin: 8px 0;
+        line-height: 1.6;
+    }
+
+    .chat-message.bot blockquote {
+        border-left: 4px solid #1D762F;
+        padding-left: 15px;
+        margin: 15px 0;
+        color: #555;
+        font-style: italic;
+        background: rgba(29, 118, 47, 0.05);
+        padding: 12px 15px;
+        border-radius: 4px;
+    }
+
+    .chat-message.bot h1,
+    .chat-message.bot h2,
+    .chat-message.bot h3 {
+        color: #1D762F;
+        margin: 15px 0 10px 0;
+        font-weight: 700;
+    }
+
+    .chat-message.bot h1 { font-size: 1.4em; }
+    .chat-message.bot h2 { font-size: 1.2em; }
+    .chat-message.bot h3 { font-size: 1.1em; }
+
+    /* ============================= */
+    /* ANIMAÇÃO DE "DIGITANDO..." */
+    /* ============================= */
+    .chat-message.loading {
+        align-self: flex-start;
+        padding: 20px 26px;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    }
+    
+    .typing-indicator {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .typing-indicator span {
+        width: 10px;
+        height: 10px;
+        background: linear-gradient(135deg, #1D762F, #28a745);
+        border-radius: 50%;
+        animation: bounce 1.4s infinite ease-in-out both;
+    }
+    
+    .typing-indicator span:nth-child(1) { 
+        animation-delay: -0.32s; 
+    }
+    
+    .typing-indicator span:nth-child(2) { 
+        animation-delay: -0.16s; 
+    }
+    
+    @keyframes bounce {
+        0%, 80%, 100% { 
+            transform: scale(0);
+            opacity: 0.5;
+        }
+        40% { 
+            transform: scale(1.2);
+            opacity: 1;
+        }
+    }
+
+    /* ============================= */
+    /* ÁREA DE INPUT DE MENSAGEM */
+    /* ============================= */
+    .chat-input-area {
+        display: flex;
+        padding: 20px 25px;
+        border-top: 1px solid #e0e0e0;
+        gap: 15px;
+        background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05);
+        flex-shrink: 0; /* Não encolhe */
+    }
+
+    #message-input-chat {
+        flex-grow: 1;
+        padding: 16px 22px;
+        border: 2px solid #e0e0e0;
+        border-radius: 28px;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        resize: none;
+        transition: all 0.3s ease;
+        background: #f9fafb;
+        line-height: 1.5;
+        max-height: 120px; /* Limita altura máxima do textarea */
+    }
+    
+    #message-input-chat:focus {
+        outline: none;
+        border-color: #1D762F;
+        box-shadow: 0 0 0 4px rgba(29, 118, 47, 0.12);
+        background: white;
+    }
+
+    #message-input-chat::placeholder {
+        color: #999;
+        font-style: italic;
+    }
+    
+    /* ============================= */
+    /* BOTÃO DE ENVIAR */
+    /* ============================= */
+    #send-button-chat {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        border-radius: 50%;
+        border: none;
+        background: linear-gradient(135deg, #1D762F 0%, #000000 100%);
+        color: white;
+        cursor: pointer;
+        font-size: 1.4rem;
+        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 15px rgba(29, 118, 47, 0.35);
+        flex-shrink: 0; /* Não encolhe */
+    }
+    
+    #send-button-chat:hover:not(:disabled) {
+        transform: scale(1.1) rotate(15deg);
+        box-shadow: 0 6px 25px rgba(29, 118, 47, 0.5);
+    }
+
+    #send-button-chat:active:not(:disabled) {
+        transform: scale(0.95) rotate(0deg);
+    }
+
+    #send-button-chat:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    /* ============================= */
+    /* RESPONSIVIDADE */
+    /* ============================= */
+    @media (max-width: 1024px) {
+        #chat-container {
+            height: calc(100vh - 200px);
+            min-height: 600px;
+        }
+
+        .chat-window {
+            padding: 25px 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #chat-container {
+            height: calc(100vh - 220px);
+            min-height: 500px;
+        }
+
+        #chat-header {
+            padding: 18px 20px;
+            font-size: 1.2rem;
+        }
+
+        #chat-header i {
+            font-size: 1.5rem;
+        }
+
+        .chat-window {
+            padding: 20px 15px;
+        }
+
+        .chat-message {
+            max-width: 85%;
+            font-size: 0.95rem;
+            padding: 14px 18px;
+        }
+
+        .chat-input-area {
+            padding: 15px;
+            gap: 12px;
+        }
+
+        #message-input-chat {
+            padding: 14px 18px;
+            font-size: 0.95rem;
+            max-height: 100px;
+        }
+
+        #send-button-chat {
+            width: 52px;
+            height: 52px;
+            min-width: 52px;
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        #chat-container {
+            height: calc(100vh - 240px);
+            min-height: 450px;
+        }
+
+        #chat-header {
+            padding: 15px;
+            font-size: 1.1rem;
+        }
+
+        .chat-window {
+            padding: 15px 10px;
+            gap: 15px;
+        }
+
+        .chat-message {
+            max-width: 90%;
+            font-size: 0.92rem;
+            padding: 12px 16px;
+        }
+
+        #message-input-chat {
+            padding: 12px 16px;
+            font-size: 0.92rem;
+            max-height: 80px;
+        }
+
+        #send-button-chat {
+            width: 48px;
+            height: 48px;
+            min-width: 48px;
+            font-size: 1.1rem;
+        }
+    }
+
+    /* ============================= */
+    /* AJUSTE PARA TELAS GRANDES */
+    /* ============================= */
+    @media (min-width: 1400px) {
+        #chat-container {
+            height: calc(100vh - 160px);
+            min-height: 750px;
+        }
+
+        .chat-window {
+            padding: 35px;
+        }
+
+        .chat-message {
+            font-size: 1rem;
+            padding: 18px 24px;
+        }
+    }
+</style>
+
+<!-- ============================================ -->
+<!-- ESTRUTURA HTML DO CHAT -->
+<!-- ============================================ -->
+<div id="chat-container">
+    <!-- Cabeçalho do Chat -->
+    <div id="chat-header">
+        <i class="fa-solid fa-robot"></i>
+        <span>Agente Tax Consultor IRPJ e CSLL</span>
+    </div>
+    
+    <!-- Janela de Mensagens -->
+    <div class="chat-window" id="chat-window-irpj">
+        <div class="chat-message bot">
+            Olá! Eu sou o seu assistente fiscal especializado em <strong>IRPJ</strong> (Imposto de Renda Pessoa Jurídica). 
+            <br><br>
+            Posso ajudá-lo com:
+            <ul>
+                <li>Cálculos e apuração do IRPJ e CSLL</li>
+                <li>Regimes de tributação (Lucro Real, Presumido, Arbitrado)</li>
+                <li>Incentivos fiscais e deduções</li>
+                <li>Legislação tributária federal</li>
+                <li>Planejamento tributário</li>
+            </ul>
+            Como posso ajudar você hoje?
+        </div>
+    </div>
+    
+    <!-- Área de Input -->
+    <form class="chat-input-area" id="chat-form-irpj">
+        <textarea 
+            id="message-input-chat" 
+            placeholder="Escreva sua pergunta sobre IRPJ... (Shift+Enter para nova linha)"
+            rows="1" 
+            required
+        ></textarea>
+        <button type="submit" id="send-button-chat" title="Enviar mensagem">
+            <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </form>
+</div>
+
+<!-- ============================================ -->
+<!-- SCRIPTS DO CHAT -->
+<!-- ============================================ -->
+
+<!-- Biblioteca Marked para renderizar Markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+    // ============================= 
+    // INICIALIZAÇÃO
+    // ============================= 
+    console.log('🤖 Agent Tax Consult IRPJ iniciado');
+
+    // Garantir que o marked está disponível
+    if (typeof marked === 'undefined') {
+        console.error('❌ Marked library não carregada');
+    } else {
+        console.log('✅ Marked library carregada com sucesso');
+    }
+
+    // ============================= 
+    // SELEÇÃO DE ELEMENTOS DO DOM
+    // ============================= 
+    const chatWindow = document.getElementById('chat-window-irpj');
+    const chatForm = document.getElementById('chat-form-irpj');
+    const messageInput = document.getElementById('message-input-chat');
+    const sendButton = document.getElementById('send-button-chat');
+
+    // ============================= 
+    // FUNÇÃO: ADICIONAR MENSAGEM
+    // ============================= 
+    function addMessage(text, sender, isLoading = false) {
+        const messageElement = document.createElement('div');
+        messageElement.classList.add('chat-message', sender);
+        
+        if (isLoading) {
+            // Mensagem de carregamento com animação
+            messageElement.classList.add('loading');
+            messageElement.innerHTML = `<div class="typing-indicator"><span></span><span></span><span></span></div>`;
+        } else {
+            // Mensagem normal com suporte a Markdown
+            if (typeof marked !== 'undefined' && marked.parse) {
+                messageElement.innerHTML = marked.parse(text);
+            } else {
+                // Fallback se marked não estiver disponível
+                messageElement.textContent = text;
+            }
+        }
+
+        chatWindow.appendChild(messageElement);
+        
+        // Scroll suave para a última mensagem
+        setTimeout(() => {
+            chatWindow.scrollTo({
+                top: chatWindow.scrollHeight,
+                behavior: 'smooth'
+            });
+        }, 100);
+        
+        return messageElement;
+    }
+    
+    // ============================= 
+    // EVENTO: ENVIO DO FORMULÁRIO
+    // ============================= 
+    chatForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const userMessage = messageInput.value.trim();
+        if (!userMessage) return;
+
+        // Adicionar mensagem do usuário
+        addMessage(userMessage, 'user');
+        
+        // Limpar input
+        messageInput.value = '';
+        messageInput.style.height = 'auto';
+
+        // Desabilitar botão durante o envio
+        sendButton.disabled = true;
+
+        // Mostrar indicador de "digitando..."
+        const loadingIndicator = addMessage('', 'bot', true);
+
+        // ============================= 
+        // CHAMADA À API DO BACKEND
+        // ============================= 
+        try {
+            const response = await fetch('http://localhost:3000/api/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ 
+                    prompt: userMessage,
+                    context: 'IRPJ' // Contexto específico para o agente
+                }),
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.error || 'Ocorreu um erro no servidor.');
+            }
+
+            const data = await response.json();
+            
+            // Remover indicador de carregamento
+            loadingIndicator.remove();
+            
+            // Adicionar resposta do bot
+            addMessage(data.reply, 'bot');
+
+            console.log('✅ Resposta recebida com sucesso');
+
+        } catch (error) {
+            console.error('❌ Erro na requisição:', error);
+            
+            // Remover indicador de carregamento
+            loadingIndicator.remove();
+            
+            // Mostrar mensagem de erro
+            addMessage(
+                `❌ **Desculpe, ocorreu um erro:**\n\n${error.message}\n\n` +
+                `Por favor, verifique se:\n` +
+                `- O servidor backend está rodando\n` +
+                `- A URL da API está correta\n` +
+                `- Sua conexão com a internet está ativa`,
+                'bot'
+            );
+        } finally {
+            // Reabilitar botão
+            sendButton.disabled = false;
+            messageInput.focus();
+        }
+    });
+    
+    // ============================= 
+    // EVENTO: AJUSTE AUTOMÁTICO DO TEXTAREA
+    // ============================= 
+    messageInput.addEventListener('input', () => {
+        // Reset altura
+        messageInput.style.height = 'auto';
+        
+        // Calcular nova altura
+        const scrollHeight = messageInput.scrollHeight;
+        
+        // Aplicar nova altura (respeitando max-height do CSS)
+        messageInput.style.height = scrollHeight + 'px';
+    });
+
+    // ============================= 
+    // EVENTO: ATALHO ENTER PARA ENVIAR
+    // ============================= 
+    messageInput.addEventListener('keydown', (e) => {
+        // Enter sem Shift = enviar
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            chatForm.dispatchEvent(new Event('submit'));
+        }
+        // Shift+Enter = nova linha (comportamento padrão)
+    });
+
+    // ============================= 
+    // INICIALIZAÇÃO: FOCAR NO INPUT
+    // ============================= 
+    setTimeout(() => {
+        messageInput.focus();
+        console.log('✅ Chat pronto para uso');
+    }, 500);
+</script>

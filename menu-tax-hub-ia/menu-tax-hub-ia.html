@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxHub IA - Portal DLLT</title>
+
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="../menu-tax-hub-ia/menu-tax-hub-ia.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- ============================================ -->
+  <!-- HEADER -->
+  <!-- ============================================ -->
+  <header class="header">
+    <!-- Logo -->
+    <div class="top-bar">
+      <img src="../menu-memorando/logomenu.png" alt="Logo DLLT">
+    </div>
+    
+    <!-- Menu do Header -->
+    <div class="header-menu">
+      <ul>
+        <li>
+          <a href="#" id="userProfile">
+            <i class="fas fa-user"></i> 
+            <span id="userName">Usuário</span>
+          </a>
+        </li>
+        <li>
+          <a href="../Login/login.html" id="logout">
+            <i class="fas fa-sign-out-alt"></i> Sair
+          </a>
+        </li>
+        <li>
+          <a href="../../dashboard-dltt/menu.html" class="voltar-btn">
+            <i class="fas fa-chevron-left"></i> Voltar ao Menu
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- CONTAINER PRINCIPAL -->
+  <!-- ============================================ -->
+  <div class="main-container">
+    
+    <!-- ============================================ -->
+    <!-- SIDEBAR - MENU LATERAL -->
+    <!-- ============================================ -->
+    <aside class="sidebar">
+      <h1>
+        <i class="fas fa-robot"></i> TaxHub IA
+      </h1>
+      <ul>
+        <!-- Agente IRPJ -->
+        <li>
+          <a href="#" 
+             data-page="../tax-hub-ia-irpj/agent_tax_irpj.html" 
+             class="menu-link"
+             data-agent="irpj">
+            <i class="fas fa-balance-scale"></i> 
+            Agente IA - IRPJ
+          </a>
+        </li>
+        
+        <!-- Futuros agentes (descomentados quando estiverem prontos) -->
+        <!--
+        <li>
+          <a href="#" 
+             data-page="../tax-hub-ia-ecd/agent_tax_ecd.html" 
+             class="menu-link"
+             data-agent="ecd">
+            <i class="fas fa-tasks"></i> 
+            Agente IA - ECD
+          </a>
+        </li>
+        
+        <li>
+          <a href="#" 
+             data-page="../tax-hub-ia-ecf/agent_tax_ecf.html" 
+             class="menu-link"
+             data-agent="ecf">
+            <i class="fas fa-file-signature"></i> 
+            Agente IA - ECF
+          </a>
+        </li>
+        
+        <li>
+          <a href="#" 
+             data-page="../tax-hub-ia-sped/agent_tax_sped.html" 
+             class="menu-link"
+             data-agent="sped">
+            <i class="fas fa-file-invoice"></i> 
+            Agente IA - SPED
+          </a>
+        </li>
+        
+        <li>
+          <a href="#" 
+             data-page="../tax-hub-ia-tp/agent_tax_tp.html" 
+             class="menu-link"
+             data-agent="tp">
+            <i class="fas fa-exchange-alt"></i> 
+            Agente IA - Transfer Pricing
+          </a>
+        </li>
+        -->
+      </ul>
+    </aside>
+
+    <!-- ============================================ -->
+    <!-- ÁREA DE CONTEÚDO PRINCIPAL -->
+    <!-- ============================================ -->
+    <main class="content" id="certidoes-content">
+      <!-- Seção de Boas-vindas (mostrada por padrão) -->
+      <div class="welcome-section">
+        <i class="fas fa-robot apresentacao-icon"></i>
+        <h2>Bem-vindo ao TaxHub IA</h2>
+        <p>
+          Seu assistente inteligente para consultoria fiscal especializada. 
+          <br>
+          Selecione um agente no menu lateral para começar a conversar.
+        </p>
+        <div style="margin-top: 30px; padding: 20px; background: rgba(29, 118, 47, 0.05); border-radius: 12px; border-left: 4px solid #1D762F;">
+          <h3 style="color: #1D762F; margin-bottom: 10px;">
+            <i class="fas fa-lightbulb"></i> Agentes Disponíveis:
+          </h3>
+          <ul style="list-style: none; padding: 0; margin: 10px 0 0 0;">
+            <li style="padding: 8px 0; color: #555;">
+              <i class="fas fa-balance-scale" style="color: #1D762F; width: 25px;"></i> 
+              <strong>IRPJ</strong> - Imposto de Renda Pessoa Jurídica
+            </li>
+            <li style="padding: 8px 0; color: #999;">
+              <i class="fas fa-tasks" style="color: #ccc; width: 25px;"></i> 
+              <strong>ECD</strong> - Em breve
+            </li>
+            <li style="padding: 8px 0; color: #999;">
+              <i class="fas fa-file-signature" style="color: #ccc; width: 25px;"></i> 
+              <strong>ECF</strong> - Em breve
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- OVERLAY DE LOADING -->
+  <!-- ============================================ -->
+  <div id="loading-overlay" style="display: none;">
+    <div class="loading-box">
+      <h3 id="loading-title">Carregando Agente</h3>
+      <p id="loading-status-text">Preparando interface...</p>
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- SCRIPTS -->
+  <!-- ============================================ -->
+  
+  <!-- Biblioteca XLSX para manipulação de Excel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  
+  <!-- Biblioteca para exportar para DOCX -->
+  <script src="https://unpkg.com/html-docx-js/dist/html-docx.js"></script>
+  
+  <!-- Script principal da aplicação -->
+  <script src="../menu-tax-hub-ia/menu-tax-hub-ia.js"></script>
+</body>
+</html>

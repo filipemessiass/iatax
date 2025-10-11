@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Revisão Fiscal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../revisao-fiscal/revisao-fiscal.css" />
+  <script defer src="../revisao-fiscal/revisao-fiscal.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="container-revisao">
+    <div class="header-revisao">
+      <h2><i class="fas fa-tasks"></i> Análise de Risco Fiscal</h2>
+      <div class="botoes-acao">
+        <button id="btn-salvar-revisao" class="btn-revisao btn-salvar" disabled><i class="fas fa-save"></i> Salvar Análise</button>
+        <button id="btn-processar-revisao" class="btn-revisao btn-processar" disabled><i class="fas fa-cogs"></i> Processar para Memorando</button>
+      </div>
+    </div>
+
+    <div class="tabela-wrapper">
+      <table id="tabela-revisao-fiscal">
+        <thead>
+          <tr>
+            <th>Revisão Fiscal</th>
+            <th>Ponto Identificado?</th>
+            <th>Classificação da Despesa</th>
+            <th>Afeta Base IRPJ?</th>
+            <th>Afeta Base CSLL?</th>
+          </tr>
+        </thead>
+        <tbody id="revisao-fiscal-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>

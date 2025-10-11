@@ -1,0 +1,249 @@
+.container-revisao {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header-revisao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header-revisao h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #000000;
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  margin: 0;
+}
+
+.header-revisao h2 i {
+  color: #1D762F;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+}
+
+.botoes-acao {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-revisao {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  padding: 10px 18px;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 140px;
+  justify-content: center;
+}
+
+.btn-revisao:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn-revisao:disabled {
+  background-color: #adb5bd !important;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  opacity: 0.7;
+}
+
+.btn-revisao:not(:disabled):focus,
+.btn-revisao:not(:disabled):active {
+  outline: 2px solid #1D762F;
+  outline-offset: 2px;
+}
+
+#btn-salvar-revisao { background-color: #28a745; }
+#btn-salvar-revisao:hover:not(:disabled) { background-color: #1e7e34; }
+
+#btn-processar-revisao { background-color: #ffc107; color: #333; }
+#btn-processar-revisao:hover:not(:disabled) { background-color: #d39e00; }
+
+#btn-editar-revisao { background-color: #17a2b8; }
+#btn-editar-revisao:hover:not(:disabled) { background-color: #138496; }
+
+.tabela-wrapper {
+  flex-grow: 1; 
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+}
+
+#tabela-revisao-fiscal {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+#tabela-revisao-fiscal th,
+#tabela-revisao-fiscal td {
+  padding: clamp(8px, 2vw, 12px) clamp(10px, 2.5vw, 15px);
+  border: 1px solid #dee2e6;
+  text-align: left;
+  vertical-align: middle;
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
+}
+
+#tabela-revisao-fiscal thead th {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: 600;
+  font-size: clamp(0.7rem, 2vw, 0.85rem);
+  position: sticky;
+  top: 0;
+}
+
+#tabela-revisao-fiscal tbody td:first-child {
+  font-weight: 600;
+  color: #333;
+  background-color: #f8f9fa;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.campo-selecao {
+  width: 100%;
+  min-width: 120px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(0.7rem, 2vw, 0.9rem);
+  cursor: pointer;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="6,9 12,15 18,9"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 0.65em auto;
+  padding-right: 2.5rem;
+}
+
+.campo-selecao:disabled {
+  cursor: not-allowed;
+  color: #6c757d;
+  background-color: #f8f9fa;
+}
+
+.campo-selecao:focus {
+  outline: none;
+  border-color: #1D762F;
+  box-shadow: 0 0 0 2px rgba(29, 118, 47, 0.2);
+}
+
+/* Cores de classificação */
+.linha-dedutivel {
+  background: linear-gradient(to right, #d4edda, transparent) !important;
+  border-left: 3px solid #28a745 !important;
+}
+
+.linha-dedutivel td {
+  background-color: transparent !important;
+  color: #155724;
+}
+
+.linha-indedutivel {
+  background: linear-gradient(to right, #f8d7da, transparent) !important;
+  border-left: 3px solid #dc3545 !important;
+}
+
+.linha-indedutivel td {
+  background-color: transparent !important;
+  color: #721c24;
+}
+
+/* Hover mantém a cor base */
+.linha-dedutivel:hover {
+  background: linear-gradient(to right, #c3e6cb, #e9ecef) !important;
+}
+
+.linha-indedutivel:hover {
+  background: linear-gradient(to right, #f5c6cb, #e9ecef) !important;
+}
+
+/* Estado de edição */
+.modo-edicao .campo-selecao {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.25);
+}
+
+.modo-edicao .tabela-wrapper {
+  border: 2px solid #ffc107;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container-revisao {
+    padding: 1rem;
+  }
+  
+  .header-revisao {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  
+  .botoes-acao {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn-revisao {
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  #tabela-revisao-fiscal {
+    min-width: 700px;
+  }
+  
+  #tabela-revisao-fiscal tbody td:first-child {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-revisao {
+    padding: 0.5rem;
+  }
+  
+  .btn-revisao {
+    padding: 8px 12px;
+    min-width: 100px;
+  }
+  
+  #tabela-revisao-fiscal {
+    min-width: 600px;
+  }
+  
+  #tabela-revisao-fiscal th,
+  #tabela-revisao-fiscal td {
+    padding: 6px 8px;
+  }
+  
+  .campo-selecao {
+    padding: 6px 8px;
+    min-width: 100px;
+  }
+}
