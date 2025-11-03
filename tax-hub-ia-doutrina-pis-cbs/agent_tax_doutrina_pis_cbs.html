@@ -1,0 +1,44 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../tax-hub-ia-doutrina-pis-cbs/agent_tax_doutrina_pis_cbs.css"> <div
+  id="chat-container"
+  class="agent-chat"
+  data-agent-id="doutrina-pis-cbs"
+  data-agent-name="Agente Doutrinadores - PIS/COFINS e CBS"
+  data-agent-context="DOUTRINA_PIS_CBS"
+>
+  <div id="chat-header" class="chat-header">
+    <div class="header-info">
+      <div class="agent-avatar">
+          <i class="fa-solid fa-layer-group"></i>
+      </div>
+      <div class="header-text">
+        <span class="header-title">Agente Doutrinadores - PIS/COFINS e CBS</span>
+        <small class="header-subtitle">Transição do consumo para o novo modelo CBS</small>
+      </div>
+    </div>
+    
+    <button type="button" class="close-chat-button" data-close-chat title="Encerrar conversa sobre PIS/COFINS e CBS">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <div class="chat-window" id="chat-window">
+    </div>
+
+  <form class="chat-input-area" id="chat-form">
+    <div class="input-wrapper">
+      <textarea
+        id="message-input"
+        placeholder="Pergunte sobre créditos, transição e IBS/CBS (Shift+Enter para nova linha)"
+        rows="1"
+        required
+      ></textarea>
+      <button type="submit" id="send-button" title="Enviar mensagem ao agente PIS/COFINS e CBS">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../tax-hub-ia-doutrina-pis-cbs/agent_tax_doutrina_pis_cbs.js"></script>

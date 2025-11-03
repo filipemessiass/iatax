@@ -5,26 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TaxHub IA - Portal DLLT</title>
 
-  <!-- CSS Principal -->
   <link rel="stylesheet" href="../menu-tax-hub-ia/menu-tax-hub-ia.css">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- Font Awesome para ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <style>
+  /* Comentário educativo: este bloco define o overlay de carregamento compartilhado por todos os agentes. */
+  #loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(122, 193, 67, 0.95);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(8px);
+  }
+
+  .loading-box {
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+  }
+
+  .loading-box h3 {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  .loading-box p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+
+  .progress-bar-container {
+    width: 100%;
+    height: 12px;
+    background: #E8EAE9;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    border-radius: 10px;
+    width: 0%;
+    transition: width 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  </style>
 </head>
 <body>
-  <!-- ============================================ -->
-  <!-- HEADER -->
-  <!-- ============================================ -->
   <header class="header">
-    <!-- Logo -->
     <div class="top-bar">
-      <img src="../menu-tax-hub-ia/logomenu.png" alt="Logo DLLT">
+      <img src="../menu-tax-hub-ia/logomenu.png" alt="Logo Deloitte">
     </div>
     
-    <!-- Menu do Header -->
     <div class="header-menu">
       <ul>
         <li>
@@ -47,114 +114,577 @@
     </div>
   </header>
 
-  <!-- ============================================ -->
-  <!-- CONTAINER PRINCIPAL -->
-  <!-- ============================================ -->
   <div class="main-container">
     
-    <!-- ============================================ -->
-    <!-- SIDEBAR - MENU LATERAL -->
-    <!-- ============================================ -->
     <aside class="sidebar">
-      <h1>
-        <i class="fas fa-robot"></i> TaxHub IA
-      </h1>
-      <ul>
-        <!-- Agente IRPJ -->
-        <li>
-          <a href="#" 
-             data-page="../tax-hub-ia-irpj/agent_tax_irpj.html" 
-             class="menu-link"
-             data-agent="irpj">
-            <i class="fas fa-balance-scale"></i> 
-            Agente IA - IRPJ
+      <div class="sidebar-top">
+        <div class="sidebar-top__title">
+          <i class="fas fa-robot"></i>
+          <span>TaxHub - IA</span>
+        </div>
+        </div>
+      <ul class="menu-principal">
+        <li class="menu-categoria" data-menu-id="consultor-diretos">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Consultor Diretos</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
           </a>
+          <ul class="submenu">
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-irpj/agent_tax_irpj.html"
+                 class="menu-link"
+                 data-agent="irpj">
+                <i class="fa-solid fa-building-columns"></i>
+                Agente Tax - Consultor IRPJ e CSLL
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-irpj-tp/agent_tax_tp.html"
+                 class="menu-link"
+                 data-agent="tp">
+                <i class="fa-solid fa-globe"></i>
+                Agente Tax - Consultor Transfer Pricing (TP)
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-ldb/agent_tax_ldb.html"
+                 class="menu-link"
+                 data-agent="ldb">
+                <i class="fa-solid fa-flask"></i>
+                Agente Tax - Consultor Lei do Bem (P&amp;D)
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-indiretos">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-store"></i>
+                <span>Consultor Indiretos</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-pis-cofins/agent_tax_pis_cofins.html"
+                 class="menu-link"
+                 data-agent="pis-cofins">
+                <i class="fa-solid fa-layer-group"></i>
+                Agente Tax - Consultor PIS e COFINS
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-icms/agent_tax_icms.html"
+                 class="menu-link"
+                 data-agent="icms">
+                <i class="fa-solid fa-map"></i>
+                Agente Tax - Consultor ICMS Brasil
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-iss/agent_tax_iss.html"
+                 class="menu-link"
+                 data-agent="iss">
+                <i class="fa-solid fa-city"></i>
+                Agente Tax - Consultor ISS
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-retencoes/agent_tax_retencoes.html"
+                 class="menu-link"
+                 data-agent="retencoes">
+                <i class="fa-solid fa-file-contract"></i>
+                Agente Tax - Consultor Retenções
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-icms">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-map-marked-alt"></i>
+                <span>Consultor ICMS</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li class="submenu-grupo">
+              <a href="#" class="submenu-toggle" aria-expanded="false">
+                <span class="menu-emoji" aria-hidden="true">&#128994;</span>
+                Nordeste
+                <i class="fas fa-chevron-down seta-toggle" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu submenu--nested">
+                <li><a href="#" data-page="../tax-hub-ia-icms-al/agent_tax_icms_al.html" class="menu-link" data-agent="icms-al">Agente Tax - Consultor ICMS - AL</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ba/agent_tax_icms_ba.html" class="menu-link" data-agent="icms-ba">Agente Tax - Consultor ICMS - BA</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ce/agent_tax_icms_ce.html" class="menu-link" data-agent="icms-ce">Agente Tax - Consultor ICMS - CE</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ma/agent_tax_icms_ma.html" class="menu-link" data-agent="icms-ma">Agente Tax - Consultor ICMS - MA</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-pb/agent_tax_icms_pb.html" class="menu-link" data-agent="icms-pb">Agente Tax - Consultor ICMS - PB</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-pe/agent_tax_icms_pe.html" class="menu-link" data-agent="icms-pe">Agente Tax - Consultor ICMS - PE</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-pi/agent_tax_icms_pi.html" class="menu-link" data-agent="icms-pi">Agente Tax - Consultor ICMS - PI</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-rn/agent_tax_icms_rn.html" class="menu-link" data-agent="icms-rn">Agente Tax - Consultor ICMS - RN</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-se/agent_tax_icms_se.html" class="menu-link" data-agent="icms-se">Agente Tax - Consultor ICMS - SE</a></li>
+              </ul>
+            </li>
+            <li class="submenu-grupo">
+              <a href="#" class="submenu-toggle" aria-expanded="false">
+                <span class="menu-emoji" aria-hidden="true">&#128993;</span>
+                Norte
+                <i class="fas fa-chevron-down seta-toggle" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu submenu--nested">
+                <li><a href="#" data-page="../tax-hub-ia-icms-ac/agent_tax_icms_ac.html" class="menu-link" data-agent="icms-ac">Agente Tax - Consultor ICMS - AC</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-am/agent_tax_icms_am.html" class="menu-link" data-agent="icms-am">Agente Tax - Consultor ICMS - AM</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ap/agent_tax_icms_ap.html" class="menu-link" data-agent="icms-ap">Agente Tax - Consultor ICMS - AP</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-pa/agent_tax_icms_pa.html" class="menu-link" data-agent="icms-pa">Agente Tax - Consultor ICMS - PA</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ro/agent_tax_icms_ro.html" class="menu-link" data-agent="icms-ro">Agente Tax - Consultor ICMS - RO</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-rr/agent_tax_icms_rr.html" class="menu-link" data-agent="icms-rr">Agente Tax - Consultor ICMS - RR</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-to/agent_tax_icms_to.html" class="menu-link" data-agent="icms-to">Agente Tax - Consultor ICMS - TO</a></li>
+              </ul>
+            </li>
+            <li class="submenu-grupo">
+              <a href="#" class="submenu-toggle" aria-expanded="false">
+                <span class="menu-emoji" aria-hidden="true">&#128309;</span>
+                Centro-Oeste
+                <i class="fas fa-chevron-down seta-toggle" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu submenu--nested">
+                <li><a href="#" data-page="../tax-hub-ia-icms-df/agent_tax_icms_df.html" class="menu-link" data-agent="icms-df">Agente Tax - Consultor ICMS - DF</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-go/agent_tax_icms_go.html" class="menu-link" data-agent="icms-go">Agente Tax - Consultor ICMS - GO</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-mt/agent_tax_icms_mt.html" class="menu-link" data-agent="icms-mt">Agente Tax - Consultor ICMS - MT</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-ms/agent_tax_icms_ms.html" class="menu-link" data-agent="icms-ms">Agente Tax - Consultor ICMS - MS</a></li>
+              </ul>
+            </li>
+            <li class="submenu-grupo">
+              <a href="#" class="submenu-toggle" aria-expanded="false">
+                <span class="menu-emoji" aria-hidden="true">&#128308;</span>
+                Sudeste
+                <i class="fas fa-chevron-down seta-toggle" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu submenu--nested">
+                <li><a href="#" data-page="../tax-hub-ia-icms-es/agent_tax_icms_es.html" class="menu-link" data-agent="icms-es">Agente Tax - Consultor ICMS - ES</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-mg/agent_tax_icms_mg.html" class="menu-link" data-agent="icms-mg">Agente Tax - Consultor ICMS - MG</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-rj/agent_tax_icms_rj.html" class="menu-link" data-agent="icms-rj">Agente Tax - Consultor ICMS - RJ</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-sp/agent_tax_icms_sp.html" class="menu-link" data-agent="icms-sp">Agente Tax - Consultor ICMS - SP</a></li>
+              </ul>
+            </li>
+            <li class="submenu-grupo">
+              <a href="#" class="submenu-toggle" aria-expanded="false">
+                <span class="menu-emoji" aria-hidden="true">&#9907;</span>
+                Sul
+                <i class="fas fa-chevron-down seta-toggle" aria-hidden="true"></i>
+              </a>
+              <ul class="submenu submenu--nested">
+                <li><a href="#" data-page="../tax-hub-ia-icms-pr/agent_tax_icms_pr.html" class="menu-link" data-agent="icms-pr">Agente Tax - Consultor ICMS - PR</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-rs/agent_tax_icms_rs.html" class="menu-link" data-agent="icms-rs">Agente Tax - Consultor ICMS - RS</a></li>
+                <li><a href="#" data-page="../tax-hub-ia-icms-sc/agent_tax_icms_sc.html" class="menu-link" data-agent="icms-sc">Agente Tax - Consultor ICMS - SC</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-trabalhista">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-users"></i>
+                <span>Consultor Trabalhista e Previdenciário</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li><a href="#" data-page="../tax-hub-ia-fgts/agent_tax_fgts.html" class="menu-link" data-agent="fgts"><i class="fa-solid fa-piggy-bank"></i>Agente Tax - Consultor FGTS</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-inss/agent_tax_inss.html" class="menu-link" data-agent="inss"><i class="fa-solid fa-umbrella"></i>Agente Tax - Consultor INSS</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-clt/agent_tax_clt.html" class="menu-link" data-agent="clt"><i class="fa-solid fa-briefcase"></i>Agente Tax - Consultor CLT</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-reforma">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-balance-scale"></i>
+                <span>Consultor Reforma Tributária</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li><a href="#" data-page="../tax-hub-ia-reforma/agent_tax_reforma.html" class="menu-link" data-agent="reforma"><i class="fa-solid fa-scale-balanced"></i>Agente Tax - Consultor Reforma Tributária</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-cbs/agent_tax_cbs.html" class="menu-link" data-agent="cbs"><i class="fa-solid fa-diagram-project"></i>Agente Tax - Consultor CBS</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-ibs/agent_tax_ibs.html" class="menu-link" data-agent="ibs"><i class="fa-solid fa-map-location-dot"></i>Agente Tax - Consultor IBS</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-is/agent_tax_is.html" class="menu-link" data-agent="is"><i class="fa-solid fa-industry"></i>Agente Tax - Consultor IS</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-obrigacoes">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-file-invoice"></i>
+                <span>Consultor Obrigações Acessórias</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li><a href="#" data-page="../tax-hub-ia-ecd/agent_tax_ecd.html" class="menu-link" data-agent="ecd"><i class="fa-solid fa-book"></i>Agente Tax - Consultor SPED ECD</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-ecf/agent_tax_ecf.html" class="menu-link" data-agent="ecf"><i class="fa-solid fa-file-contract"></i>Agente Tax - Consultor SPED ECF</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-sped-contrib/agent_tax_sped_contrib.html" class="menu-link" data-agent="sped-contrib"><i class="fa-solid fa-file-lines"></i>Agente Tax - Consultor SPED Contribuições</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-sped-fiscal/agent_tax_sped_fiscal.html" class="menu-link" data-agent="sped-fiscal"><i class="fa-solid fa-folder-tree"></i>Agente Tax - Consultor SPED Fiscal</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-sped-reinf/agent_tax_sped_reinf.html" class="menu-link" data-agent="sped-reinf"><i class="fa-solid fa-network-wired"></i>Agente Tax - Consultor SPED REINF</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-esocial/agent_tax_esocial.html" class="menu-link" data-agent="esocial"><i class="fa-solid fa-users-gear"></i>Agente Tax - Consultor SPED eSocial</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-dctfweb/agent_tax_dctfweb.html" class="menu-link" data-agent="dctfweb"><i class="fa-solid fa-file-invoice-dollar"></i>Agente Tax - Consultor DCTF Web</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-perdcomp/agent_tax_perdcomp.html" class="menu-link" data-agent="perdcomp"><i class="fa-solid fa-file-circle-check"></i>Agente Tax - Consultor Per Dcomp</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-pacote-office">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Agentes Pacote Office</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-office-excel/agent_tax_excel.html"
+                 class="menu-link"
+                 data-agent="excel">
+                <i class="fa-solid fa-table-cells-large"></i>
+                Agente Office - Consultor Excel
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-office-word/agent_tax_word.html"
+                 class="menu-link"
+                 data-agent="word">
+                <i class="fa-solid fa-file-word"></i>
+                Agente Office - Consultor Word
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-office-powerpoint/agent_tax_powerpoint.html"
+                 class="menu-link"
+                 data-agent="powerpoint">
+                <i class="fa-solid fa-file-powerpoint"></i>
+                Agente Office - Consultor PowerPoint
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="menu-categoria" data-menu-id="consultor-juridico">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-gavel"></i>
+                <span>Agentes Jurídico</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
+          </a>
+          <ul class="submenu">
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-juridico-carf/agent_tax_carf.html"
+                 class="menu-link"
+                 data-agent="carf">
+                <i class="fa-solid fa-scale-balanced"></i>
+                Agente Jurídico - Consultor CARF
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-juridico-cosit/agent_tax_cosit.html"
+                 class="menu-link"
+                 data-agent="cosit">
+                <i class="fa-solid fa-file-signature"></i>
+                Agente Jurídico - Consultor COSIT
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-juridico-stj/agent_tax_stj.html"
+                 class="menu-link"
+                 data-agent="stj">
+                <i class="fa-solid fa-gavel"></i>
+                Agente Jurídico - Consultor STJ
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-juridico-stf/agent_tax_stf.html"
+                 class="menu-link"
+                 data-agent="stf">
+                <i class="fa-solid fa-balance-scale"></i>
+                Agente Jurídico - Consultor STF
+              </a>
+            </li>
+          </ul>
         </li>
         
-        <!-- Futuros agentes (descomentados quando estiverem prontos) -->
-        <!--
-        <li>
-          <a href="#" 
-             data-page="../tax-hub-ia-ecd/agent_tax_ecd.html" 
-             class="menu-link"
-             data-agent="ecd">
-            <i class="fas fa-tasks"></i> 
-            Agente IA - ECD
+        <li class="menu-categoria" data-menu-id="consultor-doutrinadores">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span>Doutrinadores</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
           </a>
+          <ul class="submenu">
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-geral/agent_tax_doutrina_geral.html" class="menu-link" data-agent="doutrina-geral"><i class="fa-solid fa-book"></i>Doutrina Geral / Manuais</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-irpj/agent_tax_doutrina_irpj.html" class="menu-link" data-agent="doutrina-irpj"><i class="fa-solid fa-building-columns"></i>IRPJ / CSLL</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-transferencia/agent_tax_doutrina_transferencia.html" class="menu-link" data-agent="doutrina-transferencia"><i class="fa-solid fa-globe"></i>Preços de Transferência</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-lei-do-bem/agent_tax_doutrina_lei_do_bem.html" class="menu-link" data-agent="doutrina-lei-do-bem"><i class="fa-solid fa-flask"></i>Lei do Bem (P&amp;D)</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-pis-cbs/agent_tax_doutrina_pis_cbs.html" class="menu-link" data-agent="doutrina-pis-cbs"><i class="fa-solid fa-layer-group"></i>PIS/COFINS e Transição (CBS)</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-icms-ibs/agent_tax_doutrina_icms_ibs.html" class="menu-link" data-agent="doutrina-icms-ibs"><i class="fa-solid fa-map"></i>ICMS e Transição (IBS)</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-iss-retencoes/agent_tax_doutrina_iss_retencoes.html" class="menu-link" data-agent="doutrina-iss-retencoes"><i class="fa-solid fa-file-contract"></i>ISS e Retenções Tributárias</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-trabalhista/agent_tax_doutrina_trabalhista.html" class="menu-link" data-agent="doutrina-trabalhista"><i class="fa-solid fa-briefcase"></i>Tributação Trabalhista e Previdenciária</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-reforma/agent_tax_doutrina_reforma.html" class="menu-link" data-agent="doutrina-reforma"><i class="fa-solid fa-arrows-rotate"></i>Reforma Tributária (Geral)</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-sped/agent_tax_doutrina_sped.html" class="menu-link" data-agent="doutrina-sped"><i class="fa-solid fa-database"></i>Obrigações Acessórias (SPED)</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-esocial/agent_tax_doutrina_esocial.html" class="menu-link" data-agent="doutrina-esocial"><i class="fa-solid fa-user-check"></i>eSocial</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-dctfweb/agent_tax_doutrina_dctfweb.html" class="menu-link" data-agent="doutrina-dctfweb"><i class="fa-solid fa-network-wired"></i>DCTFWeb</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-perdcomp/agent_tax_doutrina_perdcomp.html" class="menu-link" data-agent="doutrina-perdcomp"><i class="fa-solid fa-file-circle-check"></i>PER/DCOMP</a></li>
+            <li><a href="#" data-page="../tax-hub-ia-doutrina-jurisprudencia/agent_tax_doutrina_jurisprudencia.html" class="menu-link" data-agent="doutrina-jurisprudencia"><i class="fa-solid fa-balance-scale"></i>Jurisprudência (CARF/STJ/STF)</a></li>
+          </ul>
         </li>
-        
-        <li>
-          <a href="#" 
-             data-page="../tax-hub-ia-ecf/agent_tax_ecf.html" 
-             class="menu-link"
-             data-agent="ecf">
-            <i class="fas fa-file-signature"></i> 
-            Agente IA - ECF
+
+        <li class="menu-categoria" data-menu-id="historico-conversas">
+          <a href="#" class="categoria-toggle" aria-expanded="false">
+            <div class="categoria-header">
+              <div class="categoria-titulo">
+                <i class="fa-solid fa-history"></i>
+                <span>Histórico de Conversas</span>
+              </div>
+              <i class="fas fa-chevron-down seta-toggle"></i>
+            </div>
           </a>
+          <ul class="submenu">
+            <li>
+              <a href="#"
+                 data-page="../tax-hub-ia-historico/historico.html"
+                 class="menu-link"
+                 data-agent="historico">
+                <i class="fa-solid fa-archive"></i>
+                Ver Histórico Completo
+              </a>
+            </li>
+          </ul>
         </li>
-        
-        <li>
-          <a href="#" 
-             data-page="../tax-hub-ia-sped/agent_tax_sped.html" 
-             class="menu-link"
-             data-agent="sped">
-            <i class="fas fa-file-invoice"></i> 
-            Agente IA - SPED
-          </a>
-        </li>
-        
-        <li>
-          <a href="#" 
-             data-page="../tax-hub-ia-tp/agent_tax_tp.html" 
-             class="menu-link"
-             data-agent="tp">
-            <i class="fas fa-exchange-alt"></i> 
-            Agente IA - Transfer Pricing
-          </a>
-        </li>
-        -->
       </ul>
     </aside>
 
-    <!-- ============================================ -->
-    <!-- ÁREA DE CONTEÚDO PRINCIPAL -->
-    <!-- ============================================ -->
     <main class="content" id="certidoes-content">
-      <!-- Seção de Boas-vindas (mostrada por padrão) -->
-      <div class="welcome-section">
-        <i class="fas fa-robot apresentacao-icon"></i>
-        <h2>Bem-vindo ao TaxHub IA</h2>
-        <p>
-          Seu assistente inteligente para consultoria fiscal especializada. 
-          <br>
-          Selecione um agente no menu lateral para começar a conversar.
-        </p>
-        <div style="margin-top: 30px; padding: 20px; background: rgba(29, 118, 47, 0.05); border-radius: 12px; border-left: 4px solid #1D762F;">
-          <h3 style="color: #1D762F; margin-bottom: 10px;">
-            <i class="fas fa-lightbulb"></i> Agentes Disponíveis:
-          </h3>
-          <ul style="list-style: none; padding: 0; margin: 10px 0 0 0;">
-            <li style="padding: 8px 0; color: #555;">
-              <i class="fas fa-balance-scale" style="color: #1D762F; width: 25px;"></i> 
-              <strong>IRPJ</strong> - Imposto de Renda Pessoa Jurídica
-            </li>
-            <li style="padding: 8px 0; color: #999;">
-              <i class="fas fa-tasks" style="color: #ccc; width: 25px;"></i> 
-              <strong>ECD</strong> - Em breve
-            </li>
-            <li style="padding: 8px 0; color: #999;">
-              <i class="fas fa-file-signature" style="color: #ccc; width: 25px;"></i> 
-              <strong>ECF</strong> - Em breve
-            </li>
-          </ul>
+      <section class="welcome-section">
+        <div class="welcome-hero">
+          <div class="welcome-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="welcome-copy">
+            <h1 class="welcome-title">Bem-vindo ao TaxHub IA</h1>
+            <p class="welcome-subtitle">
+              Plataforma integrada de consultoria fiscal inteligente com agentes especializados em tributos .
+              Converta a complexidade fiscal em decisões estratégicas com o apoio em tempo real do TaxHub IA.
+            </p>
+          </div>
         </div>
-      </div>
+
+        <div class="welcome-categories">
+          <h2 class="section-title">
+            <i class="fas fa-layer-group"></i>
+            Categorias de Agentes Especializados
+          </h2>
+          
+          <div class="categories-grid">
+            <article class="category-card" data-highlight-menu="consultor-diretos">
+              <div class="category-card__icon category-card__icon--gold">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="category-card__title">Tributos Diretos</h3>
+              <p class="category-card__description">
+                Consultoria especializada em IRPJ, CSLL, Transfer Pricing (TP) e Lei do Bem para P&amp;D e inovação tecnológica.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="irpj">IRPJ/CSLL</span>
+                <span class="agent-tag" data-highlight-agent="tp">Transfer Pricing</span>
+                <span class="agent-tag" data-highlight-agent="ldb">Lei do Bem</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-indiretos">
+              <div class="category-card__icon category-card__icon--teal">
+                <i class="fas fa-store"></i>
+              </div>
+              <h3 class="category-card__title">Tributos Indiretos</h3>
+              <p class="category-card__description">
+                Análise completa de PIS/COFINS, ISS, retenções tributárias e ICMS nacional consolidado.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="pis-cofins">PIS/COFINS</span>
+                <span class="agent-tag" data-highlight-agent="icms">ICMS Brasil</span>
+                <span class="agent-tag" data-highlight-agent="iss">ISS</span>
+                <span class="agent-tag" data-highlight-agent="retencoes">Retenções</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-icms">
+              <div class="category-card__icon category-card__icon--indigo">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <h3 class="category-card__title">ICMS por Estado</h3>
+              <p class="category-card__description">
+                27 agentes especializados com legislação e particularidades de cada Unidade Federativa do Brasil.
+              </p>
+              <div class="category-card__regions">
+                <span class="region-badge region-badge--nordeste">Nordeste (9)</span>
+                <span class="region-badge region-badge--norte">Norte (7)</span>
+                <span class="region-badge region-badge--centrooeste">Centro-Oeste (4)</span>
+                <span class="region-badge region-badge--sudeste">Sudeste (4)</span>
+                <span class="region-badge region-badge--sul">Sul (3)</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-trabalhista">
+              <div class="category-card__icon category-card__icon--purple">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3 class="category-card__title">Trabalhista e Previdenciário</h3>
+              <p class="category-card__description">
+                Orientação completa sobre FGTS, INSS, CLT com integração eSocial e EFD-Reinf automatizada.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="fgts">FGTS</span>
+                <span class="agent-tag" data-highlight-agent="inss">INSS</span>
+                <span class="agent-tag" data-highlight-agent="clt">CLT</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-reforma">
+              <div class="category-card__icon category-card__icon--orange">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <h3 class="category-card__title">Reforma Tributária</h3>
+              <p class="category-card__description">
+                Análise detalhada da CBS, IBS, Imposto Seletivo e todo processo de transição do sistema tributário.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="reforma">Reforma Geral</span>
+                <span class="agent-tag" data-highlight-agent="cbs">CBS</span>
+                <span class="agent-tag" data-highlight-agent="ibs">IBS</span>
+                <span class="agent-tag" data-highlight-agent="is">Imposto Seletivo</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-obrigacoes">
+              <div class="category-card__icon category-card__icon--green">
+                <i class="fas fa-file-invoice"></i>
+              </div>
+              <h3 class="category-card__title">Obrigações Acessórias</h3>
+              <p class="category-card__description">
+                Suporte completo para SPEDs (ECD, ECF, Fiscal, Contribuições, Reinf), DCTFWeb e PER/DCOMP.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="ecd">ECD</span>
+                <span class="agent-tag" data-highlight-agent="ecf">ECF</span>
+                <span class="agent-tag" data-highlight-agent="sped-contrib">Contribuições</span>
+                <span class="agent-tag" data-highlight-agent="sped-fiscal">Fiscal</span>
+                <span class="agent-tag" data-highlight-agent="sped-reinf">Reinf</span>
+                <span class="agent-tag" data-highlight-agent="esocial">eSocial</span>
+                <span class="agent-tag" data-highlight-agent="dctfweb">DCTFWeb</span>
+                <span class="agent-tag" data-highlight-agent="perdcomp">PER/DCOMP</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-pacote-office">
+              <div class="category-card__icon category-card__icon--blue">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h3 class="category-card__title">Pacote Office Inteligente</h3>
+              <p class="category-card__description">
+                Tutoria especializada para transformar dados, documentos e apresentações em ativos visuais de alto impacto usando Excel, Word e PowerPoint.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="excel">Excel</span>
+                <span class="agent-tag" data-highlight-agent="word">Word</span>
+                <span class="agent-tag" data-highlight-agent="powerpoint">PowerPoint</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-juridico">
+              <div class="category-card__icon category-card__icon--crimson">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <h3 class="category-card__title">Agentes Jurídico</h3>
+              <p class="category-card__description">
+                Curadoria completa de precedentes administrativos e judiciais, conectando decisões do CARF, COSIT, STJ e STF ao planejamento tributário estratégico.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="carf">CARF</span>
+                <span class="agent-tag" data-highlight-agent="cosit">COSIT</span>
+                <span class="agent-tag" data-highlight-agent="stj">STJ</span>
+                <span class="agent-tag" data-highlight-agent="stf">STF</span>
+              </div>
+            </article>
+
+            <article class="category-card" data-highlight-menu="consultor-doutrinadores">
+              <div class="category-card__icon category-card__icon--wine">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <h3 class="category-card__title">Doutrinadores</h3>
+              <p class="category-card__description">
+                Obras de referência para cada especialidade tributária, com orientações práticas, casos reais e conexões com a reforma tributária.
+              </p>
+              <div class="category-card__agents">
+                <span class="agent-tag" data-highlight-agent="doutrina-geral">Manuais</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-irpj">IRPJ/CSLL</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-transferencia">Transfer Pricing</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-lei-do-bem">Lei do Bem</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-pis-cbs">CBS</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-icms-ibs">ICMS/IBS</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-iss-retencoes">Retenções</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-trabalhista">Trabalhista</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-reforma">Reforma</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-sped">SPED</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-esocial">eSocial</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-dctfweb">DCTFWeb</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-perdcomp">PER/DCOMP</span>
+                <span class="agent-tag" data-highlight-agent="doutrina-jurisprudencia">Jurisprudência</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
-  <!-- ============================================ -->
-  <!-- OVERLAY DE LOADING -->
-  <!-- ============================================ -->
   <div id="loading-overlay" style="display: none;">
     <div class="loading-box">
       <h3 id="loading-title">Carregando Agente</h3>
@@ -165,17 +695,10 @@
     </div>
   </div>
 
-  <!-- ============================================ -->
-  <!-- SCRIPTS -->
-  <!-- ============================================ -->
-  
-  <!-- Biblioteca XLSX para manipulação de Excel -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   
-  <!-- Biblioteca para exportar para DOCX -->
   <script src="https://unpkg.com/html-docx-js/dist/html-docx.js"></script>
-  
-  <!-- Script principal da aplicação -->
+
   <script src="../menu-tax-hub-ia/menu-tax-hub-ia.js"></script>
 </body>
 </html>

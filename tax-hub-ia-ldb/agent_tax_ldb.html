@@ -1,17 +1,17 @@
-<!-- ============================================ -->
-<!-- AGENT TAX CONSULT LDB - HTML STRUCTURE       -->
-<!-- Loaded dynamically from the main menu        -->
-<!-- ============================================ -->
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <link rel="stylesheet" href="../tax-hub-ia-ldb/agent_tax_ldb.css">
 
-<div id="chat-container" class="agent-chat" data-agent-id="ldb" data-agent-name="Agente Tax - Consultor Lei do Bem (P&amp;D)" data-agent-context="LDB">
+<div id="chat-container" class="agent-chat" data-agent-id="ldb" data-agent-name="Agente Tax - Consultor Lei do Bem (P&D)" data-agent-context="LDB">
+  
   <div id="chat-header" class="chat-header">
     <div class="header-info">
-      <i class="fa-solid fa-flask"></i>
-      <div>
+      <div class="agent-avatar">
+          <i class="fa-solid fa-flask"></i>
+      </div>
+      <div class="header-text">
         <span class="header-title">Agente Tax - Consultor Lei do Bem</span>
-        <small class="header-subtitle">Incentivos fiscais para P&amp;D</small>
+        <small class="header-subtitle">Incentivos fiscais para P&D</small>
       </div>
     </div>
     <button type="button" class="close-chat-button" data-close-chat title="Encerrar conversa">
@@ -20,41 +20,24 @@
   </div>
 
   <div class="chat-window" id="chat-window">
-    <div class="chat-message bot">
-      <div class="message-avatar">
-        <i class="fa-solid fa-flask"></i>
-      </div>
-      <div class="message-content">
-        <div class="message-bubble">
-          Ol&aacute;! Eu sou o seu assistente fiscal especializado na <strong>Lei do Bem</strong> (incentivos de P&amp;D).
-          <br><br>
-          Posso ajudar com:
-          <ul>
-            <li>Requisitos para enquadramento e comprova&ccedil;&atilde;o de P&amp;D;</li>
-            <li>Documenta&ccedil;&atilde;o t&eacute;cnica e relat&oacute;rios necess&aacute;rios;</li>
-            <li>C&aacute;lculo de incentivos fiscais e aproveitamento de cr&eacute;ditos;</li>
-            <li>Integra&ccedil;&atilde;o com obriga&ccedil;&otilde;es acess&oacute;rias (ECD, ECF, PER/DCOMP);</li>
-            <li>Boas pr&aacute;ticas de governan&ccedil;a em projetos de inova&ccedil;&atilde;o.</li>
-          </ul>
-          Em que posso te apoiar agora?
-        </div>
-      </div>
     </div>
-  </div>
 
   <form class="chat-input-area" id="chat-form">
-    <textarea
-      id="message-input"
-      placeholder="Descreva sua d&uacute;vida sobre Lei do Bem... (Shift+Enter para nova linha)"
-      rows="1"
-      required
-    ></textarea>
-    <button type="submit" id="send-button" title="Enviar mensagem">
-      <i class="fa-solid fa-paper-plane"></i>
-    </button>
+    
+    <div class="input-wrapper">
+        <textarea
+          id="message-input"
+          placeholder="Descreva sua dúvida sobre Lei do Bem... (Shift+Enter para nova linha)"
+          rows="1"
+          required
+        ></textarea>
+        <button type="submit" id="send-button" title="Enviar mensagem">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+    </div>
   </form>
 </div>
 
-<!-- Markdown support -->
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
 <script src="../tax-hub-ia-ldb/agent_tax_ldb.js"></script>

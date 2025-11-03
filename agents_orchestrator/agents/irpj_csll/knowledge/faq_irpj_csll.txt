@@ -1,0 +1,173 @@
+﻿[ID]: trib_csll_faq_01
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: CSLL
+[TEMA]: CSLL - ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido
+[SEÃ‡ÃƒO]: AlÃ­quotas
+[TOPICO]: AlÃ­quotas PadrÃ£o e Especiais
+[BASE LEGAL]: Lei nÂº 7.689/1988, Art. 3Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A alÃ­quota geral da CSLL Ã© de 9% sobre a base de cÃ¡lculo (resultado ajustado). InstituiÃ§Ãµes financeiras, de seguros privados e de capitalizaÃ§Ã£o estÃ£o sujeitas a uma alÃ­quota majorada de 15% (percentual que pode variar conforme legislaÃ§Ã£o especÃ­fica e perÃ­odo).
+[EXEMPLO PRÃTICO]: Uma empresa industrial com uma base de cÃ¡lculo de R$ 100.000,00 terÃ¡ uma CSLL devida de R$ 9.000,00 (R$ 100.000,00 x 9%).
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: csll, aliquota, aliquota_geral, instituicoes_financeiras, lei_7689_1988
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_csll_faq_02
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: CSLL
+[TEMA]: CSLL - ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido
+[SEÃ‡ÃƒO]: Base de CÃ¡lculo
+[TOPICO]: FormaÃ§Ã£o da Base de CÃ¡lculo no Lucro Real
+[BASE LEGAL]: 
+[JURISPRUDÃŠNCIA]: 
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A base de cÃ¡lculo da CSLL no regime do Lucro Real Ã© o resultado ajustado, que parte do lucro contÃ¡bil e Ã© ajustado por adiÃ§Ãµes, exclusÃµes e compensaÃ§Ãµes no Livro de ApuraÃ§Ã£o da Base de CÃ¡lculo da CSLL (e-LACS). Os ajustes mais comuns sÃ£o: (+) AdiÃ§Ãµes de despesas indedutÃ­veis, (-) ExclusÃµes de receitas nÃ£o tributÃ¡veis, e (-) CompensaÃ§Ãµes de bases de cÃ¡lculo negativas de perÃ­odos anteriores.
+[OBSERVAÃ‡ÃƒO]: A base de cÃ¡lculo da CSLL Ã© "quase" idÃªntica Ã  do IRPJ, mas possui particularidades importantes.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: csll, base_de_calculo, lucro_real, e-lacs, resultado_ajustado, adicoes, exclusoes
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_csll_faq_03
+[TIPO DE CONTEÃšDO]: AnÃ¡lise Comparativa
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: CSLL - ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido
+[SEÃ‡ÃƒO]: DiferenÃ§as entre IRPJ e CSLL
+[TOPICO]: Principais Assimetrias na ApuraÃ§Ã£o
+[BASE LEGAL]: 
+[JURISPRUDÃŠNCIA]: 
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: As principais diferenÃ§as na apuraÃ§Ã£o do IRPJ e da CSLL sÃ£o: 1. **Adicional:** NÃ£o hÃ¡ adicional na CSLL, como o adicional de 10% do IRPJ. 2. **Ajustes EspecÃ­ficos:** Algumas adiÃ§Ãµes e exclusÃµes sÃ£o aplicÃ¡veis apenas a um dos tributos. A dedutibilidade de PLR para diretores e o tratamento do JCP sÃ£o exemplos clÃ¡ssicos de assimetria. 3. **Base de CÃ¡lculo:** Embora partam do mesmo lucro, os ajustes especÃ­ficos podem levar a bases de cÃ¡lculo distintas.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: irpj_vs_csll, assimetria_fiscal, adicional_irpj, base_de_calculo, jcp, plr
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_csll_faq_04
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: CSLL
+[TEMA]: CSLL - ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido
+[SEÃ‡ÃƒO]: CompensaÃ§Ã£o de Base Negativa
+[TOPICO]: Limite de CompensaÃ§Ã£o de 30% ("Trava dos 30%")
+[BASE LEGAL]: Lei nÂº 8.981/1995, Art. 58
+[JURISPRUDÃŠNCIA]: 
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A legislaÃ§Ã£o permite a compensaÃ§Ã£o de bases de cÃ¡lculo negativas de CSLL de perÃ­odos anteriores com o resultado ajustado positivo do perÃ­odo corrente. No entanto, essa compensaÃ§Ã£o Ã© limitada a, no mÃ¡ximo, 30% da base de cÃ¡lculo positiva antes da compensaÃ§Ã£o. O saldo remanescente da base negativa pode ser transportado para perÃ­odos futuros, sem prazo prescricional.
+[EXEMPLO PRÃTICO]: Base de cÃ¡lculo CSLL antes da compensaÃ§Ã£o: R$ 100.000. Base negativa acumulada: R$ 50.000. Limite para compensaÃ§Ã£o: R$ 30.000 (30% de R$ 100.000). Base tributÃ¡vel final: R$ 70.000. CSLL devida: R$ 6.300 (9% de R$ 70.000).
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: csll, base_negativa_csll, compensacao, trava_30, lei_8981_1995
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_irpj_faq_01
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: IRPJ
+[TEMA]: IRPJ - Imposto de Renda Pessoa JurÃ­dica
+[SEÃ‡ÃƒO]: AlÃ­quotas e Adicional
+[TOPICO]: AlÃ­quotas PadrÃ£o e Adicional de 10%
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 3Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A alÃ­quota padrÃ£o do IRPJ Ã© de 15% sobre o lucro (real, presumido ou arbitrado). Adicionalmente, incide um adicional de 10% sobre a parcela do lucro que exceder R$ 20.000,00 por mÃªs (ou R$ 60.000,00 no trimestre, R$ 240.000,00 no ano).
+[EXEMPLO PRÃTICO]: Para um lucro mensal de R$ 100.000, o cÃ¡lculo Ã©: (15% sobre R$ 100.000 = R$ 15.000) + (10% sobre R$ 80.000 [100k-20k] = R$ 8.000). Total do IRPJ: R$ 23.000.
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: irpj, aliquota, adicional_irpj, calculo_irpj, lei_9249_1995
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_irpj_faq_02
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: IRPJ - Imposto de Renda Pessoa JurÃ­dica
+[SEÃ‡ÃƒO]: Regimes de ApuraÃ§Ã£o
+[TOPICO]: VisÃ£o Geral dos Regimes de TributaÃ§Ã£o
+[BASE LEGAL]: RIR/2018, Arts. 219-256
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A legislaÃ§Ã£o prevÃª trÃªs regimes: **1. Lucro Real:** ObrigatÃ³rio para empresas com receita anual > R$ 78 milhÃµes. A base Ã© o lucro contÃ¡bil ajustado. Permite compensaÃ§Ã£o de prejuÃ­zos e deduÃ§Ã£o de despesas. **2. Lucro Presumido:** Opcional para receita anual â‰¤ R$ 78 milhÃµes. A base Ã© um percentual sobre a receita bruta (ex: 8% para comÃ©rcio, 32% para serviÃ§os). **3. Lucro Arbitrado:** Regime punitivo aplicado pelo Fisco quando nÃ£o hÃ¡ escrituraÃ§Ã£o adequada.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: regimes_tributacao, lucro_real, lucro_presumido, lucro_arbitrado, rir_2018
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_irpj_faq_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: IRPJ - Imposto de Renda Pessoa JurÃ­dica
+[SEÃ‡ÃƒO]: Dedutibilidade - Regra Geral
+[TOPICO]: Os 5 CritÃ©rios da Dedutibilidade
+[BASE LEGAL]: RIR/2018, Arts. 299 e 311 (numeraÃ§Ã£o pode variar, conceito central Ã© do Art. 311)
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Para uma despesa ser dedutÃ­vel na apuraÃ§Ã£o do Lucro Real, ela deve atender simultaneamente a cinco critÃ©rios essenciais: 1. **NecessÃ¡ria** Ã  atividade da empresa; 2. **Usual ou normal** no setor; 3. **Comprovada** por documentaÃ§Ã£o hÃ¡bil e idÃ´nea; 4. **Paga ou incorrida** (efetiva); 5. **Registrada** na contabilidade.
+[OBSERVAÃ‡ÃƒO]: A referÃªncia ao Art. 299 do RIR/2018 Ã© imprecisa na fonte; o artigo central que define despesa necessÃ¡ria Ã© o Art. 311.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: dedutibilidade, despesa_necessaria, criterio_dedutibilidade, rir_2018, art_311
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ
+
+---
+
+[ID]: trib_irpj_faq_04
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: IRPJ - Imposto de Renda Pessoa JurÃ­dica
+[SEÃ‡ÃƒO]: Despesas IndedutÃ­veis Principais
+[TOPICO]: Rol Exemplificativo de Despesas IndedutÃ­veis
+[BASE LEGAL]: RIR/2018, Arts. 312-319 (a numeraÃ§Ã£o exata pode variar, o conceito Ã© consolidado)
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A legislaÃ§Ã£o veda expressamente a deduÃ§Ã£o de diversas despesas, que devem ser adicionadas no LALUR. As principais sÃ£o: - DistribuiÃ§Ã£o de lucros e dividendos; - Multas de natureza fiscal (punitivas); - ProvisÃµes (com exceÃ§Ã£o de 13Âº e fÃ©rias); - Despesas nÃ£o comprovadas; - Liberalidades (ex: doaÃ§Ãµes nÃ£o incentivadas); - Despesas com brindes; - O prÃ³prio valor da CSLL.
+[OBSERVAÃ‡ÃƒO]: Esta lista nÃ£o Ã© exaustiva. Qualquer despesa que nÃ£o atenda aos 5 critÃ©rios de dedutibilidade Ã© considerada indedutÃ­vel.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesa_indedutivel, vedacoes, adicao_lalur, multas_fiscais, provisoes, brindes, liberalidades
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ CSLL e IRPJ

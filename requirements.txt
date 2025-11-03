@@ -1,0 +1,18 @@
+﻿# Core
+crewai[google-genai]>=0.70.0
+crewai-tools>=0.12.0
+flask>=3.0.0
+flask-cors>=4.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Google AI
+google-generativeai>=0.8.0
+google-api-core>=2.28.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Utils
+requests>=2.32.0

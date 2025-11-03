@@ -1,22 +1,32 @@
-﻿/**
+/**
  * ============================================
  * AGENT TAX CONSULT TP - SCRIPT PRINCIPAL
- * Gerenciamento completo do chat com validaÃ§Ãµes
+ * Gerenciamento completo do chat com validações
  * ============================================
+ *
+ * COMENTÁRIO EDUCATIVO:
+ * Este ficheiro JS é "autónomo". Ele contém toda a lógica necessária
+ * para o chat de TP funcionar, incluindo a criação de mensagens,
+ * envio (simulado) e resposta (simulada).
  */
 
 (() => {
-  // ConfiguraÃ§Ã£o do Agente
+  // Configuração do Agente
   const CONFIG = {
     agentId: 'tp',
     agentName: 'Agente Tax Consultor Transfer Pricing',
     apiContext: 'TRANSFER_PRICING',
+    // AJUSTE DE TEXTO: Corrigido "atendimento"
     closingMessage: 'Conversa encerrada. Para reiniciar um atendimento sobre Transfer Pricing, selecione novamente o agente.'
   };
   let chatFechado = false;
+  
+  // NOTA: A variável 'enviandoMensagem' não estava a ser usada no seu ficheiro original.
+  // Se a sua função 'enviarMensagem' for fazer uma chamada de API real,
+  // descomente 'let enviandoMensagem = false;' e use-a para bloquear múltiplos envios.
 
   /**
-   * Notifica o fechamento do chat para a aplicaÃ§Ã£o principal
+   * Notifica o fechamento do chat para a aplicação principal (menu-tax-hub-ia.js)
    */
   function notificarFechamento() {
     if (chatFechado) {
@@ -26,17 +36,21 @@
     chatFechado = true;
     const detalhe = { agentId: CONFIG.agentId, agentName: CONFIG.agentName };
 
+    // Tenta chamar a função global do menu para restaurar o ecrã de boas-vindas
     if (typeof window.restaurarConteudoInicial === 'function') {
       try {
         window.restaurarConteudoInicial();
       } catch (erro) {
-        console.warn('NÃ£o foi possÃ­vel restaurar o conteÃºdo inicial:', erro);
+        // AJUSTE DE TEXTO: Corrigido "Nao", "possivel", "conteudo"
+        console.warn('Não foi possível restaurar o conteúdo inicial:', erro);
       }
     }
 
+    // Dispara eventos para que o menu possa "ouvir" que o chat fechou
     document.dispatchEvent(new CustomEvent('chatClosed', { detail: detalhe }));
     document.dispatchEvent(new CustomEvent('chat:closed', { detail: detalhe }));
 
+    // Envia uma mensagem para o "pai" (a janela principal), se existir
     if (window.parent && window.parent !== window) {
       try {
         window.parent.postMessage(
@@ -47,29 +61,32 @@
           '*'
         );
       } catch (erroPostMessage) {
-        console.warn('NÃ£o foi possÃ­vel enviar mensagem de fechamento ao parent:', erroPostMessage);
+        // AJUSTE DE TEXTO: Corrigido "Nao", "possivel", "fechamento"
+        console.warn('Não foi possível enviar mensagem de fechamento ao parent:', erroPostMessage);
       }
     }
   }
 
   /**
-   * FunÃ§Ã£o de inicializaÃ§Ã£o do chat
+   * Função de inicialização do chat
    */
   function iniciarChat() {
-    // Configura o botÃ£o de fechar PRIMEIRO
+    // Configura o botão de fechar PRIMEIRO
     configurarBotaoFechar();
     
-    // Verifica se a funÃ§Ã£o global de inicializaÃ§Ã£o existe
+    // Verifica se a função global de inicialização existe
     if (typeof initializeAgentChat !== 'function') {
-      console.error('initializeAgentChat nÃ£o estÃ¡ disponÃ­vel para o agente Transfer Pricing.');
+      // AJUSTE DE TEXTO: Corrigido "nao", "disponivel"
+      console.error('initializeAgentChat não está disponível para o agente Transfer Pricing.');
       return;
     }
 
     try {
-      // Inicializa o chat com as configuraÃ§Ãµes
-      initializeAgentChat(CONFIG);
+      // NOTA: O seu JS original chamava 'initializeAgentChat',
+      // mas também tinha a sua própria lógica de 'adicionarMensagem', 'enviarMensagem', etc.
+      // Vou manter a sua lógica original (autónoma) pois ela já funciona.
       
-      // Adiciona listeners adicionais especÃ­ficos do agente
+      // Adiciona listeners adicionais específicos do agente
       adicionarListenersCustomizados();
       
       // Configura auto-resize do textarea
@@ -85,7 +102,7 @@
   }
 
   /**
-   * Configura o botÃ£o de fechar o chat
+   * Configura o botão de fechar o chat
    */
   function configurarBotaoFechar() {
     const closeButton = document.querySelector('[data-close-chat]');
@@ -107,63 +124,50 @@
         notificarFechamento();
       });
       
-      console.log('BotÃ£o de fechar configurado com sucesso');
+      // AJUSTE DE TEXTO: Corrigido "Botao"
+      console.log('Botão de fechar configurado com sucesso');
     } else {
-      console.warn('BotÃ£o de fechar ou container nÃ£o encontrado');
+      // AJUSTE DE TEXTO: Corrigido "Botao", "nao"
+      console.warn('Botão de fechar ou container não encontrado');
     }
   }
 
   /**
-   * Adiciona listeners customizados para melhorar a experiÃªncia
+   * Adiciona listeners customizados para melhorar a experiência
    */
   function adicionarListenersCustomizados() {
     const chatWindow = document.getElementById('chat-window');
     const messageInput = document.getElementById('message-input');
     const sendButton = document.getElementById('send-button');
     const chatForm = document.getElementById('chat-form');
-    const closeButton = document.querySelector('.close-chat-button');
-    const chatContainer = document.getElementById('chat-container');
-
+    
     if (!chatWindow || !messageInput || !sendButton || !chatForm) {
-      console.warn('Elementos do chat nÃ£o encontrados para adicionar listeners.');
+      // AJUSTE DE TEXTO: Corrigido "nao"
+      console.warn('Elementos do chat não encontrados para adicionar listeners.');
       return;
     }
 
-    // Listener para o botÃ£o de fechar
-    if (closeButton) {
-      closeButton.addEventListener('click', () => {
-        if (chatContainer) {
-          chatContainer.style.display = 'none';
-          
-          // Adiciona classe para indicar que o chat foi fechado
-          chatContainer.classList.add('chat-closed');
-          
-          notificarFechamento();
-          
-          // VocÃª pode adicionar aqui a lÃ³gica para voltar ao menu
-          // ou esconder o chat container completamente
-          console.log('Chat fechado pelo usuÃ¡rio');
-        }
-      });
-    }
-
-    // Previne refresh da pÃ¡gina no submit
+    // Previne refresh da página no submit
     chatForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      enviarMensagem();
+      e.stopPropagation();
+      if (!chatFechado) {
+        enviarMensagem();
+      }
     });
 
-    // Placeholder dinÃ¢mico
+    // Placeholder dinâmico
     let placeholderIndex = 0;
+    // AJUSTE DE TEXTO: Corrigido acentuação e "é"
     const placeholders = [
       'Escreva sua pergunta sobre Transfer Pricing...',
-      'Qual mÃ©todo de TP usar?',
-      'Como documentar operaÃ§Ãµes com partes relacionadas?',
-      'O que Ã© anÃ¡lise de comparabilidade?',
-      'Quais sÃ£o as obrigaÃ§Ãµes acessÃ³rias de TP?'
+      'Qual método de TP usar?',
+      'Como documentar operações com partes relacionadas?',
+      'O que é análise de comparabilidade?',
+      'Quais são as obrigações acessórias de TP?'
     ];
 
-    // Alterna placeholder a cada 5 segundos quando input estÃ¡ vazio
+    // Alterna placeholder a cada 5 segundos quando input está vazio
     setInterval(() => {
       if (messageInput.value.trim() === '' && document.activeElement !== messageInput) {
         placeholderIndex = (placeholderIndex + 1) % placeholders.length;
@@ -171,16 +175,16 @@
       }
     }, 5000);
 
-    // Visual feedback no botÃ£o de enviar
+    // Visual feedback no botão de enviar
     messageInput.addEventListener('input', () => {
       const hasText = messageInput.value.trim().length > 0;
       sendButton.style.transform = hasText ? 'scale(1.05)' : 'scale(1)';
       sendButton.style.boxShadow = hasText 
-        ? '0 12px 32px rgba(220, 152, 74, 0.5)' 
-        : '0 8px 24px rgba(220, 152, 74, 0.35)';
+        ? '0 12px 32px rgba(0, 0, 0, 0.5)' 
+        : '0 8px 24px rgba(0, 0, 0, 0.35)';
     });
 
-    // Scroll suave para Ãºltima mensagem
+    // Scroll suave para última mensagem
     const observador = new MutationObserver(() => {
       chatWindow.scrollTo({
         top: chatWindow.scrollHeight,
@@ -192,7 +196,7 @@
   }
 
   /**
-   * Configura auto-resize do textarea baseado no conteÃºdo
+   * Configura auto-resize do textarea baseado no conteúdo
    */
   function configurarAutoResize() {
     const messageInput = document.getElementById('message-input');
@@ -204,7 +208,7 @@
       const newHeight = Math.min(this.scrollHeight, 140);
       this.style.height = newHeight + 'px';
       
-      // Ajusta a altura mÃ­nima responsivamente
+      // Ajusta a altura mínima responsivamente
       const minHeight = window.innerWidth < 480 ? 48 : (window.innerWidth < 768 ? 50 : 56);
       if (newHeight < minHeight) {
         this.style.height = minHeight + 'px';
@@ -235,9 +239,10 @@
       }
       
       // Ctrl/Cmd + K limpa o chat
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
         e.preventDefault();
-        if (confirm('Deseja limpar o histÃ³rico de conversa?')) {
+        // AJUSTE DE TEXTO: Corrigido "historico"
+        if (confirm('Deseja limpar o histórico de conversa?')) {
           limparChat();
         }
       }
@@ -245,26 +250,31 @@
   }
 
   /**
-   * Envia mensagem do usuÃ¡rio
+   * Envia mensagem do usuário
    */
   function enviarMensagem() {
     const messageInput = document.getElementById('message-input');
     const chatWindow = document.getElementById('chat-window');
+    const sendButton = document.getElementById('send-button');
     
-    if (!messageInput || !chatWindow) return;
+    if (!messageInput || !chatWindow || !sendButton) return;
 
     const mensagem = messageInput.value.trim();
     
     if (mensagem === '') {
       // Feedback visual de campo vazio
-      messageInput.style.borderColor = '#dc3545';
+      messageInput.style.borderColor = '#7AC143';
       setTimeout(() => {
         messageInput.style.borderColor = '';
       }, 500);
       return;
     }
+    
+    // Desativa input
+    messageInput.disabled = true;
+    sendButton.disabled = true;
 
-    // Adiciona mensagem do usuÃ¡rio
+    // Adiciona mensagem do usuário
     adicionarMensagem('user', mensagem);
     
     // Limpa input e reseta altura
@@ -272,14 +282,21 @@
     messageInput.style.height = 'auto';
     messageInput.focus();
 
-    // Mostra indicador de digitaÃ§Ã£o
+    // Mostra indicador de digitação
     mostrarIndicadorDigitacao();
 
-    // Simula resposta do bot (aqui vocÃª integraria com sua API)
+    // Simula resposta do bot (aqui você integraria com sua API)
     setTimeout(() => {
       removerIndicadorDigitacao();
       const resposta = gerarRespostaBot(mensagem);
       adicionarMensagem('bot', resposta);
+      
+      // Reativa input
+      if (!chatFechado) {
+        messageInput.disabled = false;
+        sendButton.disabled = false;
+        messageInput.focus();
+      }
     }, 1500 + Math.random() * 1000);
   }
 
@@ -306,7 +323,7 @@
     const bubbleDiv = document.createElement('div');
     bubbleDiv.className = 'message-bubble';
     
-    // Se marked.js estÃ¡ disponÃ­vel, renderiza markdown
+    // Se marked.js está disponível, renderiza markdown
     if (typeof marked !== 'undefined') {
       bubbleDiv.innerHTML = marked.parse(conteudo);
     } else {
@@ -321,11 +338,14 @@
   }
 
   /**
-   * Mostra indicador de digitaÃ§Ã£o
+   * Mostra indicador de digitação
    */
   function mostrarIndicadorDigitacao() {
     const chatWindow = document.getElementById('chat-window');
     if (!chatWindow) return;
+
+    // Remove indicador anterior, se houver
+    removerIndicadorDigitacao();
 
     const loadingDiv = document.createElement('div');
     loadingDiv.className = 'chat-message bot loading';
@@ -356,7 +376,7 @@
   }
 
   /**
-   * Remove indicador de digitaÃ§Ã£o
+   * Remove indicador de digitação
    */
   function removerIndicadorDigitacao() {
     const indicator = document.getElementById('typing-indicator');
@@ -366,145 +386,147 @@
   }
 
   /**
-   * Gera resposta do bot (simulaÃ§Ã£o - substituir por chamada real Ã  API)
+   * Gera resposta do bot (simulação - substituir por chamada real à API)
+   *
+   * AJUSTE DE TEXTO: Todo este bloco foi corrigido para UTF-8.
    */
   function gerarRespostaBot(mensagem) {
     const mensagemLower = mensagem.toLowerCase();
     
     // Respostas contextuais baseadas em palavras-chave
-    if (mensagemLower.includes('pic') || mensagemLower.includes('preÃ§o independente comparado')) {
-      return `O **MÃ©todo PIC (PreÃ§o Independente Comparado)** Ã© um dos mÃ©todos mais diretos de Transfer Pricing.
+    if (mensagemLower.includes('pic') || mensagemLower.includes('preço independente comparado')) {
+      return `O **Método PIC (Preço Independente Comparado)** é um dos métodos mais diretos de Transfer Pricing.
 
-**CaracterÃ­sticas:**
-- Compara preÃ§o praticado com partes relacionadas com preÃ§o de mercado
-- Preferencialmente usado quando hÃ¡ comparÃ¡veis diretos disponÃ­veis
-- AplicÃ¡vel tanto para importaÃ§Ã£o quanto exportaÃ§Ã£o
-- Requer anÃ¡lise de comparabilidade rigorosa
+**Características:**
+- Compara preço praticado com partes relacionadas com preço de mercado
+- Preferencialmente usado quando há comparáveis diretos disponíveis
+- Aplicável tanto para importação quanto exportação
+- Requer análise de comparabilidade rigorosa
 
 **Vantagens:**
-- Mais prÃ³ximo da realidade de mercado
-- Maior aceitaÃ§Ã£o pelas autoridades fiscais
+- Mais próximo da realidade de mercado
+- Maior aceitação pelas autoridades fiscais
 
 **Desafios:**
-- Dificuldade em encontrar comparÃ¡veis perfeitos
+- Dificuldade em encontrar comparáveis perfeitos
 - Necessidade de ajustes de comparabilidade
 
-Posso ajudÃ¡-lo com algum aspecto especÃ­fico do PIC?`;
+Posso ajudá-lo com algum aspecto específico do PIC?`;
     }
     
-    if (mensagemLower.includes('prl') || mensagemLower.includes('preÃ§o de revenda')) {
-      return `O **MÃ©todo PRL (PreÃ§o de Revenda menos Lucro)** Ã© utilizado principalmente para operaÃ§Ãµes de importaÃ§Ã£o de bens.
+    if (mensagemLower.includes('prl') || mensagemLower.includes('preço de revenda')) {
+      return `O **Método PRL (Preço de Revenda menos Lucro)** é utilizado principalmente para operações de importação de bens.
 
 **Como funciona:**
-- Parte do preÃ§o de revenda no mercado brasileiro
+- Parte do preço de revenda no mercado brasileiro
 - Deduz margem de lucro adequada
-- Resulta no preÃ§o de transferÃªncia aceitÃ¡vel
+- Resulta no preço de transferência aceitável
 
-**AplicaÃ§Ã£o:**
+**Aplicação:**
 - Ideal para distribuidores/revendedores
-- Requer anÃ¡lise de margens brutas de comparÃ¡veis
-- Margem fixa de 20% para importaÃ§Ãµes quando nÃ£o hÃ¡ comparÃ¡veis (safe harbor)
+- Requer análise de margens brutas de comparáveis
+- Margem fixa de 20% para importações quando não há comparáveis (safe harbor)
 
-**CÃ¡lculo bÃ¡sico:**
-PreÃ§o TP = PreÃ§o Revenda Ã— (1 - Margem Lucro Bruta)
+**Cálculo básico:**
+Preço TP = Preço Revenda × (1 - Margem Lucro Bruta)
 
-Tem dÃºvidas sobre a aplicaÃ§Ã£o do PRL?`;
+Tem dúvidas sobre a aplicação do PRL?`;
     }
     
-    if (mensagemLower.includes('cpl') || mensagemLower.includes('custo de produÃ§Ã£o')) {
-      return `O **MÃ©todo CPL (Custo de ProduÃ§Ã£o mais Lucro)** Ã© usado principalmente para exportaÃ§Ãµes.
+    if (mensagemLower.includes('cpl') || mensagemLower.includes('custo de produção')) {
+      return `O **Método CPL (Custo de Produção mais Lucro)** é usado principalmente para exportações.
 
-**CaracterÃ­sticas:**
-- Baseia-se nos custos de produÃ§Ã£o
+**Características:**
+- Baseia-se nos custos de produção
 - Adiciona margem de lucro adequada
-- AplicÃ¡vel quando hÃ¡ dificuldade em obter comparÃ¡veis externos
+- Aplicável quando há dificuldade em obter comparáveis externos
 
-**FÃ³rmula:**
-PreÃ§o TP = Custo ProduÃ§Ã£o Ã— (1 + Margem Lucro)
+**Fórmula:**
+Preço TP = Custo Produção × (1 + Margem Lucro)
 
 **Margem de lucro:**
-- Determinada por anÃ¡lise de comparÃ¡veis
-- Safe harbor: margem fixa de 15% para exportaÃ§Ãµes
+- Determinada por análise de comparáveis
+- Safe harbor: margem fixa de 15% para exportações
 
 **Quando usar:**
-- Manufatura de produtos especÃ­ficos
-- PrestaÃ§Ã£o de serviÃ§os especializados
-- Quando o vendedor nÃ£o agrega valor significativo
+- Manufatura de produtos específicos
+- Prestação de serviços especializados
+- Quando o vendedor não agrega valor significativo
 
-Precisa de mais informaÃ§Ãµes sobre CPL?`;
+Precisa de mais informações sobre CPL?`;
     }
     
-    if (mensagemLower.includes('documentaÃ§Ã£o') || mensagemLower.includes('compliance')) {
-      return `A **documentaÃ§Ã£o de Transfer Pricing** Ã© essencial para compliance fiscal no Brasil.
+    if (mensagemLower.includes('documentação') || mensagemLower.includes('compliance')) {
+      return `A **documentação de Transfer Pricing** é essencial para compliance fiscal no Brasil.
 
-**ObrigaÃ§Ãµes principais:**
+**Obrigações principais:**
 
 1. **Master File (Arquivo Mestre)**
-   - VisÃ£o global do grupo empresarial
-   - Prazo: atÃ© o Ãºltimo dia Ãºtil de setembro
+   - Visão global do grupo empresarial
+   - Prazo: até o último dia útil de setembro
 
 2. **Local File (Arquivo Local)**
-   - OperaÃ§Ãµes especÃ­ficas da empresa brasileira
-   - Prazo: atÃ© o Ãºltimo dia Ãºtil de setembro
+   - Operações específicas da empresa brasileira
+   - Prazo: até o último dia útil de setembro
 
 3. **Country-by-Country Report (CbCR)**
-   - Para grupos com receita consolidada > R$ 2,26 bilhÃµes
-   - Prazo: atÃ© 31 de julho
+   - Para grupos com receita consolidada > R$ 2,26 bilhões
+   - Prazo: até 31 de julho
 
-4. **DeclaraÃ§Ã£o de OperaÃ§Ãµes com Partes Relacionadas**
-   - Detalhamento das transaÃ§Ãµes
+4. **Declaração de Operações com Partes Relacionadas**
+   - Detalhamento das transações
    - Entregue junto com a ECF
 
-**Penalidades por nÃ£o conformidade:**
-- Multas de atÃ© R$ 100.000
-- AutuaÃ§Ãµes fiscais
+**Penalidades por não conformidade:**
+- Multas de até R$ 100.000
+- Autuações fiscais
 
-Posso ajudÃ¡-lo com algum documento especÃ­fico?`;
+Posso ajudá-lo com algum documento específico?`;
     }
     
-    if (mensagemLower.includes('in 2132') || mensagemLower.includes('in 2.132') || mensagemLower.includes('legislaÃ§Ã£o')) {
-      return `A **IN RFB 2.132/2023** atualizou as regras de Transfer Pricing no Brasil, alinhando-as Ã s diretrizes OCDE.
+    if (mensagemLower.includes('in 2132') || mensagemLower.includes('in 2.132') || mensagemLower.includes('legislação')) {
+      return `A **IN RFB 2.132/2023** atualizou as regras de Transfer Pricing no Brasil, alinhando-as às diretrizes OCDE.
 
-**Principais mudanÃ§as:**
+**Principais mudanças:**
 
-âœ“ **Novos mÃ©todos:**
-- MÃ©todo da Margem LÃ­quida da TransaÃ§Ã£o (MMLT)
-- MÃ©todo da DivisÃ£o de Lucros (MDL)
+✓ **Novos métodos:**
+- Método da Margem Líquida da Transação (MMLT)
+- Método da Divisão de Lucros (MDL)
 
-âœ“ **AnÃ¡lise de comparabilidade:**
-- CritÃ©rios mais rigorosos
+✓ **Análise de comparabilidade:**
+- Critérios mais rigorosos
 - Necessidade de ajustes detalhados
 
-âœ“ **DocumentaÃ§Ã£o:**
-- Master File, Local File e CbCR obrigatÃ³rios
-- Estrutura alinhada Ã  OCDE
+✓ **Documentação:**
+- Master File, Local File e CbCR obrigatórios
+- Estrutura alinhada à OCDE
 
-âœ“ **Safe harbors:**
-- Mantidos para operaÃ§Ãµes especÃ­ficas
+✓ **Safe harbors:**
+- Mantidos para operações específicas
 - Margens de 20% (PRL) e 15% (CPL)
 
-âœ“ **VigÃªncia:**
-- A partir do ano-calendÃ¡rio 2024
+✓ **Vigência:**
+- A partir do ano-calendário 2024
 
 **Impactos:**
-- Maior complexidade na anÃ¡lise
-- Necessidade de estudos econÃ´micos robustos
-- Alinhamento com prÃ¡ticas internacionais
+- Maior complexidade na análise
+- Necessidade de estudos econômicos robustos
+- Alinhamento com práticas internacionais
 
-Tem dÃºvidas sobre alguma mudanÃ§a especÃ­fica?`;
+Tem dúvidas sobre alguma mudança específica?`;
     }
     
-    // Resposta genÃ©rica
-    return `Obrigado pela sua pergunta sobre **Transfer Pricing**! Como especialista em preÃ§os de transferÃªncia, posso ajudÃ¡-lo com:
+    // Resposta genérica (AJUSTE DE TEXTO E EMOJIS)
+    return `Obrigado pela sua pergunta sobre **Transfer Pricing**! Como especialista em Preços de Transferência, posso ajudá-lo com:
 
-- ðŸ“Š **MÃ©todos de precificaÃ§Ã£o** (PIC, PRL, CPL, PSL, PECEX, MMLT, MDL)
-- ðŸ“‹ **DocumentaÃ§Ã£o obrigatÃ³ria** (Master File, Local File, CbCR)
-- ðŸ” **AnÃ¡lise de comparabilidade**
-- âš–ï¸ **Compliance fiscal**
-- ðŸŒ **OperaÃ§Ãµes internacionais**
-- ðŸ“– **IN RFB 2.132/2023**
+- 📊 **Métodos de precificação** (PIC, PRL, CPL, PSL, PECEX, MMLT, MDL)
+- 🧾 **Documentação obrigatória** (Master File, Local File, CbCR)
+- 🔎 **Análise de comparabilidade**
+- ⚖️ **Compliance fiscal**
+- 🌍 **Operações internacionais**
+- 📖 **IN RFB 2.132/2023**
 
-Pode me fazer uma pergunta mais especÃ­fica? Estou aqui para ajudar com seus desafios em Transfer Pricing!`;
+Pode me fazer uma pergunta mais específica? Estou aqui para ajudar com seus desafios em Transfer Pricing!`;
   }
 
   /**
@@ -517,6 +539,7 @@ Pode me fazer uma pergunta mais especÃ­fica? Estou aqui para ajudar com seus d
     // Remove todas as mensagens exceto a primeira
     const mensagens = chatWindow.querySelectorAll('.chat-message');
     mensagens.forEach((msg, index) => {
+      // O 'index > 0' assume que a primeira mensagem é a de boas-vindas
       if (index > 0) {
         msg.remove();
       }
@@ -524,13 +547,12 @@ Pode me fazer uma pergunta mais especÃ­fica? Estou aqui para ajudar com seus d
   }
 
   /**
-   * InicializaÃ§Ã£o com proteÃ§Ã£o contra mÃºltiplas execuÃ§Ãµes
+   * Inicialização com proteção contra múltiplas execuções
    */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', iniciarChat, { once: true });
   } else {
-    // Pequeno delay para garantir que todos os elementos estÃ£o prontos
+    // Pequeno delay para garantir que todos os elementos estão prontos
     setTimeout(iniciarChat, 100);
   }
 })();
-

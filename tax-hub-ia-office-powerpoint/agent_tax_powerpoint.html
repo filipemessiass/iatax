@@ -1,0 +1,44 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../tax-hub-ia-office-powerpoint/agent_tax_powerpoint.css"> <div
+  id="chat-container"
+  class="agent-chat"
+  data-agent-id="powerpoint"
+  data-agent-name="Agente Tax - Consultor PowerPoint"
+  data-agent-context="PACOTE_OFFICE_POWERPOINT"
+>
+  <div id="chat-header" class="chat-header">
+    <div class="header-info">
+      <div class="agent-avatar">
+          <i class="fa-solid fa-file-powerpoint"></i>
+      </div>
+      <div class="header-text">
+        <span class="header-title">Agente Tax - Consultor PowerPoint</span>
+        <small class="header-subtitle">Storytelling visual para tributos e negócios</small>
+      </div>
+    </div>
+    
+    <button type="button" class="close-chat-button" data-close-chat title="Encerrar conversa sobre PowerPoint">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <div class="chat-window" id="chat-window">
+    </div>
+
+  <form class="chat-input-area" id="chat-form">
+    <div class="input-wrapper">
+      <textarea
+        id="message-input"
+        placeholder="Qual desafio com PowerPoint você quer resolver? (Shift+Enter para nova linha)"
+        rows="1"
+        required
+      ></textarea>
+      <button type="submit" id="send-button" title="Enviar mensagem ao agente PowerPoint">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../tax-hub-ia-office-powerpoint/agent_tax_powerpoint.js"></script>

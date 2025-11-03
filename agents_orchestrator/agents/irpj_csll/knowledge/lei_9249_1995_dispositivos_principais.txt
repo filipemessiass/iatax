@@ -1,0 +1,290 @@
+﻿[ID]: trib_lei9249_geral_01
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: IRPJ - Regras Gerais
+[TOPICO]: Regimes e PerÃ­odos de ApuraÃ§Ã£o
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 1Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A partir de 1996, o IRPJ passou a ser determinado com base no lucro real, presumido ou arbitrado. A lei estabelece que a apuraÃ§Ã£o deve ser realizada por perÃ­odos trimestrais, encerrados em 31 de marÃ§o, 30 de junho, 30 de setembro e 31 de dezembro de cada ano.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_1, regimes_tributacao, lucro_real, lucro_presumido, lucro_arbitrado, apuracao_trimestral
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_geral_02
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: IRPJ - Regras Gerais
+[TOPICO]: OpÃ§Ã£o de Pagamento Mensal por Estimativa (Lucro Real Anual)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 2Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A lei permite que as pessoas jurÃ­dicas tributadas pelo Lucro Real optem pela apuraÃ§Ã£o anual, com pagamentos mensais do imposto e adicional calculados sobre uma base de cÃ¡lculo estimada. A apuraÃ§Ã£o definitiva do lucro real ocorre em 31 de dezembro de cada ano, com o ajuste final do imposto.
+[OBSERVAÃ‡ÃƒO]: Esta opÃ§Ã£o oferece maior flexibilidade de fluxo de caixa e permite a compensaÃ§Ã£o de lucros e prejuÃ­zos dentro do mesmo ano-calendÃ¡rio.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_2, lucro_real_anual, apuracao_anual, estimativa_mensal, balanco_suspensao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_geral_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: IRPJ
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: IRPJ - Regras Gerais
+[TOPICO]: AlÃ­quotas do IRPJ (PadrÃ£o e Adicional)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 3Âº
+[JURISPRUDÃŠncia]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A lei estabelece a alÃ­quota padrÃ£o do IRPJ em 15%. AlÃ©m disso, institui o adicional de imposto Ã  alÃ­quota de 10% sobre a parcela do lucro (real, presumido ou arbitrado) que exceder o valor de R$ 20.000,00 multiplicado pelo nÃºmero de meses do perÃ­odo de apuraÃ§Ã£o (ex: R$ 60.000,00 para um trimestre).
+[EXEMPLO PRÃTICO]: Uma empresa com lucro trimestral de R$ 100.000,00 pagarÃ¡ 15% sobre R$ 100.000,00 e mais 10% sobre R$ 40.000,00 (R$ 100.000,00 - R$ 60.000,00).
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_3, aliquota_irpj, adicional_irpj, calculo_irpj
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_distribuicao_01
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real / Lucro Presumido / Lucro Arbitrado
+[IMPOSTO]: IRPJ
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: DistribuiÃ§Ã£o de Resultados
+[TOPICO]: IsenÃ§Ã£o de Lucros e Dividendos
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 10
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Este artigo Ã© um dos pilares do sistema tributÃ¡rio brasileiro. Ele estabelece que os lucros ou dividendos calculados com base nos resultados apurados a partir de janeiro de 1996 sÃ£o isentos. Eles nÃ£o estÃ£o sujeitos Ã  incidÃªncia do imposto de renda na fonte (IRRF) nem integram a base de cÃ¡lculo do imposto de renda do beneficiÃ¡rio (pessoa fÃ­sica ou jurÃ­dica, no Brasil ou no exterior).
+[OBSERVAÃ‡ÃƒO]: Esta isenÃ§Ã£o Ã© o que fundamenta a estrutura de tributaÃ§Ã£o exclusiva na pessoa jurÃ­dica. A tentativa de erodir a base da PJ com despesas indedutÃ­veis para transferir resultado ao sÃ³cio (DDL) visa contornar essa lÃ³gica.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_10, dividendos, isencao_dividendos, distribuicao_lucros, irrf
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_01
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: VedaÃ§Ãµes Gerais - IntroduÃ§Ã£o ao Art. 13
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13 (caput)
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Artigo 13 estabelece uma lista taxativa de despesas que sÃ£o vedadas (proibidas) de serem deduzidas na apuraÃ§Ã£o do lucro real (base do IRPJ) e da base de cÃ¡lculo da CSLL. Essas vedaÃ§Ãµes especÃ­ficas prevalecem sobre a regra geral de dedutibilidade de despesas necessÃ¡rias (Art. 47 da Lei nÂº 4.506/64).
+[OBSERVAÃ‡ÃƒO]: Este artigo funciona como uma "norma de bloqueio", tornando a discussÃ£o sobre a "necessidade" de uma despesa ali listada irrelevante.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, vedacoes, indedutibilidade, despesa_indedutivel, norma_de_bloqueio
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_02
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: ProvisÃµes
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, I
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ vedada a deduÃ§Ã£o de qualquer provisÃ£o, com exceÃ§Ã£o daquelas constituÃ­das para o pagamento de fÃ©rias de empregados e de dÃ©cimo-terceiro salÃ¡rio, e as provisÃµes tÃ©cnicas de companhias de seguro, capitalizaÃ§Ã£o e entidades de previdÃªncia privada. A deduÃ§Ã£o de provisÃµes para contingÃªncias (trabalhistas, cÃ­veis, fiscais), perdas com devedores duvidosos (PDD) e garantias Ã©, portanto, proibida.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o TemporÃ¡ria no e-Lalur/e-Lacs no momento da constituiÃ§Ã£o da provisÃ£o, com controle na Parte B. A exclusÃ£o ocorre quando a despesa se torna efetiva.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, provisoes, pdd, contingencias, adicao_temporaria, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: Arrendamento Mercantil e Aluguel
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, II
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ vedada a deduÃ§Ã£o de contraprestaÃ§Ãµes de arrendamento mercantil e de aluguel de bens mÃ³veis ou imÃ³veis, **exceto** quando estes bens estiverem "intrinsecamente relacionados com a produÃ§Ã£o ou comercializaÃ§Ã£o dos bens e serviÃ§os". A prova do nexo causal Ã© fundamental.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: O aluguel de um galpÃ£o industrial Ã© dedutÃ­vel; o aluguel de uma casa de praia para diretores, nÃ£o.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, aluguel, arrendamento_mercantil, leasing, nexo_causal, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_04
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: Despesas com Bens (DepreciaÃ§Ã£o, ManutenÃ§Ã£o)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, III
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ vedada a deduÃ§Ã£o de despesas de depreciaÃ§Ã£o, amortizaÃ§Ã£o, manutenÃ§Ã£o, reparo, impostos (ex: IPVA), taxas e seguros de bens mÃ³veis ou imÃ³veis, **exceto** se tais bens estiverem "intrinsecamente relacionados com a produÃ§Ã£o ou comercializaÃ§Ã£o dos bens e serviÃ§os".
+[EXEMPLO PRÃTICO]: A depreciaÃ§Ã£o e o IPVA de um caminhÃ£o de entregas sÃ£o dedutÃ­veis. A depreciaÃ§Ã£o e o IPVA de um veÃ­culo de luxo de uso pessoal de um sÃ³cio sÃ£o indedutÃ­veis.
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, depreciacao, manutencao, ipva, nexo_causal, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_05
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: AlimentaÃ§Ã£o de SÃ³cios e Administradores
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, IV
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ expressamente vedada a deduÃ§Ã£o de despesas com a alimentaÃ§Ã£o de sÃ³cios, acionistas e administradores. Esta regra nÃ£o se confunde com despesas de representaÃ§Ã£o (ex: almoÃ§o com cliente) ou com a permissÃ£o para deduzir despesas de alimentaÃ§Ã£o fornecida indistintamente a todos os empregados.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no e-Lalur/e-Lacs.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, alimentacao_socios, despesa_pessoal, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_06
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: ContribuiÃ§Ãµes NÃ£o CompulsÃ³rias
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, V
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ vedada a deduÃ§Ã£o de contribuiÃ§Ãµes nÃ£o compulsÃ³rias (voluntÃ¡rias), como anuidades para sindicatos patronais ou associaÃ§Ãµes. A exceÃ§Ã£o sÃ£o as contribuiÃ§Ãµes destinadas a custear seguros, planos de saÃºde e benefÃ­cios de previdÃªncia complementar para empregados e dirigentes.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no e-Lalur/e-Lacs.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, contribuicoes_nao_compulsorias, sindicatos, associacoes, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_07
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: DoaÃ§Ãµes
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, VI e Â§ 2Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ vedada a deduÃ§Ã£o de doaÃ§Ãµes, exceto as incentivadas. O Â§ 2Âº do Art. 13 permite, com limites, a deduÃ§Ã£o como despesa de doaÃ§Ãµes a certas instituiÃ§Ãµes de ensino, pesquisa e entidades civis (OSCs), ou a deduÃ§Ã£o do imposto devido no caso de leis de incentivo (ex: Lei Rouanet).
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no e-Lalur/e-Lacs para doaÃ§Ãµes nÃ£o incentivadas.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, doacoes, doacoes_incentivadas, liberalidade, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_08
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: Brindes
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, VII
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Ã‰ expressamente vedada a deduÃ§Ã£o de "despesas com brindes". A jurisprudÃªncia diferencia o "brinde" (liberalidade, indedutÃ­vel) da "despesa com propaganda" (item promocional de baixo valor, com nexo causal, dedutÃ­vel).
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no e-Lalur/e-Lacs.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, brindes, despesa_propaganda, liberalidade, vedacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995
+
+---
+
+[ID]: trib_lei9249_vedacoes_09
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Lei nÂº 9.249/1995 - Dispositivos Principais
+[SEÃ‡ÃƒO]: VedaÃ§Ãµes Ã  Dedutibilidade no Lucro Real
+[TOPICO]: ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido (CSLL)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, VIII
+[JURISPRUDÃŠNCIA]: STF, RE 582.525
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O valor da prÃ³pria ContribuiÃ§Ã£o Social sobre o Lucro LÃ­quido (CSLL) nÃ£o pode ser deduzido da base de cÃ¡lculo do IRPJ e da prÃ³pria CSLL. O STF jÃ¡ confirmou a constitucionalidade desta vedaÃ§Ã£o.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no e-Lalur/e-Lacs.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, csll, indedutibilidade_csll, vedacoes, stf
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise EstratÃ©gica da Lei nÂº 9.249/1995

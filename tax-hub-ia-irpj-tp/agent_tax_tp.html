@@ -1,0 +1,69 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link rel="stylesheet" href="../tax-hub-ia-irpj-tp/agent_tax_tp.css">
+
+<div id="chat-container" class="agent-chat" data-agent-id="tp" data-agent-name="Agente Tax Consultor Transfer Pricing" data-agent-context="TRANSFER_PRICING">
+    
+    <div id="chat-header" class="chat-header">
+        <div class="header-info">
+            <div class="agent-avatar">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="header-text">
+                <span class="header-title">Agente Tax Consultor Transfer Pricing</span>
+                <small class="header-subtitle">Precificação e compliance em operações entre partes relacionadas</small>
+            </div>
+        </div>
+        <button 
+            type="button" 
+            class="close-chat-button" 
+            data-close-chat
+            aria-label="Encerrar conversa"
+            title="Encerrar conversa e voltar ao menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    
+    <div class="chat-window" id="chat-window">
+        
+        <div class="chat-message bot">
+            <div class="message-avatar">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="message-content">
+                <div class="message-bubble">
+                    Olá! Eu sou o seu assistente especializado em <strong>Transfer Pricing</strong> (Preços de Transferência).
+                    <br><br>
+                    Posso ajudá-lo com:
+                    <ul>
+                        <li>Métodos de precificação (PIC, PRL, CPL, PSL, PECEX)</li>
+                        <li>Documentação e compliance de TP</li>
+                        <li>Operações entre partes relacionadas</li>
+                        <li>Análise de comparabilidade</li>
+                        <li>Ajustes de Transfer Pricing</li>
+                        <li>Legislação brasileira (IN 2.132/2023 e alterações)</li>
+                    </ul>
+                    Como posso ajudar você hoje?
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <form class="chat-input-area" id="chat-form">
+        <div class="input-wrapper">
+            <textarea 
+                id="message-input" 
+                placeholder="Escreva sua pergunta sobre Transfer Pricing... (Shift+Enter para nova linha)"
+                rows="1" 
+                required
+            ></textarea>
+            <button type="submit" id="send-button" title="Enviar mensagem">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script src="../tax-hub-ia-irpj-tp/agent_tax_tp.js"></script>

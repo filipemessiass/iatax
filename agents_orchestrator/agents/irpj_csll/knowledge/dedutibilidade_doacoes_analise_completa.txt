@@ -1,0 +1,248 @@
+﻿[ID]: trib_irpj_doacoes_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: Conflito Fundamental: Despesa NecessÃ¡ria vs. Liberalidade
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A controvÃ©rsia central no tratamento fiscal de doaÃ§Ãµes reside na tensÃ£o entre "liberalidade" e "despesa necessÃ¡ria". A legislaÃ§Ã£o permite a deduÃ§Ã£o de gastos indispensÃ¡veis Ã  geraÃ§Ã£o de receita. Contudo, veda a deduÃ§Ã£o de atos de mera generosidade, que sÃ£o uma disposiÃ§Ã£o do lucro jÃ¡ auferido, e nÃ£o um insumo para sua obtenÃ§Ã£o. A anÃ¡lise fiscal ignora a nomenclatura contÃ¡bil e foca na substÃ¢ncia econÃ´mica de cada dispÃªndio.
+[OBSERVAÃ‡ÃƒO]: A crescente relevÃ¢ncia de prÃ¡ticas de ESG pode, no futuro, tensionar o conceito de "necessidade", mas atualmente essa tese Ã© de alto risco.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: doacoes, liberalidade, despesa_necessaria, controversia, substancia_sobre_forma, esg
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_02
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Regra Geral de VedaÃ§Ã£o
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, VI; RIR/2018, Art. 377
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A disciplina jurÃ­dica das doaÃ§Ãµes parte de uma regra geral de vedaÃ§Ã£o. O Art. 13, inciso VI, da Lei nÂº 9.249/1995 estabelece, de forma categÃ³rica, que sÃ£o vedadas as deduÃ§Ãµes de "doaÃ§Ãµes" para efeito de apuraÃ§Ã£o do lucro real. Esta regra Ã© consolidada no Art. 377 do RIR/2018.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, rir_2018, art_377, vedacao, indedutibilidade, doacoes
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Sistema Tripartite de Tratamento Fiscal (As ExceÃ§Ãµes)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, Â§ 2Âº
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A lei cria um sistema tripartite de tratamento para as doaÃ§Ãµes, que sÃ£o exceÃ§Ãµes Ã  regra geral de vedaÃ§Ã£o: **1. DoaÃ§Ãµes IndedutÃ­veis (Regra Geral):** Liberalidades puras. **2. DoaÃ§Ãµes DedutÃ­veis como Despesa Operacional:** DoaÃ§Ãµes a certas instituiÃ§Ãµes de ensino/pesquisa (limite de 1,5% do Lucro Operacional) e a Entidades Civis/OSCs (limite de 2% do Lucro Operacional). **3. DoaÃ§Ãµes Geradoras de CrÃ©dito Fiscal:** DoaÃ§Ãµes incentivadas (ex: Lei Rouanet), cujo valor Ã© abatido diretamente do IRPJ devido, e nÃ£o da base de cÃ¡lculo.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Ã‰ crucial classificar corretamente cada doaÃ§Ã£o em uma das trÃªs categorias para aplicar o tratamento fiscal adequado e evitar erros.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, doacoes_incentivadas, doacoes_dedutiveis, lei_rouanet, osc, credito_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_04
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Ajustes Fiscais ObrigatÃ³rios no LALUR e LACS
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O erro fiscal geralmente reside na ausÃªncia dos ajustes no e-LALUR/e-LACS. O procedimento correto Ã©: **1. AdiÃ§Ã£o da DoaÃ§Ã£o FilantrÃ³pica Pura:** Por ser uma liberalidade indedutÃ­vel, seu valor, que reduziu o lucro contÃ¡bil, deve ser objeto de uma AdiÃ§Ã£o Permanente. **2. AdiÃ§Ã£o da DoaÃ§Ã£o Incentivada:** De forma anÃ¡loga, o valor da doaÃ§Ã£o incentivada (ex: Lei Rouanet) tambÃ©m deve ser adicionado permanentemente, pois a lei veda que ele seja tratado como despesa operacional. O benefÃ­cio fiscal ocorrerÃ¡ em outra etapa.
+[EXEMPLO PRÃTICO]: No caso da "Pharma Vida S.A.", o valor total de R$ 500.000 (R$ 200.000 filantrÃ³pica + R$ 300.000 incentivada) deve ser adicionado ao lucro lÃ­quido na Parte A do e-LALUR/e-LACS.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no Registro M300 (e-Lalur) e M350 (e-Lacs) da ECF.
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: e-lalur, e-lacs, adicao_permanente, ajuste_fiscal, doacoes_incentivadas, liberalidade, ecf
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_05
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: CÃ¡lculo e AplicaÃ§Ã£o do Incentivo Fiscal (DoaÃ§Ãµes Incentivadas)
+[BASE LEGAL]: Lei nÂº 8.313/1991 (Lei Rouanet), Arts. 18 e 26
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O fluxo correto de apuraÃ§Ã£o para doaÃ§Ãµes incentivadas Ã©: 1. **ApuraÃ§Ã£o do Lucro Real:** Adicionar o valor da doaÃ§Ã£o ao lucro lÃ­quido. 2. **CÃ¡lculo do IRPJ Devido:** Aplicar as alÃ­quotas (15% + 10%) sobre o Lucro Real para encontrar o "IRPJ Devido". 3. **DeduÃ§Ã£o do Incentivo:** Do montante do "IRPJ Devido", abater o valor da doaÃ§Ã£o incentivada, respeitando os tetos legais (ex: 4% do IRPJ devido para a Lei Rouanet).
+[RISCO]: O erro de deduzir a doaÃ§Ã£o incentivada como despesa, em vez de abater do imposto, leva Ã  reduÃ§Ã£o indevida da base de cÃ¡lculo e ao nÃ£o aproveitamento (ou aproveitamento incorreto) do benefÃ­cio fiscal.
+[CAMINHO DE AJUSTE]: A deduÃ§Ã£o do incentivo Ã© informada no Registro N630 (CÃ¡lculo do IRPJ) da ECF.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: doacoes_incentivadas, lei_rouanet, credito_fiscal, deducao_imposto, calculo_irpj, ecf
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_06
+[TIPO DE CONTEÃšDO]: AnÃ¡lise Comparativa
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Tabela Comparativa de Tratamento Fiscal de DoaÃ§Ãµes
+[BASE LEGAL]: Lei nÂº 9.249/1995
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: - **Tipo 1 (FilantrÃ³pica Pura/IndedutÃ­vel):** Ajuste LALUR: AdiÃ§Ã£o Permanente. Impacto: Aumenta a base de cÃ¡lculo. BenefÃ­cio: Inexistente. - **Tipo 2 (FilantrÃ³pica Qualificada/DedutÃ­vel):** Ajuste LALUR: Nenhum (se dentro do limite). Impacto: Reduz a base de cÃ¡lculo (atÃ© 2% do Lucro Operacional). BenefÃ­cio: DeduÃ§Ã£o como despesa. - **Tipo 3 (Incentivada):** Ajuste LALUR: AdiÃ§Ã£o Permanente. Impacto: Aumenta a base de cÃ¡lculo. BenefÃ­cio: DeduÃ§Ã£o do IRPJ Devido (limitado a 4% do imposto).
+[OBSERVAÃ‡ÃƒO]: Esta tabela Ã© uma ferramenta crucial para o correto planejamento e conformidade fiscal.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: doacoes, comparativo, tratamento_fiscal, adicao_permanente, deducao_despesa, deducao_imposto
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_07
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o do CARF sobre Liberalidades e ExceÃ§Ãµes
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o 19515.000422/2002-83; AcÃ³rdÃ£o 7234131; AcÃ³rdÃ£o 1803-000.478
+[POSICIONAMENTO FISCO]: A jurisprudÃªncia do CARF Ã© firme em glosar despesas que caracterizem mera liberalidade (Ac. 19515.000422/2002-83) e em exigir a adiÃ§Ã£o de doaÃ§Ãµes puras ao LALUR (Ac. 7234131).
+[POSICIONAMENTO CONTRIBUINTE]: O CARF valida a deduÃ§Ã£o quando os requisitos formais das exceÃ§Ãµes legais sÃ£o cumpridos. O Ac. 1803-000.478 validou a deduÃ§Ã£o de doaÃ§Ã£o a uma entidade civil que beneficiava os empregados, pois todos os requisitos legais foram devidamente comprovados.
+[DESCRIÃ‡ÃƒO DETALHADA]: A jurisprudÃªncia do CARF Ã© consistente: a regra Ã© a indedutibilidade de liberalidades, e as exceÃ§Ãµes devem ser comprovadas de forma inequÃ­voca pelo contribuinte. O Ã´nus da prova Ã© absoluto, e a falha em apresentar um dossiÃª robusto leva Ã  manutenÃ§Ã£o da glosa.
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, liberalidade, doacoes, onus_da_prova, requisitos_formais
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_08
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o da Receita Federal (COSIT)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, Â§ 2Âº, III; Lei nÂº 13.019/2014
+[JURISPRUDÃŠNCIA]: SoluÃ§Ã£o de Consulta DISIT/SRRF 9.014/2019
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: As SoluÃ§Ãµes de Consulta da COSIT vinculam a fiscalizaÃ§Ã£o. A SC DISIT 9.014/2019 foi de grande importÃ¢ncia ao esclarecer que, para a deduÃ§Ã£o de doaÃ§Ãµes a entidades civis (limite de 2%), as beneficiÃ¡rias nÃ£o precisam mais possuir o tÃ­tulo de Utilidade PÃºblica Federal. Basta que sejam qualificadas como OrganizaÃ§Ã£o da Sociedade Civil (OSC), nos termos da Lei nÂº 13.019/2014, o que ampliou o rol de entidades aptas a receber doaÃ§Ãµes dedutÃ­veis.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: Manter arquivadas as SoluÃ§Ãµes de Consulta utilizadas como fundamento para o tratamento fiscal adotado.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: cosit, solucao_consulta, doacoes_dedutiveis, osc, lei_13019_2014, utilidade_publica
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_09
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: CÃ¡lculo da ContingÃªncia Fiscal
+[EXEMPLO PRÃTICO]: Glosa de R$ 500.000,00 em doaÃ§Ãµes ("Pharma Vida S.A.")
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A deduÃ§Ã£o indevida de doaÃ§Ãµes expÃµe a empresa a riscos financeiros significativos. A contingÃªncia Ã© composta por: 1. **Tributo Principal:** IRPJ (25%) e CSLL (9%) sobre o valor glosado. 2. **Multa de OfÃ­cio:** 75% sobre o valor do tributo devido. 3. **Juros de Mora:** Calculados pela taxa SELIC.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Para uma glosa de R$ 500.000,00: - Tributo Principal: R$ 170.000,00 (34% de 500k). - Multa de OfÃ­cio: R$ 127.500,00 (75% de 170k). - **Passivo Total (sem juros): R$ 297.500,00**.
+[RISCO]: CrÃ­tico. O custo da nÃ£o conformidade pode superar 175% do valor do tributo original (sem contar os juros).
+[OBSERVAÃ‡ÃƒO]: N/A
+[TAGS]: risco_fiscal, impacto_financeiro, glosa, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_10
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: Melhores PrÃ¡ticas de Controle e DocumentaÃ§Ã£o
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Para mitigar riscos, recomenda-se: 1. **Instituir uma PolÃ­tica Interna:** Formalizar uma polÃ­tica de doaÃ§Ãµes que exija parecer fiscal prÃ©vio para cada desembolso, classificando-o em uma das trÃªs categorias fiscais. 2. **Segregar o Plano de Contas:** Criar subcontas contÃ¡beis especÃ­ficas para doaÃ§Ãµes indedutÃ­veis, dedutÃ­veis e incentivadas, para facilitar o ajuste fiscal. 3. **Criar DossiÃªs de Suporte ("Compliance Files"):** Manter um dossiÃª completo e auditÃ¡vel para cada doaÃ§Ã£o com benefÃ­cio fiscal, contendo estatutos, qualificaÃ§Ãµes legais, recibos, comprovantes e memÃ³rias de cÃ¡lculo dos limites.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A implementaÃ§Ã£o de uma rotina de revisÃ£o fiscal periÃ³dica (mensal ou trimestral) permite a correÃ§Ã£o de erros em tempo hÃ¡bil.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, politica_interna, dossie_de_suporte, segregacao_contabil, gestao_de_riscos
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes
+
+---
+
+[ID]: trib_irpj_doacoes_11
+[TIPO DE CONTEÃšDO]: ConclusÃ£o TÃ©cnica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de DoaÃ§Ãµes
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: DiagnÃ³stico, Melhor Conduta e Tese DefensÃ¡vel
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **DiagnÃ³stico:** A deduÃ§Ã£o integral de doaÃ§Ãµes (filantrÃ³picas e incentivadas) como despesa operacional Ã© tecnicamente incorreta. **Melhor Conduta:** A regularizaÃ§Ã£o proativa, com a retificaÃ§Ã£o das apuraÃ§Ãµes, adiÃ§Ã£o dos valores no LALUR/LACS e recolhimento das diferenÃ§as via denÃºncia espontÃ¢nea, Ã© a medida que afasta a multa de ofÃ­cio de 75%. **Tese DefensÃ¡vel:** A defesa contra a glosa da deduÃ§Ã£o como despesa Ã© extremamente frÃ¡gil. Contudo, se a autuaÃ§Ã£o questionar o direito ao aproveitamento do *crÃ©dito fiscal* do incentivo, a defesa Ã© robusta na via administrativa (CARF), argumentando que houve um mero erro de procedimento, e nÃ£o supressÃ£o de tributo.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[RISCO]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: conclusao_tecnica, melhor_conduta, denuncia_espontanea, tese_defensavel, enfoque_contencioso, carf
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Natureza JurÃ­dico-Fiscal das DoaÃ§Ãµes

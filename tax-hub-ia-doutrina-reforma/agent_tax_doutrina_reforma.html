@@ -1,0 +1,44 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../tax-hub-ia-doutrina-reforma/agent_tax_doutrina_reforma.css"> <div
+  id="chat-container"
+  class="agent-chat"
+  data-agent-id="doutrina-reforma"
+  data-agent-name="Agente Doutrinadores - Reforma Tributária"
+  data-agent-context="DOUTRINA_REFORMA"
+>
+  <div id="chat-header" class="chat-header">
+    <div class="header-info">
+      <div class="agent-avatar">
+          <i class="fa-solid fa-arrows-rotate"></i>
+      </div>
+      <div class="header-text">
+        <span class="header-title">Agente Doutrinadores - Reforma Tributária</span>
+        <small class="header-subtitle">Guia de compliance e análises esquematizadas</small>
+      </div>
+    </div>
+    
+    <button type="button" class="close-chat-button" data-close-chat title="Encerrar conversa sobre Reforma Tributária">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <div class="chat-window" id="chat-window">
+    </div>
+
+  <form class="chat-input-area" id="chat-form">
+    <div class="input-wrapper">
+      <textarea
+        id="message-input"
+        placeholder="Pergunte sobre obras da reforma tributária (Shift+Enter para nova linha)"
+        rows="1"
+        required
+      ></textarea>
+      <button type="submit" id="send-button" title="Enviar mensagem ao agente Reforma Tributária">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../tax-hub-ia-doutrina-reforma/agent_tax_doutrina_reforma.js"></script>

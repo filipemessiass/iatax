@@ -12,7 +12,7 @@
   align-items: center;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid #E8EAE9;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -21,13 +21,13 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #000000;
+  color: #0F0F0F;
   font-size: clamp(1.2rem, 4vw, 1.5rem);
   margin: 0;
 }
 
 .header-revisao h2 i {
-  color: #1D762F;
+  color: #7AC143;
   font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
@@ -60,7 +60,7 @@
 }
 
 .btn-revisao:disabled {
-  background-color: #adb5bd !important;
+  background-color: #E8EAE9 !important;
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
@@ -69,23 +69,23 @@
 
 .btn-revisao:not(:disabled):focus,
 .btn-revisao:not(:disabled):active {
-  outline: 2px solid #1D762F;
+  outline: 2px solid #7AC143;
   outline-offset: 2px;
 }
 
-#btn-salvar-revisao { background-color: #28a745; }
-#btn-salvar-revisao:hover:not(:disabled) { background-color: #1e7e34; }
+#btn-salvar-revisao { background-color: #7AC143; }
+#btn-salvar-revisao:hover:not(:disabled) { background-color: #7AC143; }
 
-#btn-processar-revisao { background-color: #ffc107; color: #333; }
-#btn-processar-revisao:hover:not(:disabled) { background-color: #d39e00; }
+#btn-processar-revisao { background-color: #0F0F0F; color: #FFFFFF; }
+#btn-processar-revisao:hover:not(:disabled) { background-color: #0F0F0F; }
 
-#btn-editar-revisao { background-color: #17a2b8; }
-#btn-editar-revisao:hover:not(:disabled) { background-color: #138496; }
+#btn-editar-revisao { background-color: #7AC143; }
+#btn-editar-revisao:hover:not(:disabled) { background-color: #7AC143; }
 
 .tabela-wrapper {
   flex-grow: 1; 
   overflow-x: auto;
-  background: #fff;
+  background: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   margin-top: 1rem;
@@ -100,15 +100,15 @@
 #tabela-revisao-fiscal th,
 #tabela-revisao-fiscal td {
   padding: clamp(8px, 2vw, 12px) clamp(10px, 2.5vw, 15px);
-  border: 1px solid #dee2e6;
+  border: 1px solid #E8EAE9;
   text-align: left;
   vertical-align: middle;
   font-size: clamp(0.7rem, 2vw, 0.9rem);
 }
 
 #tabela-revisao-fiscal thead th {
-  background-color: #f8f9fa;
-  color: #343a40;
+  background-color: #E8EAE9;
+  color: #0F0F0F;
   font-weight: 600;
   font-size: clamp(0.7rem, 2vw, 0.85rem);
   position: sticky;
@@ -117,8 +117,8 @@
 
 #tabela-revisao-fiscal tbody td:first-child {
   font-weight: 600;
-  color: #333;
-  background-color: #f8f9fa;
+  color: #0F0F0F;
+  background-color: #E8EAE9;
   max-width: 200px;
   word-wrap: break-word;
 }
@@ -128,8 +128,8 @@
   min-width: 120px;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid #ced4da;
-  background-color: #fff;
+  border: 1px solid #E8EAE9;
+  background-color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.7rem, 2vw, 0.9rem);
   cursor: pointer;
@@ -142,54 +142,54 @@
 
 .campo-selecao:disabled {
   cursor: not-allowed;
-  color: #6c757d;
-  background-color: #f8f9fa;
+  color: #0F0F0F;
+  background-color: #E8EAE9;
 }
 
 .campo-selecao:focus {
   outline: none;
-  border-color: #1D762F;
-  box-shadow: 0 0 0 2px rgba(29, 118, 47, 0.2);
+  border-color: #7AC143;
+  box-shadow: 0 0 0 2px rgba(122, 193, 67, 0.2);
 }
 
 /* Cores de classificação */
 .linha-dedutivel {
-  background: linear-gradient(to right, #d4edda, transparent) !important;
-  border-left: 3px solid #28a745 !important;
+  background: linear-gradient(to right, #F2F2F2, transparent) !important;
+  border-left: 3px solid #7AC143 !important;
 }
 
 .linha-dedutivel td {
   background-color: transparent !important;
-  color: #155724;
+  color: #7AC143;
 }
 
 .linha-indedutivel {
-  background: linear-gradient(to right, #f8d7da, transparent) !important;
-  border-left: 3px solid #dc3545 !important;
+  background: linear-gradient(to right, #F2F2F2, transparent) !important;
+  border-left: 3px solid #7AC143 !important;
 }
 
 .linha-indedutivel td {
   background-color: transparent !important;
-  color: #721c24;
+  color: #0F0F0F;
 }
 
 /* Hover mantém a cor base */
 .linha-dedutivel:hover {
-  background: linear-gradient(to right, #c3e6cb, #e9ecef) !important;
+  background: linear-gradient(to right, #F2F2F2, #F2F2F2) !important;
 }
 
 .linha-indedutivel:hover {
-  background: linear-gradient(to right, #f5c6cb, #e9ecef) !important;
+  background: linear-gradient(to right, #F2F2F2, #F2F2F2) !important;
 }
 
 /* Estado de edição */
 .modo-edicao .campo-selecao {
-  border-color: #ffc107;
-  box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.25);
+  border-color: #0F0F0F;
+  box-shadow: 0 0 0 2px rgba(46, 46, 46, 0.25);
 }
 
 .modo-edicao .tabela-wrapper {
-  border: 2px solid #ffc107;
+  border: 2px solid #2E2E2E;
 }
 
 /* Responsividade */

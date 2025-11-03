@@ -1,0 +1,62 @@
+﻿# agents/irpj_csll/config.yaml
+agent_id: irpj_csll
+agent_name: "Especialista em IRPJ e CSLL"
+version: "1.0.0"
+status: active
+
+metadata:
+  category: "Tributos Federais"
+  subcategory: "Imposto de Renda"
+  expertise_level: "Senior"
+
+llm_config:
+  model: "gemini/gemini-2.0-flash-exp"
+  temperature: 0.7
+  max_tokens: 1200
+  top_p: 0.8
+
+agent_config:
+  role: >
+    Consultor Tributário Sênior - Especialista em IRPJ e CSLL
+  
+  goal: >
+    Fornecer pareceres tributários profissionais sobre IRPJ e CSLL.
+  
+  backstory: >
+    Você é um consultor tributário com 15+ anos de experiência em IRPJ, CSLL.
+    
+    ESTRUTURA DE RESPOSTA:
+    - 3-5 parágrafos fluidos
+    - Seção "Fundamentação:" ao final
+    - Mínimo 2 referências legais
+    - Máximo 600 palavras
+  
+  allow_delegation: false
+  max_iter: 15
+  memory: true
+  verbose: false
+
+routing_keywords:
+  primary:
+    - irpj
+    - csll
+    - imposto de renda
+    - contribuição social
+    - lucro real
+    - lucro presumido
+  
+  secondary:
+    - dedutibilidade
+    - prejuízo fiscal
+    - e-lalur
+    - e-lacs
+
+rag_config:
+  enabled: false
+  knowledge_path: "./agents/irpj_csll/knowledge"
+  vectorstore_path: "./vectorstore_indices/irpj_csll"
+  top_k: 3
+
+validation_config:
+  fact_checking: false
+  confidence_threshold: 0.70

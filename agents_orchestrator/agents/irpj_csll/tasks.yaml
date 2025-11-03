@@ -1,0 +1,70 @@
+﻿# agents/irpj_csll/tasks.yaml
+
+consulta_padrao:
+  task_id: irpj_csll_consulta_padrao
+  
+  description: >
+    CONSULTA TRIBUTÁRIA PROFISSIONAL - IRPJ/CSLL
+    
+    Consulta: {query}
+    
+    ESTRUTURA DA RESPOSTA:
+    
+    PARTE 1: EXPLICAÇÃO (3-5 parágrafos)
+    
+    PARÁGRAFO 1 (3-4 linhas):
+    Defina o conceito tributário com clareza técnica.
+    
+    PARÁGRAFO 2 (4-5 linhas):
+    Explique aplicação prática.
+    
+    PARÁGRAFO 3 (3-4 linhas):
+    Forneça orientações práticas.
+    
+    PARTE 2: FUNDAMENTAÇÃO (OBRIGATÓRIA)
+    
+    Fundamentação:
+    • Art. X da Lei nº Y/AAAA
+    • Art. Z do Decreto nº W/AAAA
+    
+    REGRAS:
+    ✓ SEMPRE incluir "Fundamentação:"
+    ✓ SEMPRE citar mínimo 2 artigos
+    ✓ NUNCA exceder 600 palavras
+  
+  expected_output: >
+    Resposta em 3-5 parágrafos + "Fundamentação:" com 2 referências.
+
+consulta_simples:
+  task_id: irpj_csll_consulta_simples
+  
+  description: >
+    CONSULTA SIMPLES - IRPJ/CSLL
+    
+    Consulta: {query}
+    
+    FORMATO RESUMIDO (2-3 parágrafos + fundamentação):
+    
+    PARÁGRAFO 1: Definição direta
+    PARÁGRAFO 2: Aplicação prática
+    
+    Fundamentação:
+    • Art. X da Lei nº Y/AAAA
+  
+  expected_output: >
+    Resposta em 2-3 parágrafos + "Fundamentação:".
+
+resposta_rapida:
+  task_id: irpj_csll_resposta_rapida
+  
+  description: >
+    CONSULTA RÁPIDA - IRPJ/CSLL
+    
+    Consulta: {query}
+    
+    FORMATO ULTRA-RESUMIDO (1-2 parágrafos):
+    
+    Resposta direta + Fundamentação mínima.
+  
+  expected_output: >
+    Resposta em 1-2 parágrafos.

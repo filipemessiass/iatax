@@ -1,0 +1,293 @@
+﻿[ID]: trib_irpj_prop_publ_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: Conflito Fundamental: PromoÃ§Ã£o Comercial NecessÃ¡ria vs. Propaganda Institucional IndedutÃ­vel
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A controvÃ©rsia central sobre a dedutibilidade de despesas com propaganda e publicidade reside na aplicaÃ§Ã£o de um "teste de finalidade" pelo Fisco. Este teste visa segregar os gastos com nexo causal direto com a geraÃ§Ã£o de receita (propaganda comercial) daqueles que promovem ideias, valores ou a imagem institucional da empresa sem apelo comercial imediato (propaganda de ideias ou institucional).
+[POSICIONAMENTO FISCO]: Tradicionalmente restritivo e formalista, tende a classificar gastos institucionais como mera liberalidade.
+[POSICIONAMENTO CONTRIBUINTE]: VÃª ambos os tipos de campanha como investimentos estratÃ©gicos no fortalecimento da marca, essenciais para a manutenÃ§Ã£o e expansÃ£o da fonte produtora.
+[OBSERVAÃ‡ÃƒO]: O conflito se materializa no caso prÃ¡tico da "Bebidas Tropicais S.A.".
+[EXEMPLO PRÃTICO]: Campanha "Sabor da AmazÃ´nia" (comercial) vs. Campanha "Pense Verde" (institucional/ideias).
+[RISCO]: N/A
+[TAGS]: propaganda, publicidade, dedutibilidade, controversia, teste_finalidade, propaganda_institucional, propaganda_comercial, art_311
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_02
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: AnÃ¡lise dos CritÃ©rios Legais (Necessidade, Usualidade e Normalidade)
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A dedutibilidade Ã© regida pelos critÃ©rios do Art. 311 do RIR/2018. **Necessidade:** Campanha comercial (ex: "Sabor da AmazÃ´nia") Ã© necessÃ¡ria porque visa diretamente aumentar vendas e receita, enquadrando-se claramente. Campanha institucional (ex: "Pense Verde") Ã© questionada pelo Fisco por nÃ£o estar diretamente ligada Ã  receita. **Usualidade e Normalidade:** Publicidade massiva Ã© usual e normal no setor de bens de consumo.
+[OBSERVAÃ‡ÃƒO]: A principal incerteza normativa reside na ausÃªncia de uma definiÃ§Ã£o legal taxativa do que constitui uma despesa "necessÃ¡ria" para propaganda institucional.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: criterio_necessidade, criterio_usualidade, criterio_normalidade, propaganda_comercial, propaganda_institucional, rir_2018
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: EvoluÃ§Ã£o do Conceito de "Necessidade" e ESG
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O ponto nevrÃ¡lgico da controvÃ©rsia Ã© a evoluÃ§Ã£o do prÃ³prio conceito de "necessidade". A interpretaÃ§Ã£o fiscal histÃ³rica (Parecer Normativo CST nÂº 15/1976) colide com as realidades do marketing e da gestÃ£o de marca do sÃ©culo XXI. Atualmente, o valor de uma marca e a decisÃ£o de compra estÃ£o intrinsecamente ligados a fatores de governanÃ§a ambiental, social e corporativa (ESG). Uma campanha institucional pode ser uma ferramenta estratÃ©gica de posicionamento, diferenciaÃ§Ã£o e manutenÃ§Ã£o da "fonte produtora" a longo prazo.
+[OBSERVAÃ‡ÃƒO]: A controvÃ©rsia nÃ£o Ã© apenas sobre a interpretaÃ§Ã£o legal, mas sobre a capacidade da legislaÃ§Ã£o tributÃ¡ria de se adaptar Ã s prÃ¡ticas econÃ´micas contemporÃ¢neas.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: conceito_necessidade, esg, marketing_moderno, reputacao_marca, sustentabilidade, controversia
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_04
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Regra Geral de Dedutibilidade e Despesas EspecÃ­ficas de Propaganda
+[BASE LEGAL]: RIR/2018, Art. 311; RIR/2018, Art. 380
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 311 do RIR/2018 estabelece a regra geral de dedutibilidade para despesas operacionais. O Art. 380 do RIR/2018 trata especificamente das despesas de propaganda, admitindo como dedutÃ­veis os gastos efetivamente realizados com a promoÃ§Ã£o de produtos e da marca (pagamentos a agÃªncias, veÃ­culos de comunicaÃ§Ã£o). Formalmente, ambos os tipos de campanha (comercial e institucional) se enquadram neste artigo, mas o questionamento fiscal recai sobre a finalidade.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: rir_2018, art_311, art_380, despesa_operacional, despesa_propaganda, enquadramento_legal
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_05
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: DistinÃ§Ã£o Crucial entre Propaganda e Brindes
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, Inciso VII
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 13, Inciso VII, da Lei nÂº 9.249/95 veda expressamente a dedutibilidade de "despesas com brindes". Brindes sÃ£o, por definiÃ§Ã£o legal, uma liberalidade sem contrapartida direta. A defesa da "Bebidas Tropicais S.A." para a campanha "Pense Verde" deve enfatizar que se trata de um investimento em um ativo intangÃ­vel (reputaÃ§Ã£o da marca) com expectativa de retorno econÃ´mico, e nÃ£o de uma simples doaÃ§Ã£o ou presente.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, brindes, liberalidade, propaganda_institucional, ativo_intangivel
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_06
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Ajuste Fiscal ObrigatÃ³rio no e-LALUR e e-LACS (Parte A)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Livro de ApuraÃ§Ã£o do Lucro Real (e-LALUR) e o Livro de ApuraÃ§Ã£o da Base de CÃ¡lculo da CSLL (e-LACS) sÃ£o os instrumentos onde a transiÃ§Ã£o do resultado contÃ¡bil para o fiscal ocorre. **Despesa DedutÃ­vel ("Sabor da AmazÃ´nia"):** Nenhum ajuste Ã© necessÃ¡rio. **Despesa IndedutÃ­vel ("Pense Verde"):** Se a empresa seguir a interpretaÃ§Ã£o conservadora do Fisco ou for autuada, o valor deve ser adicionado de volta ao lucro lÃ­quido na Parte A do e-LALUR e do e-LACS. Este Ã© uma **adiÃ§Ã£o permanente**.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente na Parte A do e-LALUR e e-LACS.
+[OBSERVAÃ‡ÃƒO]: A adiÃ§Ã£o anula o efeito redutor da despesa para fins fiscais, aumentando a base de cÃ¡lculo dos tributos.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: e-lalur, e-lacs, adicao_permanente, ajuste_fiscal, despesa_indedutivel, propaganda_institucional
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_07
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Impacto na EscrituraÃ§Ã£o ContÃ¡bil Fiscal (ECF)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A ECF Ã© a obrigaÃ§Ã£o acessÃ³ria que consolida essas informaÃ§Ãµes. Os ajustes realizados no e-LALUR e no e-LACS sÃ£o detalhados nos registros M300 (DemonstraÃ§Ã£o do Lucro Real) e M350 (DemonstraÃ§Ã£o da Base de CÃ¡lculo da CSLL). A empresa deve utilizar os cÃ³digos de adiÃ§Ã£o especÃ­ficos da ECF para reportar a despesa indedutÃ­vel, garantindo a rastreabilidade e a transparÃªncia. Um montante significativo lanÃ§ado como "Despesas IndedutÃ­veis - Propaganda" na ECF se torna um alvo prioritÃ¡rio para auditoria.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A decisÃ£o de deduzir uma despesa controversa e nÃ£o realizar o autoajuste Ã© um risco calculado, pois a empresa estÃ¡ comunicando sua posiÃ§Ã£o de confronto ao Fisco atravÃ©s de suas declaraÃ§Ãµes.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: ecf, m300, m350, adicao_permanente, fiscalizacao, auditoria, despesa_indedutivel
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_08
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o FavorÃ¡vel do CARF (BenefÃ­cio Indireto)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o nÂº 1101-001.551
+[POSICIONAMENTO FISCO]: Despesa nÃ£o necessÃ¡ria Ã  atividade da autuada; beneficia terceiro.
+[POSICIONAMENTO CONTRIBUINTE]: BenefÃ­cio indireto; crescimento orgÃ¢nico do grupo econÃ´mico. A demanda por insumos cresce com a venda do produto final. Despesa necessÃ¡ria.
+[DESCRIÃ‡ÃƒO DETALHADA]: O AcÃ³rdÃ£o nÂº 1101-001.551 Ã© um precedente de extrema importÃ¢ncia. O CARF validou a dedutibilidade de despesas de publicidade de um produto final (refrigerantes Dolly) por uma empresa fornecedora de insumos (Tholor) do mesmo grupo. O voto vencedor acolheu a tese do benefÃ­cio indireto, argumentando que a propaganda aumentava a demanda pelos insumos da autuada, tornando a despesa necessÃ¡ria Ã  sua prÃ³pria atividade.
+[OBSERVAÃ‡ÃƒO]: Este precedente Ã© diretamente aplicÃ¡vel para defender campanhas institucionais que fortalecem a marca corporativa.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, propaganda_institucional, beneficio_indireto, grupo_economico, dedutibilidade
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_09
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: DistinÃ§Ã£o Crucial entre Propaganda e Brindes pelo CARF
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, VII
+[JURISPRUDÃŠNCIA]: CARF, Processo 10872.000392/2010-81 (CSRF)
+[POSICIONAMENTO FISCO]: Gasto com brinde, vedado pelo Art. 13, VII, Lei 9.249/95.
+[POSICIONAMENTO CONTRIBUINTE]: Gasto para fomentar vendas, intrinsecamente ligado Ã  atividade comercial.
+[DESCRIÃ‡ÃƒO DETALHADA]: No julgamento do processo 10872.000392/2010-81, a CSRF/CARF diferenciou material promocional de brindes. A tese vencedora foi que "se vocÃª tem uma atividade na despesa com o produto Ã© uma despesa com propaganda, se nÃ£o tem uma atividade, Ã© um mero brinde". Essa lÃ³gica pode ser extrapolada para campanhas institucionais que buscam construir valor de marca.
+[OBSERVAÃ‡ÃƒO]: A comprovaÃ§Ã£o de uma "atividade" intrÃ­nseca ao gasto (construÃ§Ã£o de valor de marca, conexÃ£o com pÃºblico-alvo) Ã© fundamental para descaracterizÃ¡-lo como liberalidade.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, brindes, material_promocional, propaganda, liberalidade, art_13_vii
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_10
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: CÃ¡lculo Simulado do Impacto Financeiro da Glosa
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A deduÃ§Ã£o de despesa de natureza controversa, como a propaganda institucional, acarreta riscos financeiros significativos. Uma vez glosada, a autuaÃ§Ã£o fiscal Ã© composta por: 1. **Tributo Principal** (IRPJ/CSLL sobre o valor adicionado); 2. **Multa de OfÃ­cio** (padrÃ£o de 75% sobre o tributo); e 3. **Juros de Mora** (taxa SELIC).
+[EXEMPLO PRÃTICO]: Para uma despesa de R$ 10.000.000,00 glosada ("Pense Verde"): - Tributo Principal (IRPJ 25% + CSLL 9% = 34%): R$ 3.400.000,00. - Multa de OfÃ­cio (75% sobre o tributo): R$ 2.550.000,00. - **Total da AutuaÃ§Ã£o (sem juros): R$ 5.950.000,00**.
+[RISCO]: CrÃ­tico. O custo total da autuaÃ§Ã£o, sem juros, pode representar quase 60% do valor da despesa original.
+[OBSERVAÃ‡ÃƒO]: N/A
+[TAGS]: risco_fiscal, impacto_financeiro, glosa, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_11
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: PolÃ­tica Interna de Marketing e Publicidade e DossiÃª de Suporte
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Para mitigar riscos, recomenda-se: 1. **CriaÃ§Ã£o de PolÃ­tica Interna:** Formalizar uma polÃ­tica que diferencie campanhas (comercial, institucional), estabeleÃ§a objetivos estratÃ©gicos, critÃ©rios de aprovaÃ§Ã£o, responsÃ¡veis e mÃ©tricas de retorno (KPIs). 2. **ElaboraÃ§Ã£o de DossiÃª de Suporte:** Para cada campanha institucional, montar um dossiÃª robusto e contemporÃ¢neo, contendo: planejamento estratÃ©gico, pesquisas de mercado, anÃ¡lise competitiva e pareceres tÃ©cnicos de marketing que atestem a necessidade e pertinÃªncia.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A segregaÃ§Ã£o contÃ¡bil clara dos gastos (ex: "Propaganda - Produto" vs. "Propaganda - Institucional") Ã© fundamental para o controle e a defesa.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, politica_interna, dossie_de_suporte, propaganda_institucional, kpis
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_12
+[TIPO DE CONTEÃšDO]: ConclusÃ£o TÃ©cnica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: DiagnÃ³stico, Melhor Conduta e Tese DefensÃ¡vel
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **DiagnÃ³stico:** A **Propaganda Comercial** Ã© DEDUTÃVEL. A **Propaganda Institucional** Ã© CASUÃSTICA, com alto risco de glosa pelo Fisco, mas com uma tese de defesa sÃ³lida e defensÃ¡vel (evoluÃ§Ã£o do conceito de "despesa necessÃ¡ria", doutrina, precedentes do CARF sobre benefÃ­cio indireto). **Melhor Conduta:** Assumir risco calculado para a institucional: manter a deduÃ§Ã£o, mas preparar um dossiÃª probatÃ³rio robusto e contemporÃ¢neo.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[RISCO]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: conclusao_tecnica, diagnostico, melhor_conduta, risco_calculado, tese_defensavel, propaganda_institucional
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade
+
+---
+
+[ID]: trib_irpj_prop_publ_13
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Propaganda e Publicidade
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: Via Contenciosa Recomendada
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Dada a controvÃ©rsia e o restabelecimento do voto de qualidade prÃ³-Fisco no CARF, a estratÃ©gia mais prudente Ã© **esgotar a via administrativa (DRJ/CARF)** para formalizar o conjunto probatÃ³rio. No entanto, a perspectiva Ã© de que a disputa final provavelmente ocorrerÃ¡ na **via Judicial (AÃ§Ã£o AnulatÃ³ria)**, que oferece uma arena mais estratÃ©gica para discutir o mÃ©rito com base em princÃ­pios constitucionais (capacidade contributiva, razoabilidade) e a adequaÃ§Ã£o da norma fiscal Ã  realidade econÃ´mica.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: N/A
+[RISCO]: N/A
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: enfoque_contencioso, carf, drj, via_judicial, acao_anulatoria, voto_de_qualidade, estrategia_defesa
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico: A Dedutibilidade das Despesas com Propaganda e Publicidade

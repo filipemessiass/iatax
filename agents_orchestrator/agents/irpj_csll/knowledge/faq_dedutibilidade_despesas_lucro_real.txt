@@ -1,0 +1,221 @@
+﻿[ID]: trib_irpj_faq_dedutibilidade_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Conceitos Fundamentais
+[TOPICO]: DefiniÃ§Ã£o e CritÃ©rios de uma Despesa DedutÃ­vel
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Uma despesa dedutÃ­vel no Lucro Real Ã© todo gasto que atende simultaneamente aos cinco critÃ©rios essenciais: 1. Necessidade (vÃ­nculo com a atividade); 2. Usualidade (compatÃ­vel com o mercado); 3. Efetividade (real ocorrÃªncia); 4. ComprovaÃ§Ã£o (documentaÃ§Ã£o hÃ¡bil e idÃ´nea); e 5. Registro ContÃ¡bil. Essas despesas reduzem legalmente a base de cÃ¡lculo do IRPJ e da CSLL.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesa_dedutivel, conceito, criterios_dedutibilidade, lucro_real, irpj, csll
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_02
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Conceitos Fundamentais
+[TOPICO]: Despesa ContÃ¡bil vs. Despesa DedutÃ­vel
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: NÃ£o. A contabilidade reconhece o fato econÃ´mico (a ocorrÃªncia do gasto) conforme o regime de competÃªncia, mas a legislaÃ§Ã£o fiscal aplica critÃ©rios prÃ³prios e mais restritivos para permitir sua deduÃ§Ã£o. Nem toda despesa corretamente contabilizada Ã© aceita para efeitos de reduÃ§Ã£o da base de cÃ¡lculo dos tributos.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A distinÃ§Ã£o entre o contÃ¡bil e o fiscal Ã© a base para a apuraÃ§Ã£o do Lucro Real, exigindo ajustes no e-Lalur/e-Lacs.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesa_contabil, despesa_dedutivel, diferenca_contabil_fiscal, lucro_real, ajuste_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Fundamento Legal
+[TOPICO]: DefiniÃ§Ã£o de Despesa Operacional no RIR/2018
+[BASE LEGAL]: Decreto nÂº 9.580/2018 (RIR/2018), Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Conforme o Art. 311 do RIR/2018, sÃ£o consideradas operacionais as despesas nÃ£o computadas nos custos de produÃ§Ã£o que sejam "necessÃ¡rias Ã  atividade da empresa e Ã  manutenÃ§Ã£o da respectiva fonte produtora". Este Ã© o dispositivo legal que estabelece a regra geral da dedutibilidade.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: rir_2018, art_311, despesa_operacional, despesa_necessaria, fonte_produtora
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_04
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Conceitos Fundamentais
+[TOPICO]: DiferenÃ§a entre Despesa NecessÃ¡ria e Liberalidade
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **Despesa NecessÃ¡ria** Ã© aquela que possui um vÃ­nculo de causalidade, direto ou indireto, com a operaÃ§Ã£o da empresa, a geraÃ§Ã£o de receita ou a manutenÃ§Ã£o de sua capacidade produtiva. **Liberalidade** Ã© um gasto voluntÃ¡rio, supÃ©rfluo, sem uma contraprestaÃ§Ã£o ou expectativa de retorno para a atividade-fim da empresa. Liberalidades sÃ£o sempre indedutÃ­veis.
+[CAMINHO DE AJUSTE]: Uma liberalidade deve ser objeto de AdiÃ§Ã£o Permanente no e-LALUR e no e-LACS.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesa_necessaria, liberalidade, indedutibilidade, adicao_permanente, nexo_causal
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_05
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Exemplos de Despesas IndedutÃ­veis
+[TOPICO]: Principais Despesas GlosÃ¡veis pela FiscalizaÃ§Ã£o
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Os principais exemplos de despesas indedutÃ­veis, frequentemente objeto de glosa, incluem: brindes de alto valor ou sem finalidade comercial; festas e confraternizaÃ§Ãµes sem critÃ©rio ou prova de isonomia; despesas com lazer e bem-estar sem nexo com a operaÃ§Ã£o; doaÃ§Ãµes nÃ£o incentivadas; multas fiscais punitivas e multas de trÃ¢nsito; e despesas com alimentaÃ§Ã£o de sÃ³cios nÃ£o vinculada ao trabalho.
+[OBSERVAÃ‡ÃƒO]: Muitos desses itens estÃ£o expressamente vedados pelo Art. 13 da Lei nÂº 9.249/1995, o que torna sua deduÃ§Ã£o indefensÃ¡vel.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesa_indedutivel, exemplos, glosa, brindes, confraternizacoes, multas, doacoes
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_06
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: O "DossiÃª de Dedutibilidade"
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O "DossiÃª de Dedutibilidade" (ou *defense file*) Ã© o conjunto de documentos e justificativas que comprova a dedutibilidade de uma despesa. Ele deve conter a justificativa tÃ©cnica/comercial, o vÃ­nculo com a geraÃ§Ã£o de receita, comparativos com prÃ¡ticas de mercado, e a documentaÃ§Ã£o fiscal completa (nota fiscal, contrato, comprovante de pagamento).
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Ã‰ altamente recomendado para despesas de risco mÃ©dio ou "zona cinzenta", como gastos com marketing, eventos, treinamentos e viagens.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: dossie_dedutibilidade, defense_file, comprovacao, documentacao_suporte, compliance_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_07
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: ConsequÃªncias de uma DeduÃ§Ã£o Indevida
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Deduzir uma despesa que o Fisco considera indevida leva Ã  glosa e Ã  lavratura de um auto de infraÃ§Ã£o, com as seguintes consequÃªncias: cobranÃ§a do tributo principal (IRPJ/CSLL), aplicaÃ§Ã£o de multa de ofÃ­cio de 75% (ou 150% em casos de fraude) e incidÃªncia de juros de mora (taxa SELIC). TambÃ©m pode ser exigida a retificaÃ§Ã£o das ECFs dos Ãºltimos 5 anos.
+[RISCO]: CrÃ­tico. Uma deduÃ§Ã£o indevida pode se transformar em uma contingÃªncia fiscal material, com custo total superior a 175% do tributo original.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: risco_fiscal, glosa, auto_de_infracao, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_08
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: JurisprudÃªncia Aplicada
+[TOPICO]: PosiÃ§Ã£o do CARF sobre Despesas Controversas
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o 1201-005.783 (CSRF)
+[POSICIONAMENTO FISCO]: A jurisprudÃªncia majoritÃ¡ria do CARF, especialmente na CÃ¢mara Superior, Ã© restritiva. Exige nexo causal direto e comprovado com a operaÃ§Ã£o e tende a nÃ£o aceitar argumentos subjetivos ou de benefÃ­cios indiretos.
+[DESCRIÃ‡ÃƒO DETALHADA]: O CARF tem consistentemente classificado despesas com festas de fim de ano, gastos com lazer e presentes de alto valor como liberalidades indedutÃ­veis. O AcÃ³rdÃ£o 1201-005.783, da CÃ¢mara Superior, Ã© um precedente paradigmÃ¡tico que considerou a despesa com confraternizaÃ§Ã£o indedutÃ­vel, por nÃ£o ser "essencial" Ã  atividade, mesmo sendo "Ãºtil".
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, csrf, confraternizacao, liberalidade, despesa_necessaria
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_09
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: JurisprudÃªncia Aplicada
+[TOPICO]: Possibilidade de Sucesso na Via Judicial
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A chance de reverter no Poder JudiciÃ¡rio uma glosa de despesa por falta de comprovaÃ§Ã£o ou por ser uma liberalidade clara Ã© muito limitada. O JudiciÃ¡rio tende a manter a interpretaÃ§Ã£o do Fisco em matÃ©ria de prova, exceto em casos de flagrante violaÃ§Ã£o da legalidade. O Ã´nus da prova para demonstrar a necessidade da despesa Ã© sempre do contribuinte.
+[RISCO]: Elevado. A via judicial para discutir o mÃ©rito de despesas controversas Ã©, em geral, de baixa probabilidade de Ãªxito.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: via_judicial, poder_judiciario, onus_da_prova, jurisprudencia
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26
+
+---
+
+[ID]: trib_irpj_faq_dedutibilidade_10
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: Conduta Mais Segura para GestÃ£o de Riscos
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A conduta mais segura Ã© a prevenÃ§Ã£o. Recomenda-se: 1. Implementar uma polÃ­tica interna de despesas que seja clara e restritiva. 2. Classificar os gastos por nÃ­vel de risco (vermelho, amarelo, verde). 3. Realizar o ajuste fiscal (adiÃ§Ã£o) imediatamente no LALUR para despesas indedutÃ­veis ou de alto risco. 4. Manter documentaÃ§Ã£o completa e organizada para todas as despesas. 5. Revisar as prÃ¡ticas periodicamente com base na jurisprudÃªncia.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: A autorregularizaÃ§Ã£o (adiÃ§Ã£o espontÃ¢nea no LALUR) Ã© sempre a opÃ§Ã£o mais barata para corrigir um erro, pois afasta a multa de ofÃ­cio de 75%.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, gestao_riscos, politica_despesas, documentacao, autorregularizacao
+[DATA]: 2025-10-23
+[ORIGEM]: FAQ Interno â€“ Departamento TributÃ¡rio | FY 25/26

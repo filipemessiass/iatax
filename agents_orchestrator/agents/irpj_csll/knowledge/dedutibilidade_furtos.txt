@@ -1,0 +1,308 @@
+﻿[ID]: trib_irpj_atos_ilicitos_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: Conflito Fundamental: Perda Patrimonial vs. QualificaÃ§Ã£o Fiscal da Prova
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A dedutibilidade de perdas decorrentes de furto, desfalque ou apropriaÃ§Ã£o indÃ©bita Ã© um ponto de notÃ³ria controvÃ©rsia. O cerne nÃ£o reside na existÃªncia material da perda patrimonial, mas na sua qualificaÃ§Ã£o como despesa dedutÃ­vel para fins fiscais, o que depende intrinsecamente da suficiÃªncia e da natureza da prova apresentada. A AdministraÃ§Ã£o TributÃ¡ria exige prova formal (B.O.), enquanto o contribuinte defende a verdade material com provas internas.
+[OBSERVAÃ‡ÃƒO]: A disputa transcende a ocorrÃªncia da perda e foca na sua validaÃ§Ã£o perante a legislaÃ§Ã£o fiscal.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: perdas_atos_ilicitos, furto, desfalque, controversia, dedutibilidade, prova_fiscal, substancia_vs_forma
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_02
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: PosiÃ§Ã£o do Fisco: ExigÃªncia de Prova Formal (Boletim de OcorrÃªncia)
+[BASE LEGAL]: RIR/2018, Art. 376
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A AdministraÃ§Ã£o TributÃ¡ria, amparada em interpretaÃ§Ã£o literal e restritiva, adota uma postura de legalidade estrita, exigindo uma prova prÃ©-constituÃ­da e formal: a comunicaÃ§Ã£o do fato a uma autoridade pÃºblica. Para o Fisco, a perda sÃ³ adquire relevÃ¢ncia jurÃ­dica para fins de deduÃ§Ã£o quando registrada oficialmente por meio de um Boletim de OcorrÃªncia (B.O.) e, idealmente, pela instauraÃ§Ã£o de um inquÃ©rito policial.
+[OBSERVAÃ‡ÃƒO]: Esta exigÃªncia formal Ã© vista como uma condiÃ§Ã£o sine qua non para a dedutibilidade, nÃ£o bastando provas internas.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: fisco, prova_formal, boletim_de_ocorrencia, bo, inquerito_policial, legalidade_estrita, despesa_indedutivel
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_03
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: PosiÃ§Ã£o do Contribuinte: PrincÃ­pio da Verdade Material e Necessidade do Gasto
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O contribuinte, por sua vez, argumenta com base no princÃ­pio da verdade material. Sustenta que um conjunto probatÃ³rio robusto (auditorias internas, relatÃ³rios de inventÃ¡rio, termos de rescisÃ£o) seria idÃ´neo para comprovar a efetividade da perda, especialmente em desfalques internos onde o B.O. pode ser impraticÃ¡vel ou contraproducente. A perda seria intrinsecamente "necessÃ¡ria", pois Ã© um risco inerente Ã  prÃ³pria atividade.
+[OBSERVAÃ‡ÃƒO]: A ausÃªncia de B.O., na visÃ£o do Fisco, descaracteriza a perda como "necessÃ¡ria", transformando-a em liberalidade ou falha de gestÃ£o.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: contribuinte, verdade_material, provas_alternativas, despesa_necessaria, risco_inerente, desfalque, furto
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_04
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Regra EspecÃ­fica de Dedutibilidade (CondiÃ§Ã£o IndispensÃ¡vel do B.O.)
+[BASE LEGAL]: RIR/2018, Art. 376
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 376 do RIR/2018 Ã© o dispositivo central que estabelece a condiÃ§Ã£o taxativa para a dedutibilidade de prejuÃ­zos por desfalque, apropriaÃ§Ã£o indÃ©bita e furto: "Somente serÃ£o dedutÃ­veis [...] quando houver inquÃ©rito instaurado nos termos da legislaÃ§Ã£o trabalhista ou quando apresentada queixa perante a autoridade policial". O advÃ©rbio "somente" confere um carÃ¡ter restritivo e excludente a qualquer outra forma de comprovaÃ§Ã£o.
+[OBSERVAÃ‡ÃƒO]: A interpretaÃ§Ã£o literal deste artigo encerra a discussÃ£o em nÃ­vel administrativo, nÃ£o deixando margem para a fiscalizaÃ§Ã£o aceitar provas alternativas ao B.O. ou inquÃ©rito.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: rir_2018, art_376, condicao_indispensavel, bo, queixa_policial, inquerito_trabalhista, dedutibilidade_condicionada
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_05
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Regra Geral de Despesas Operacionais (Tese do Contribuinte na Via Judicial)
+[BASE LEGAL]: RIR/2018, Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 311 do RIR/2018 define despesas operacionais dedutÃ­veis como "necessÃ¡rias Ã  atividade da empresa e Ã  manutenÃ§Ã£o da fonte produtora". Uma perda por furto Ã©, por sua natureza, um evento involuntÃ¡rio e indesejado, alheio Ã  vontade do administrador, e pode ser vista como intrinsecamente "necessÃ¡ria" como um risco inerente Ã  prÃ³pria atividade. Uma tese de defesa busca harmonizar os artigos, argumentando que o Art. 376 deveria ser interpretado como um meio de prova preferencial, mas nÃ£o exclusivo.
+[OBSERVAÃ‡ÃƒO]: Esta tese Ã© mais explorada na via judicial, dado o formalismo do CARF em relaÃ§Ã£o ao Art. 376.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: rir_2018, art_311, despesa_operacional, despesa_necessaria, nexo_causal, interpretacao_legal, tese_contribuinte
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_06
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Penalidades por DeduÃ§Ã£o Indevida
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 44 da Lei nÂº 9.430/96 define as penalidades. O inciso I estabelece a multa de ofÃ­cio de 75% sobre a totalidade ou diferenÃ§a do tributo devido nos casos de falta de pagamento ou recolhimento. Este percentual pode ser agravado para 150% se for comprovado o evidente intuito de fraude (inciso II).
+[OBSERVAÃ‡ÃƒO]: A deduÃ§Ã£o indevida de uma perda sem a comprovaÃ§Ã£o exigida sujeita o contribuinte a esta pesada penalidade, alÃ©m dos juros de mora.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9430_1996, art_44, multa_de_oficio, penalidade, fraude_fiscal, dolo
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_07
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: LanÃ§amento ContÃ¡bil da Perda e Impacto na DRE
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Do ponto de vista contÃ¡bil (princÃ­pio da competÃªncia), a perda Ã© reconhecida no resultado do perÃ­odo em que foi constatada. O lanÃ§amento contÃ¡bil deve baixar o ativo correspondente (estoques, caixa, imobilizado) em contrapartida a uma conta de despesa no resultado (ex: "Perdas por Furto e Roubo"). Este registro contÃ¡bil reflete a diminuiÃ§Ã£o real do patrimÃ´nio lÃ­quido e reduz o lucro contÃ¡bil. O valor baixado deve corresponder ao **custo contÃ¡bil do bem**, e nÃ£o ao seu valor de venda.
+[EXEMPLO PRÃTICO]: Furto de R$ 40.000,00 em estoques: DÃ©bito em "Perdas por Furto e Roubo" (R$ 40.000,00) e CrÃ©dito em "Estoques de Mercadorias" (R$ 40.000,00).
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: lancamento_contabil, perdas_contabeis, custo_contabil, principio_competencia, dre
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_08
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Impacto Fiscal (e-Lalur/e-Lacs e ECF)
+[BASE LEGAL]: RIR/2018, Art. 376
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A transiÃ§Ã£o do resultado contÃ¡bil para o fiscal Ã© realizada no e-LALUR/e-LACS (ECF). **CenÃ¡rio 1 (Perda DedutÃ­vel com B.O.):** Se a empresa possui o B.O. exigido pelo Art. 376, a despesa Ã© aceita fiscalmente. Nenhum ajuste Ã© feito no LALUR/LACS. **CenÃ¡rio 2 (Perda IndedutÃ­vel sem B.O.):** A despesa Ã© indedutÃ­vel. Para neutralizar seu efeito, o contribuinte deve realizar uma **AdiÃ§Ã£o Permanente** na Parte A do LALUR/LACS. O valor Ã© somado de volta ao lucro lÃ­quido contÃ¡bil, aumentando artificialmente a base tributÃ¡vel.
+[EXEMPLO PRÃTICO]: Desfalque interno de R$ 40.000,00 sem B.O. exige AdiÃ§Ã£o Permanente de R$ 40.000,00 na Parte A do LALUR/LACS.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no Registro M300 (e-Lalur) e M350 (e-Lacs) da ECF, utilizando cÃ³digo especÃ­fico para "Despesas IndedutÃ­veis â€“ Perdas por furto, roubo e desfalque nÃ£o comprovadas".
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: e-lalur, e-lacs, adicao_permanente, ajuste_fiscal, ecf, despesa_indedutivel, prova_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_09
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia Aplicada
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o MajoritÃ¡ria e Restritiva do CARF (ExigÃªncia Literal do B.O.)
+[BASE LEGAL]: RIR/2018, Art. 376
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o 1402-004.002; AcÃ³rdÃ£o 16682.721141/2018-13
+[POSICIONAMENTO FISCO]: O CARF aplica o Art. 376 do RIR/2018 de forma literal. Glosa prejuÃ­zos por desfalque/furto se o contribuinte nÃ£o apresentar o B.O. A queixa policial Ã© uma condiÃ§Ã£o de dedutibilidade insubstituÃ­vel. Exige que a comunicaÃ§Ã£o policial seja individualizada e detalhada, nÃ£o genÃ©rica ou vaga.
+[DESCRIÃ‡ÃƒO DETALHADA]: A jurisprudÃªncia majoritÃ¡ria do CARF Ã© desfavorÃ¡vel ao contribuinte que nÃ£o cumpre o requisito formal da queixa policial. Provas internas, como recibos ou relatÃ³rios eletrÃ´nicos, sÃ£o consideradas insuficientes para satisfazer a exigÃªncia legal. A apresentaÃ§Ã£o da queixa policial, com detalhamento individualizado da situaÃ§Ã£o fÃ¡tica, Ã© uma condiÃ§Ã£o *sine qua non* para a dedutibilidade.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, bo, queixa_policial, indedutibilidade, prova_formal, risco_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_10
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia Aplicada
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o MinoritÃ¡ria e FlexÃ­vel do CARF (Tese de Vanguarda - Furto de Energia)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o 1202-001.527
+[POSICIONAMENTO CONTRIBUINTE]: Em situaÃ§Ãµes de impossibilidade prÃ¡tica do B.O. (ex: furtos em massa, alto volume de ocorrÃªncias), a prova da inerÃªncia da perda Ã  atividade empresarial e controles internos robustos podem ser suficientes para a deduÃ§Ã£o.
+[DESCRIÃ‡ÃƒO DETALHADA]: Uma importante exceÃ§Ã£o a essa regra estrita surgiu na anÃ¡lise de "perdas nÃ£o tÃ©cnicas" de distribuidoras de energia (furtos em massa). O CARF aceitou a dedutibilidade como custo inerente e necessÃ¡rio Ã  atividade, reconhecendo a impossibilidade prÃ¡tica de B.O. individualizado para cada ligaÃ§Ã£o clandestina. Esta linha de julgamento abre uma fresta argumentativa por analogia para outros setores em situaÃ§Ãµes de alta complexidade ou inviabilidade do B.O. individual.
+[OBSERVAÃ‡ÃƒO]: Trata-se de uma tese de vanguarda, com alto risco no CARF, mas com maior potencial na via judicial.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, furto_energia, perdas_nao_tecnicas, tese_de_vanguarda, analogia, flexibilidade_prova
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_11
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia Aplicada
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o da Receita Federal (COSIT)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: SoluÃ§Ã£o de Consulta COSIT nÂº 60/2019
+[POSICIONAMENTO FISCO]: A COSIT Ã© inflexÃ­vel. Reafirma a interpretaÃ§Ã£o literal do RIR, estabelecendo que a dedutibilidade estÃ¡ estritamente condicionada Ã  apresentaÃ§Ã£o da queixa policial. NÃ£o hÃ¡ espaÃ§o para provas alternativas em nÃ­vel de auditoria fiscal.
+[DESCRIÃ‡ÃƒO DETALHADA]: A posiÃ§Ã£o oficial da Receita Federal vincula a atuaÃ§Ã£o da fiscalizaÃ§Ã£o em todo o paÃ­s. A SC COSIT nÂº 60/2019 reitera que a dedutibilidade de perdas por furto, desfalque ou apropriaÃ§Ã£o indÃ©bita estÃ¡ estritamente condicionada ao cumprimento das previsÃµes legais, ou seja, Ã  apresentaÃ§Ã£o da queixa policial.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: cosit, solucao_consulta, jurisprudencia, prova_policial, queixa_policial, fiscalizacao, interpretacao_literal
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_12
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: CÃ¡lculo Simulado do Impacto da Glosa Fiscal
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A deduÃ§Ã£o indevida de uma perda por ato ilÃ­cito sem o suporte documental exigido expÃµe a empresa a riscos financeiros. A contingÃªncia Ã© composta por: 1. **Tributo Principal** (IRPJ/CSLL sobre o valor adicionado); 2. **Multa de OfÃ­cio** (padrÃ£o de 75% sobre o tributo); e 3. **Juros de Mora** (taxa SELIC).
+[EXEMPLO PRÃTICO]: Para uma perda de R$ 40.000,00 glosada: - Tributo Devido: R$ 13.600,00 (34% de R$ 40.000,00). - Multa de OfÃ­cio: R$ 10.200,00 (75% de R$ 13.600,00). - **Total da AutuaÃ§Ã£o (sem juros): R$ 23.800,00**.
+[RISCO]: CrÃ­tico. O impacto financeiro final pode facilmente superar o dobro do valor do tributo originalmente devido.
+[OBSERVAÃ‡ÃƒO]: A multa pode ser qualificada para 150% em caso de fraude.
+[TAGS]: risco_fiscal, impacto_financeiro, glosa, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_13
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: PolÃ­tica Interna de ApuraÃ§Ã£o e Tratamento de Perdas por Atos IlÃ­citos
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A melhor estratÃ©gia Ã© a prevenÃ§Ã£o. Recomenda-se criar e formalizar uma "PolÃ­tica de ApuraÃ§Ã£o e Tratamento de Perdas Patrimoniais por Atos IlÃ­citos" que estabeleÃ§a um fluxo de aÃ§Ãµes mandatÃ³rio: **1. ConstataÃ§Ã£o da Perda:** Quantificar e documentar imediatamente. **2. ComunicaÃ§Ã£o Interna Imediata:** Informar gestores e departamentos de seguranÃ§a/jurÃ­dico. **3. AÃ§Ã£o IndispensÃ¡vel - Registro Policial:** Obrigatoriedade do B.O. detalhado em atÃ© 48 horas. **4. ApuraÃ§Ã£o Interna:** SindicÃ¢ncia para causas e responsabilidades. **5. DossiÃª de Suporte:** Montar um dossiÃª com B.O., inquÃ©rito, relatÃ³rio interno, memÃ³ria de cÃ¡lculo e aprovaÃ§Ãµes. **6. AutorizaÃ§Ã£o para LanÃ§amento:** Apenas apÃ³s o dossiÃª completo.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Este procedimento transforma uma exigÃªncia fiscal em uma ferramenta de governanÃ§a corporativa e fortalece os controles internos.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, politica_interna, dossie_de_suporte, gestao_de_riscos, governanca_corporativa
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+
+---
+
+[ID]: trib_irpj_atos_ilicitos_14
+[TIPO DE CONTEÃšDO]: ConclusÃ£o TÃ©cnica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: DiagnÃ³stico, Melhor Conduta e Tese DefensÃ¡vel
+[BASE LEGAL]: RIR/2018, Art. 376
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **DiagnÃ³stico:** A dedutibilidade Ã© casuÃ­stica. Perdas com B.O./inquÃ©rito sÃ£o DEDUTÃVEIS. Perdas sem B.O. sÃ£o INDEDUTÃVEIS na esfera administrativa, representando risco crÃ­tico. **Melhor Conduta:** PrevenÃ§Ã£o e conformidade estrita, institucionalizando o registro do B.O. como procedimento padrÃ£o. **Tese DefensÃ¡vel:** Para perdas sem B.O., a via administrativa Ã© desfavorÃ¡vel. A via judicial (AÃ§Ã£o AnulatÃ³ria) Ã© mais indicada para discutir mÃ©rito, com base em princÃ­pios constitucionais (verdade material, razoabilidade) e analogia com a jurisprudÃªncia de "furto de energia".
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[RISCO]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: conclusao_tecnica, melhor_conduta, tese_defensavel, enfoque_contencioso, carf, via_judicial, constitucionalidade
+[DATA]: 2025-10-23
+[ORIGEM]: Parecer TÃ©cnico-Fiscal: Dedutibilidade de Perdas por Atos IlÃ­citos de Terceiros

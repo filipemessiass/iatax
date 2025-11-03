@@ -1,0 +1,646 @@
+﻿# ============================================================================
+# TAXHUB - CONFIGURAÃ‡ÃƒO DE TODOS OS AGENTES
+# Total: 60 agentes especializados
+# Categorias: Tributos Federais, Estaduais, Municipais, ObrigaÃ§Ãµes, Doutrina
+# ============================================================================
+
+agents:
+  
+  # ==========================================================================
+  # TRIBUTOS FEDERAIS (13 agentes)
+  # ==========================================================================
+  
+  irpj:
+    name: "Especialista IRPJ/CSLL"
+    category: "tributos_federais"
+    keywords:
+      - "irpj"
+      - "csll"
+      - "lucro real"
+      - "lucro presumido"
+      - "lucro arbitrado"
+      - "imposto de renda"
+      - "contribuiÃ§Ã£o social"
+      - "e-lalur"
+      - "e-lacs"
+      - "dedutibilidade"
+      - "prejuÃ­zo fiscal"
+    description: "Especialista em IRPJ e CSLL com domÃ­nio em todos os regimes tributÃ¡rios"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+    vectorstore_path: "vectorstore_indices/irpj_index"
+  
+  pis_cofins:
+    name: "Especialista PIS/Cofins"
+    category: "tributos_federais"
+    keywords:
+      - "pis"
+      - "cofins"
+      - "nÃ£o cumulativo"
+      - "cumulativo"
+      - "contribuiÃ§Ãµes sociais"
+      - "crÃ©dito presumido"
+      - "alÃ­quota zero"
+    description: "Especialista em PIS e Cofins (regimes cumulativo e nÃ£o cumulativo)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+    vectorstore_path: "vectorstore_indices/pis_cofins_index"
+  
+  ipi:
+    name: "Especialista IPI"
+    category: "tributos_federais"
+    keywords:
+      - "ipi"
+      - "industrializaÃ§Ã£o"
+      - "tipi"
+      - "ncm"
+      - "equiparaÃ§Ã£o industrial"
+      - "crÃ©dito ipi"
+    description: "Especialista em Imposto sobre Produtos Industrializados"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  irrf:
+    name: "Especialista IRRF"
+    category: "tributos_federais"
+    keywords:
+      - "irrf"
+      - "retenÃ§Ã£o na fonte"
+      - "carnÃª-leÃ£o"
+      - "darf"
+      - "cÃ³digo de receita"
+    description: "Especialista em Imposto de Renda Retido na Fonte"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  cide:
+    name: "Especialista CIDE"
+    category: "tributos_federais"
+    keywords:
+      - "cide"
+      - "combustÃ­vel"
+      - "royalties"
+      - "tecnologia"
+      - "intervenÃ§Ã£o domÃ­nio econÃ´mico"
+    description: "Especialista em ContribuiÃ§Ã£o de IntervenÃ§Ã£o no DomÃ­nio EconÃ´mico"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  iof:
+    name: "Especialista IOF"
+    category: "tributos_federais"
+    keywords:
+      - "iof"
+      - "operaÃ§Ãµes financeiras"
+      - "cÃ¢mbio"
+      - "crÃ©dito"
+      - "seguro"
+    description: "Especialista em Imposto sobre OperaÃ§Ãµes Financeiras"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  perdcomp:
+    name: "Especialista PER/DCOMP"
+    category: "tributos_federais"
+    keywords:
+      - "perdcomp"
+      - "compensaÃ§Ã£o"
+      - "restituiÃ§Ã£o"
+      - "indÃ©bito tributÃ¡rio"
+      - "pedido"
+    description: "Especialista em Pedidos de RestituiÃ§Ã£o e CompensaÃ§Ã£o TributÃ¡ria"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  lei_bem:
+    name: "Especialista Lei do Bem"
+    category: "tributos_federais"
+    keywords:
+      - "lei do bem"
+      - "inovaÃ§Ã£o"
+      - "p&d"
+      - "pesquisa e desenvolvimento"
+      - "incentivo fiscal"
+      - "subvenÃ§Ã£o"
+    description: "Especialista em Incentivos Fiscais Ã  InovaÃ§Ã£o (Lei 11.196/2005)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  reforma_tributaria:
+    name: "Especialista Reforma TributÃ¡ria"
+    category: "tributos_federais"
+    keywords:
+      - "reforma tributÃ¡ria"
+      - "cbs"
+      - "ibs"
+      - "transiÃ§Ã£o"
+      - "pec 45"
+    description: "Especialista em Reforma TributÃ¡ria e perÃ­odo de transiÃ§Ã£o"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  cbs:
+    name: "Especialista CBS"
+    category: "tributos_federais"
+    keywords:
+      - "cbs"
+      - "contribuiÃ§Ã£o federal"
+      - "reforma"
+      - "novo tributo"
+    description: "Especialista em ContribuiÃ§Ã£o sobre Bens e ServiÃ§os (CBS)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  simples_nacional:
+    name: "Especialista Simples Nacional"
+    category: "tributos_federais"
+    keywords:
+      - "simples nacional"
+      - "mei"
+      - "microempresa"
+      - "epp"
+      - "anexo"
+      - "fator r"
+    description: "Especialista em Simples Nacional e regimes simplificados"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  credito_presumido:
+    name: "Especialista CrÃ©ditos Presumidos"
+    category: "tributos_federais"
+    keywords:
+      - "crÃ©dito presumido"
+      - "ressarcimento"
+      - "nÃ£o cumulatividade"
+      - "crÃ©dito tributÃ¡rio"
+    description: "Especialista em CrÃ©ditos TributÃ¡rios e Ressarcimentos"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  regimes_especiais:
+    name: "Especialista Regimes Especiais"
+    category: "tributos_federais"
+    keywords:
+      - "drawback"
+      - "repetro"
+      - "reporto"
+      - "zona franca"
+      - "manaus"
+      - "regime aduaneiro"
+    description: "Especialista em Regimes Aduaneiros e Zonas de Processamento"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  # ==========================================================================
+  # TRIBUTOS ESTADUAIS - ICMS (28 agentes: 27 UFs + 1 Geral)
+  # ==========================================================================
+  
+  icms:
+    name: "Especialista ICMS Geral"
+    category: "tributos_estaduais"
+    keywords:
+      - "icms"
+      - "substituiÃ§Ã£o tributÃ¡ria"
+      - "difal"
+      - "diferencial de alÃ­quota"
+      - "st"
+    description: "Especialista em ICMS (princÃ­pios gerais e legislaÃ§Ã£o nacional)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+    vectorstore_path: "vectorstore_indices/icms_index"
+  
+  icms_ac:
+    name: "Especialista ICMS/AC"
+    category: "tributos_estaduais"
+    keywords: ["icms acre", "ac", "sefaz ac"]
+    description: "Especialista em ICMS do Acre"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_al:
+    name: "Especialista ICMS/AL"
+    category: "tributos_estaduais"
+    keywords: ["icms alagoas", "al", "sefaz al"]
+    description: "Especialista em ICMS de Alagoas"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ap:
+    name: "Especialista ICMS/AP"
+    category: "tributos_estaduais"
+    keywords: ["icms amapÃ¡", "ap", "sefaz ap"]
+    description: "Especialista em ICMS do AmapÃ¡"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_am:
+    name: "Especialista ICMS/AM"
+    category: "tributos_estaduais"
+    keywords: ["icms amazonas", "am", "sefaz am", "zona franca manaus"]
+    description: "Especialista em ICMS do Amazonas"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ba:
+    name: "Especialista ICMS/BA"
+    category: "tributos_estaduais"
+    keywords: ["icms bahia", "ba", "sefaz ba"]
+    description: "Especialista em ICMS da Bahia"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ce:
+    name: "Especialista ICMS/CE"
+    category: "tributos_estaduais"
+    keywords: ["icms cearÃ¡", "ce", "sefaz ce"]
+    description: "Especialista em ICMS do CearÃ¡"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_df:
+    name: "Especialista ICMS/DF"
+    category: "tributos_estaduais"
+    keywords: ["icms distrito federal", "df", "sefaz df", "brasÃ­lia"]
+    description: "Especialista em ICMS do Distrito Federal"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_es:
+    name: "Especialista ICMS/ES"
+    category: "tributos_estaduais"
+    keywords: ["icms espÃ­rito santo", "es", "sefaz es"]
+    description: "Especialista em ICMS do EspÃ­rito Santo"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_go:
+    name: "Especialista ICMS/GO"
+    category: "tributos_estaduais"
+    keywords: ["icms goiÃ¡s", "go", "sefaz go"]
+    description: "Especialista em ICMS de GoiÃ¡s"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ma:
+    name: "Especialista ICMS/MA"
+    category: "tributos_estaduais"
+    keywords: ["icms maranhÃ£o", "ma", "sefaz ma"]
+    description: "Especialista em ICMS do MaranhÃ£o"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_mt:
+    name: "Especialista ICMS/MT"
+    category: "tributos_estaduais"
+    keywords: ["icms mato grosso", "mt", "sefaz mt"]
+    description: "Especialista em ICMS do Mato Grosso"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ms:
+    name: "Especialista ICMS/MS"
+    category: "tributos_estaduais"
+    keywords: ["icms mato grosso sul", "ms", "sefaz ms"]
+    description: "Especialista em ICMS do Mato Grosso do Sul"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_mg:
+    name: "Especialista ICMS/MG"
+    category: "tributos_estaduais"
+    keywords: ["icms minas gerais", "mg", "sefaz mg"]
+    description: "Especialista em ICMS de Minas Gerais"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_pa:
+    name: "Especialista ICMS/PA"
+    category: "tributos_estaduais"
+    keywords: ["icms parÃ¡", "pa", "sefaz pa"]
+    description: "Especialista em ICMS do ParÃ¡"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_pb:
+    name: "Especialista ICMS/PB"
+    category: "tributos_estaduais"
+    keywords: ["icms paraÃ­ba", "pb", "sefaz pb"]
+    description: "Especialista em ICMS da ParaÃ­ba"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_pr:
+    name: "Especialista ICMS/PR"
+    category: "tributos_estaduais"
+    keywords: ["icms paranÃ¡", "pr", "sefaz pr"]
+    description: "Especialista em ICMS do ParanÃ¡"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_pe:
+    name: "Especialista ICMS/PE"
+    category: "tributos_estaduais"
+    keywords: ["icms pernambuco", "pe", "sefaz pe"]
+    description: "Especialista em ICMS de Pernambuco"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_pi:
+    name: "Especialista ICMS/PI"
+    category: "tributos_estaduais"
+    keywords: ["icms piauÃ­", "pi", "sefaz pi"]
+    description: "Especialista em ICMS do PiauÃ­"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_rj:
+    name: "Especialista ICMS/RJ"
+    category: "tributos_estaduais"
+    keywords: ["icms rio de janeiro", "rj", "sefaz rj"]
+    description: "Especialista em ICMS do Rio de Janeiro"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_rn:
+    name: "Especialista ICMS/RN"
+    category: "tributos_estaduais"
+    keywords: ["icms rio grande norte", "rn", "sefaz rn"]
+    description: "Especialista em ICMS do Rio Grande do Norte"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_rs:
+    name: "Especialista ICMS/RS"
+    category: "tributos_estaduais"
+    keywords: ["icms rio grande sul", "rs", "sefaz rs"]
+    description: "Especialista em ICMS do Rio Grande do Sul"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_ro:
+    name: "Especialista ICMS/RO"
+    category: "tributos_estaduais"
+    keywords: ["icms rondÃ´nia", "ro", "sefaz ro"]
+    description: "Especialista em ICMS de RondÃ´nia"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_rr:
+    name: "Especialista ICMS/RR"
+    category: "tributos_estaduais"
+    keywords: ["icms roraima", "rr", "sefaz rr"]
+    description: "Especialista em ICMS de Roraima"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_sc:
+    name: "Especialista ICMS/SC"
+    category: "tributos_estaduais"
+    keywords: ["icms santa catarina", "sc", "sefaz sc"]
+    description: "Especialista em ICMS de Santa Catarina"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_sp:
+    name: "Especialista ICMS/SP"
+    category: "tributos_estaduais"
+    keywords: ["icms sÃ£o paulo", "sp", "sefaz sp"]
+    description: "Especialista em ICMS de SÃ£o Paulo"
+    model: "gemini/gemini-2.0-flash-exp"
+    vectorstore_path: "vectorstore_indices/icms_sp_index"
+  
+  icms_se:
+    name: "Especialista ICMS/SE"
+    category: "tributos_estaduais"
+    keywords: ["icms sergipe", "se", "sefaz se"]
+    description: "Especialista em ICMS de Sergipe"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  icms_to:
+    name: "Especialista ICMS/TO"
+    category: "tributos_estaduais"
+    keywords: ["icms tocantins", "to", "sefaz to"]
+    description: "Especialista em ICMS do Tocantins"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  # ==========================================================================
+  # TRIBUTOS MUNICIPAIS (3 agentes)
+  # ==========================================================================
+  
+  iss:
+    name: "Especialista ISS"
+    category: "tributos_municipais"
+    keywords:
+      - "iss"
+      - "issqn"
+      - "serviÃ§os"
+      - "municipal"
+      - "lc 116"
+    description: "Especialista em Imposto Sobre ServiÃ§os"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  iptu:
+    name: "Especialista IPTU"
+    category: "tributos_municipais"
+    keywords:
+      - "iptu"
+      - "predial"
+      - "territorial"
+      - "imÃ³vel"
+    description: "Especialista em IPTU e TributaÃ§Ã£o ImobiliÃ¡ria"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  itbi:
+    name: "Especialista ITBI"
+    category: "tributos_municipais"
+    keywords:
+      - "itbi"
+      - "transmissÃ£o"
+      - "imÃ³veis"
+    description: "Especialista em ITBI"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  # ==========================================================================
+  # OBRIGAÃ‡Ã•ES ACESSÃ“RIAS (8 agentes)
+  # ==========================================================================
+  
+  sped_fiscal:
+    name: "Especialista SPED Fiscal"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "sped fiscal"
+      - "efd icms"
+      - "efd ipi"
+      - "registro"
+      - "bloco"
+    description: "Especialista em EFD-ICMS/IPI (SPED Fiscal)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  sped_contribuicoes:
+    name: "Especialista SPED ContribuiÃ§Ãµes"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "efd pis cofins"
+      - "sped contribuiÃ§Ãµes"
+      - "registro"
+    description: "Especialista em EFD-ContribuiÃ§Ãµes"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  ecd:
+    name: "Especialista ECD"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "ecd"
+      - "escrituraÃ§Ã£o contÃ¡bil"
+      - "digital"
+      - "sped contÃ¡bil"
+    description: "Especialista em EscrituraÃ§Ã£o ContÃ¡bil Digital"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  ecf:
+    name: "Especialista ECF"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "ecf"
+      - "escrituraÃ§Ã£o fiscal"
+      - "lalur digital"
+    description: "Especialista em EscrituraÃ§Ã£o ContÃ¡bil Fiscal"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  esocial:
+    name: "Especialista eSocial"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "esocial"
+      - "e-social"
+      - "folha digital"
+      - "evento"
+      - "s-1000"
+    description: "Especialista em eSocial (Sistema de EscrituraÃ§Ã£o Digital)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  reinf:
+    name: "Especialista EFD-Reinf"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "reinf"
+      - "efd-reinf"
+      - "retenÃ§Ãµes"
+      - "r-1000"
+      - "contribuiÃ§Ãµes previdenciÃ¡rias"
+    description: "Especialista em EFD-Reinf"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  dctfweb:
+    name: "Especialista DCTF-Web"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "dctf"
+      - "dctfweb"
+      - "declaraÃ§Ã£o"
+      - "dÃ©bitos"
+    description: "Especialista em DCTF-Web"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  fgts:
+    name: "Especialista FGTS Digital"
+    category: "obrigacoes_acessorias"
+    keywords:
+      - "fgts"
+      - "sefip"
+      - "conectividade social"
+    description: "Especialista em FGTS e Conectividade Social"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  # ==========================================================================
+  # DOUTRINA E JURISPRUDÃŠNCIA (9 agentes)
+  # ==========================================================================
+  
+  doutrina_irpj:
+    name: "Doutrina IRPJ/CSLL"
+    category: "doutrina"
+    keywords:
+      - "doutrina irpj"
+      - "interpretaÃ§Ã£o"
+      - "jurisprudÃªncia"
+    description: "AnÃ¡lise doutrinÃ¡ria e jurisprudencial sobre IRPJ/CSLL"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  doutrina_icms:
+    name: "Doutrina ICMS"
+    category: "doutrina"
+    keywords:
+      - "doutrina icms"
+      - "interpretaÃ§Ã£o estadual"
+    description: "AnÃ¡lise doutrinÃ¡ria sobre ICMS"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  doutrina_trabalhista:
+    name: "Doutrina Trabalhista"
+    category: "doutrina"
+    keywords:
+      - "doutrina trabalhista"
+      - "clt"
+      - "reforma trabalhista"
+    description: "AnÃ¡lise doutrinÃ¡ria sobre Direito do Trabalho"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  doutrina_geral:
+    name: "Doutrina TributÃ¡ria Geral"
+    category: "doutrina"
+    keywords:
+      - "doutrina tributÃ¡ria"
+      - "princÃ­pios"
+      - "ctn"
+    description: "AnÃ¡lise doutrinÃ¡ria geral de Direito TributÃ¡rio"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  jurisprudencia:
+    name: "Especialista JurisprudÃªncia"
+    category: "doutrina"
+    keywords:
+      - "carf"
+      - "stj"
+      - "stf"
+      - "jurisprudÃªncia"
+      - "precedentes"
+      - "sÃºmula"
+    description: "Especialista em JurisprudÃªncia TributÃ¡ria (CARF, STJ, STF)"
+    model: "gemini/gemini-2.0-flash-exp"
+    temperature: 0.7
+    max_tokens: 2048
+  
+  clt:
+    name: "Especialista CLT"
+    category: "doutrina"
+    keywords:
+      - "clt"
+      - "trabalhista"
+      - "direito do trabalho"
+    description: "Especialista em ConsolidaÃ§Ã£o das Leis do Trabalho"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  doutrina_dctfweb:
+    name: "Doutrina DCTF-Web"
+    category: "doutrina"
+    keywords:
+      - "doutrina dctf"
+      - "interpretaÃ§Ã£o normativa"
+    description: "AnÃ¡lise doutrinÃ¡ria sobre DCTF-Web"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  doutrina_esocial:
+    name: "Doutrina eSocial"
+    category: "doutrina"
+    keywords:
+      - "doutrina esocial"
+      - "manual"
+      - "leiautes"
+    description: "AnÃ¡lise doutrinÃ¡ria sobre eSocial"
+    model: "gemini/gemini-2.0-flash-exp"
+  
+  historico:
+    name: "Especialista HistÃ³rico TributÃ¡rio"
+    category: "doutrina"
+    keywords:
+      - "histÃ³rico tributÃ¡rio"
+      - "evoluÃ§Ã£o legislaÃ§Ã£o"
+      - "legislaÃ§Ã£o antiga"
+    description: "Especialista em EvoluÃ§Ã£o HistÃ³rica da LegislaÃ§Ã£o TributÃ¡ria"
+    model: "gemini/gemini-2.0-flash-exp"

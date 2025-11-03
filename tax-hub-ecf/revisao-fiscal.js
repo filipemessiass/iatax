@@ -50,10 +50,10 @@ function mostrarAvisoSemDados(titulo, mensagem) {
     
     const aviso = document.createElement('div');
     aviso.id = 'aviso-sem-dados-revisao';
-    aviso.style.cssText = 'text-align: center; padding: 40px; color: #666; font-size: 16px;';
+    aviso.style.cssText = 'text-align: center; padding: 40px; color: #0F0F0F; font-size: 16px;';
     aviso.innerHTML = `
-        <i class="fas fa-info-circle" style="font-size: 48px; margin-bottom: 20px; display: block; color: #17a2b8;"></i>
-        <h3 style="color: #333; margin-bottom: 15px;">${titulo}</h3>
+        <i class="fas fa-info-circle" style="font-size: 48px; margin-bottom: 20px; display: block; color: #7AC143;"></i>
+        <h3 style="color: #0F0F0F; margin-bottom: 15px;">${titulo}</h3>
         <p>${mensagem}</p>
     `;
     container.appendChild(aviso);
@@ -67,7 +67,7 @@ function construirTabelaRevisao(temasUnicos) {
         const linha = tabelaBody.insertRow();
         linha.setAttribute('data-tema', tema);
         linha.innerHTML = `
-            <td style="font-weight: 600; background-color: #f8f9fa;">${tema}</td>
+            <td style="font-weight: 600; background-color: #FFFFFF;">${tema}</td>
             <td>
                 <select class="campo-selecao" id="ponto-${tema}" style="width: 100%; padding: 8px;">
                     <option value="Sim">Sim</option>
@@ -182,7 +182,7 @@ function toggleModoEdicao() {
     
     if (modoEdicao) {
         btnEditar.innerHTML = '<i class="fas fa-save"></i> Confirmar Edição';
-        btnEditar.style.backgroundColor = '#28a745';
+        btnEditar.style.backgroundColor = '#7AC143';
         container.classList.add('modo-edicao');
         
         campos.forEach(campo => {
@@ -192,7 +192,7 @@ function toggleModoEdicao() {
         alert("Modo de edição ativado. Você pode agora modificar os campos.");
     } else {
         btnEditar.innerHTML = '<i class="fas fa-edit"></i> Editar';
-        btnEditar.style.backgroundColor = '#17a2b8';
+        btnEditar.style.backgroundColor = '#7AC143';
         container.classList.remove('modo-edicao');
         
         campos.forEach(campo => {

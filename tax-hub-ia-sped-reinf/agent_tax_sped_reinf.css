@@ -1,0 +1,527 @@
+/*
+==================================================================
+ AGENT TAX CONSULT SPED REINF - ESTILOS PREMIUM
+ Comentários Educativos:
+ Este ficheiro define o VISUAL do agente. Ele usa o padrão 
+ "Premium" (baseado no FGTS/Reforma).
+ 
+ O prefixo '#chat-container' em cada regra aumenta a "especificidade", 
+ garantindo que este CSS tenha prioridade sobre outros estilos.
+==================================================================
+*/
+
+/* SE�?�fO 1: VARIÁVEIS DE DESIGN (:root)
+ Aqui definimos todas as cores e tamanhos principais. 
+ Alterar estes valores é a forma mais fácil de mudar o "tema" do agente.
+*/
+:root {
+    --color-primary: #7AC143; /* Azul (Cor principal, usado para o utilizador) */
+    --color-secondary: #5A7E18; /* Laranja/Dourado (Cor destaque, usado para o bot) */
+    --color-text-dark: #0F0F0F;
+    --color-text-light: #2E2E2E;
+    --color-white: #FFFFFF;
+    --color-light-grey: #E8EAE9;
+    --color-dark-surface: #F8F9F8;
+    --color-blue-accent: #7AC143;
+    --color-orange-accent: #7AC143;
+    --color-success: #7AC143;
+    --color-warning: #2E2E2E;
+    --color-danger: #0F0F0F;
+    
+    /* Variáveis de layout fluido (clamp) */
+    /* 'clamp(min, preferido, max)' torna o design responsivo */
+    --chat-padding: clamp(20px, 3vw, 32px);
+    --border-radius: 16px;
+    --transition: 0.3s ease;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 28px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 18px 46px rgba(0, 0, 0, 0.12);
+    --avatar-size: clamp(40px, 5vw, 48px);
+    --message-gap: clamp(12px, 2vw, 16px);
+    --message-max-width: min(600px, 88vw);
+}
+
+#chat-container * {
+    box-sizing: border-box;
+}
+
+/* SE�?�fO 2: LAYOUT PRINCIPAL DO CHAT (#chat-container)
+ Define o container como 'flex-direction: column' (layout vertical).
+ 'height: 100vh' (View Height) faz o chat ocupar 100% da altura da tela.
+ 'overflow: hidden' impede que o cabeçalho e o input "pulem" 
+ quando o conteúdo cresce.
+*/
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background: var(--color-white);
+    position: relative;
+}
+
+/* SE�?�fO 3: CABE�?ALHO (#chat-header)
+ Estiliza a barra superior com um gradiente (usando as cores primárias) 
+ e uma animação de brilho ('shimmer').
+*/
+#chat-container #chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: clamp(20px, 3vh, 28px) var(--chat-padding);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-blue-accent) 50%, var(--color-secondary) 100%);
+    color: var(--color-white);
+    border-bottom: none;
+    flex-shrink: 0; /* Impede que o header encolha */
+    box-shadow: var(--shadow-md);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animação de brilho do Header */
+#chat-container #chat-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+#chat-container .header-info {
+    display: flex;
+    align-items: center;
+    gap: clamp(16px, 2vw, 20px);
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Avatar do Header (Agente) */
+#chat-container .agent-avatar {
+    width: clamp(52px, 7vw, 64px);
+    height: clamp(52px, 7vw, 64px);
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-orange-accent));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: all var(--transition);
+}
+
+/* Efeito 'glow' (brilho) no hover do avatar */
+#chat-container .agent-avatar::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-orange-accent));
+    opacity: 0;
+    filter: blur(8px);
+    transition: opacity var(--transition);
+}
+#chat-container .agent-avatar:hover::before {
+    opacity: 0.6;
+}
+
+/* Ícone dentro do avatar */
+#chat-container .agent-avatar i {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    color: var(--color-white);
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    animation: pulse-icon 2s ease-in-out infinite;
+}
+
+/* Animação de pulsação do ícone */
+@keyframes pulse-icon {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Textos do Header (Título e Subtítulo) */
+#chat-container .header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+#chat-container .header-title {
+    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-white);
+    white-space: nowrap; /* Impede quebra de linha */
+    overflow: hidden; /* Esconde o texto que transborda */
+    text-overflow: ellipsis; /* Adiciona "..." */
+}
+#chat-container .header-subtitle {
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+    line-height: 1.3;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Botão de Fechar (X) */
+#chat-container .close-chat-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(42px, 6vw, 48px);
+    height: clamp(42px, 6vw, 48px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--color-white);
+    font-size: clamp(1.2rem, 2.5vw, 1.4rem);
+    cursor: pointer;
+    transition: all var(--transition);
+    flex-shrink: 0;
+    backdrop-filter: blur(10px); 
+    position: relative;
+    z-index: 1;
+}
+
+/* Efeito de cor vermelha no hover do botão fechar */
+#chat-container .close-chat-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    opacity: 0;
+    transition: opacity var(--transition);
+}
+#chat-container .close-chat-button i {
+    position: relative;
+    z-index: 1;
+}
+#chat-container .close-chat-button:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05) rotate(90deg); /* Animação de rotação */
+}
+#chat-container .close-chat-button:hover::before {
+    opacity: 1;
+}
+
+/* SE�?�fO 4: JANELA DE MENSAGENS (#chat-window)
+ 'flex: 1' faz esta 'div' crescer e ocupar todo o espaço 
+ disponível entre o Header e o Input.
+ 'overflow-y: auto' faz com que apenas esta área tenha scroll.
+*/
+#chat-container .chat-window {
+    flex: 1;
+    padding: var(--chat-padding);
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, 3vh, 28px);
+    background: var(--color-white);
+    min-height: 0;
+    scroll-behavior: smooth;
+}
+
+/* Estilização da Barra de Scroll (Scrollbar) */
+#chat-container .chat-window::-webkit-scrollbar {
+    width: 8px;
+}
+#chat-container .chat-window::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 10px 0;
+}
+#chat-container .chat-window::-webkit-scrollbar-thumb {
+    background: rgba(122, 193, 67, 0.12);
+    border-radius: 10px;
+    transition: background var(--transition);
+}
+#chat-container .chat-window::-webkit-scrollbar-thumb:hover {
+    background: rgba(122, 193, 67, 0.2);
+}
+
+/* SE�?�fO 5: MENSAGENS (Avatar + Balão)
+ Estilos que se aplicam a AMBAS as mensagens (bot e utilizador).
+*/
+#chat-container .chat-message {
+    display: flex;
+    align-items: flex-end; /* Alinha o avatar e o balão na base */
+    gap: var(--message-gap);
+    width: 100%;
+}
+
+/* Animações de entrada das mensagens */
+@keyframes slideInAvatar {
+    from { opacity: 0; transform: translateY(10px) scale(0.8); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes slideInContent {
+    from { opacity: 0; transform: translateY(15px) scale(0.95); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Avatar de cada mensagem */
+#chat-container .message-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    transition: all var(--transition);
+    animation: slideInAvatar 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.1s both;
+}
+#chat-container .message-avatar i {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    color: var(--color-white);
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+
+/* O "balão" da mensagem */
+#chat-container .message-content {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    align-items: flex-start;
+    max-width: var(--message-max-width);
+    width: auto;
+    animation: slideInContent 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
+}
+#chat-container .message-bubble {
+    display: inline-block;
+    padding: clamp(16px, 2.5vw, 20px) clamp(18px, 3vw, 24px);
+    border-radius: var(--border-radius);
+    line-height: 1.65;
+    font-size: clamp(0.92rem, 2vw, 1rem);
+    word-wrap: break-word; /* Garante a quebra de palavras longas */
+    max-width: 100%;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition);
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efeito de 'levantar' o balão no hover */
+#chat-container .message-bubble:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+}
+
+/* --- ESTILOS DE ALINHAMENTO (BOT vs UTILIZADOR) --- */
+
+/* Mensagens do Bot (Esquerda) */
+#chat-container .chat-message.bot {
+    align-self: flex-start;
+    flex-direction: row; /* Ordem: [Avatar] [Balão] */
+}
+#chat-container .chat-message.bot .message-avatar {
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-orange-accent));
+}
+#chat-container .chat-message.bot .message-bubble {
+    background: var(--color-white);
+    color: var(--color-text-dark);
+    border: 1px solid var(--color-border-soft);
+    text-align: left;
+}
+
+/* Mensagens do Utilizador (Direita) */
+#chat-container .chat-message.user {
+    align-self: flex-end; /* Alinha o 'div' todo à direita */
+    flex-direction: row-reverse; /* Ordem: [Balão] [Avatar] */
+}
+#chat-container .chat-message.user .message-avatar {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-blue-accent));
+}
+#chat-container .chat-message.user .message-bubble {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: 1px solid var(--color-border-soft);
+    text-align: left;
+}
+
+/* Estilos de texto (listas, negrito) dentro dos balões */
+#chat-container .message-bubble strong {
+    font-weight: 600;
+}
+#chat-container .chat-message.bot .message-bubble strong {
+    color: var(--color-primary); /* Destaque no texto do bot */
+}
+#chat-container .message-bubble ul,
+#chat-container .message-bubble ol {
+    margin: 12px 0 0;
+    padding-left: clamp(20px, 3vw, 24px);
+}
+#chat-container .message-bubble li {
+    margin-bottom: 8px;
+}
+
+/* Indicador de Digitação (...) */
+#chat-container .chat-message.loading .message-bubble {
+    width: auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    border: 1px solid var(--color-border-soft);
+}
+#chat-container .typing-indicator {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+}
+#chat-container .typing-indicator span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    animation: pulse 1.4s ease-in-out infinite;
+}
+#chat-container .typing-indicator span:nth-child(1) { animation-delay: 0s; }
+#chat-container .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+#chat-container .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pulse {
+    0%, 60%, 100% { transform: scale(0.7); opacity: 0.5; }
+    30% { transform: scale(1.3); opacity: 1; }
+}
+
+/* SE�?�fO 6: ÁREA DE INPUT (FORMULÁRIO)
+ Estiliza a barra inferior onde o utilizador digita.
+ 'flex-shrink: 0' impede que ela encolha.
+*/
+#chat-container .chat-input-area {
+    padding: clamp(18px, 2.5vh, 24px) var(--chat-padding);
+    background: var(--color-white);
+    border-top: 2px solid var(--color-border-soft);
+    flex-shrink: 0;
+    box-shadow: 0 -2px 8px rgba(122, 193, 67, 0.04);
+}
+
+/* Wrapper que alinha a caixa de texto e o botão */
+#chat-container .input-wrapper {
+    display: flex;
+    align-items: flex-end; /* Alinha o botão na base da textarea */
+    gap: clamp(12px, 2vw, 16px);
+    max-width: 100%;
+}
+
+/* Caixa de Texto (Textarea) */
+#chat-container #message-input {
+    flex: 1; /* Faz a textarea crescer e ocupar o espaço */
+    resize: none; /* Impede o utilizador de redimensionar manualmente */
+    min-height: clamp(52px, 7vh, 58px);
+    max-height: 140px; /* Limite de altura (para não quebrar o layout) */
+    padding: clamp(14px, 2vh, 16px) clamp(18px, 2.5vw, 20px);
+    border-radius: 14px;
+    border: 2px solid var(--color-primary);
+    font-size: clamp(0.92rem, 2vw, 1rem);
+    line-height: 1.5;
+    color: var(--color-text-dark);
+    background: var(--color-white);
+    transition: all var(--transition);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Efeito de Foco na Textarea */
+#chat-container #message-input:focus {
+    outline: none;
+    border-color: var(--color-secondary);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15), var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+/* Botão de Enviar (Avião de papel) */
+#chat-container #send-button {
+    width: clamp(52px, 7vw, 58px);
+    height: clamp(52px, 7vw, 58px);
+    min-width: clamp(52px, 7vw, 58px);
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-orange-accent));
+    color: var(--color-white);
+    font-size: clamp(1.2rem, 2.5vw, 1.3rem);
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition);
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+#chat-container #send-button:hover:not(:disabled) {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+#chat-container #send-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* SE�?�fO 7: ESTILOS RESPONSIVOS (Media Queries)
+ Ajustes finos para garantir que o layout funcione bem 
+ em ecrãs menores (tablets e telemóveis).
+*/
+@media (max-width: 768px) {
+    :root {
+        --message-max-width: 100%; /* Mensagens ocupam quase 100% */
+        --avatar-size: clamp(38px, 5vw, 44px);
+    }
+    #chat-container #chat-header {
+        padding: clamp(18px, 2.5vh, 22px) clamp(20px, 3vw, 24px);
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --avatar-size: 38px;
+    }
+    #chat-container #chat-header {
+        padding: 18px 20px;
+    }
+    /* Em ecrãs muito pequenos, escondemos o subtítulo */
+    #chat-container .header-subtitle {
+        display: none;
+    }
+    #chat-container .chat-window {
+        padding: 16px;
+        gap: 18px;
+    }
+    #chat-container .message-bubble {
+        padding: 14px 18px;
+        font-size: 0.9rem;
+    }
+    #chat-container #message-input {
+        min-height: 50px;
+    }
+    #chat-container #send-button {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+}

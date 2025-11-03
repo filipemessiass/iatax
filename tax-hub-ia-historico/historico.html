@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Histórico de Conversas - TaxHub IA</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="../tax-hub-ia-historico/historico.css">
+</head>
+<body>
+
+  <div id="chat-container" class="agent-chat">
+    
+    <div id="chat-header" class="chat-header">
+      <div class="header-info">
+        <div class="agent-avatar">
+          <i class="fas fa-history"></i>
+        </div>
+        <div class="header-text">
+          <span class="header-title">Histórico de Conversas</span>
+          <small class="header-subtitle">Acesse, recupere e gerencie suas conversas</small>
+        </div>
+      </div>
+      <button type="button" class="close-chat-button" data-close-chat title="Voltar ao Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="historico-toolbar">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar conversas por palavra-chave, agente ou data..." onkeyup="filtrarConversas()">
+        <i class="fas fa-search"></i>
+      </div>
+      <select class="filter-select" id="filterAgent" onchange="filtrarConversas()">
+        <option value="">Todos os Agentes</option>
+      </select>
+      <select class="filter-select" id="filterPeriod" onchange="filtrarConversas()">
+        <option value="">Todos os Períodos</option>
+        <option value="today">Hoje</option>
+        <option value="week">�sltima Semana</option>
+        <option value="month">�sltimo Mês</option>
+        <option value="year">�sltimo Ano</option>
+      </select>
+      <button class="btn btn-danger" onclick="confirmarLimparHistorico()">
+        <i class="fas fa-trash-alt"></i>
+        Limpar Tudo
+      </button>
+    </div>
+
+    <div class="historico-stats">
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--blue">
+          <i class="fas fa-comments"></i>
+        </div>
+        <div class="stat-card__info">
+          <h3 id="totalConversas">0</h3>
+          <p>Total de Conversas</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--orange">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="stat-card__info">
+          <h3 id="agentesUtilizados">0</h3>
+          <p>Agentes Utilizados</p>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon stat-card__icon--green">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <div class="stat-card__info">
+          <h3 id="ultimaConversa">-</h3>
+          <p>�sltima Conversa</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="historico-content">
+      <div id="conversasList" class="conversas-list"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="viewModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle">Detalhes da Conversa</h2>
+        <button class="modal-close" onclick="fecharModal()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="../tax-hub-ia-historico/historico.js"></script>
+</body>
+</html>

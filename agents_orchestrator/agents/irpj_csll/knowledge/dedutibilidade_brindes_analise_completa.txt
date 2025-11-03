@@ -1,0 +1,267 @@
+﻿[ID]: trib_irpj_brindes_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: Conflito Normativo Fundamental: Despesa NecessÃ¡ria vs. VedaÃ§Ã£o a Brindes
+[BASE LEGAL]: RIR/2018, Art. 311; Lei nÂº 9.249/1995, Art. 13, VII
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A controvÃ©rsia central emerge da colisÃ£o entre a regra geral (Art. 311 do RIR/2018), que permite a deduÃ§Ã£o de despesas necessÃ¡rias Ã  atividade, e a regra especÃ­fica (Art. 13, VII, da Lei nÂº 9.249/1995), que veda expressamente a deduÃ§Ã£o de "despesas com brindes". Como a legislaÃ§Ã£o nÃ£o define o que Ã© "brinde", cria-se um vÃ¡cuo interpretativo que transfere a anÃ¡lise do campo puramente legal para o fÃ¡tico-probatÃ³rio, onde a finalidade do gasto Ã© o fator decisivo.
+[OBSERVAÃ‡ÃƒO]: A ausÃªncia de definiÃ§Ã£o legal para o termo "brinde" Ã© o cerne de toda a litigiosidade sobre o tema.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: brindes, controversia, conflito_normativo, despesa_necessaria, art_311, lei_9249_1995, vedacao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_02
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: SubstÃ¢ncia sobre a Forma na AnÃ¡lise Fiscal
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A fiscalizaÃ§Ã£o e a jurisprudÃªncia buscam determinar a substÃ¢ncia econÃ´mica do gasto, para alÃ©m da sua nomenclatura contÃ¡bil. A questÃ£o central deixa de ser "o que Ã© um brinde?" e passa a ser "qual a finalidade e a natureza deste dispÃªndio?". A anÃ¡lise visa diferenciar um investimento com expectativa de retorno comercial (publicidade, que Ã© dedutÃ­vel) de um mero ato de cortesia ou agrado pessoal, sem vÃ­nculo direto com a geraÃ§Ã£o de receita (liberalidade, que Ã© indedutÃ­vel). O Ã´nus de provar a finalidade publicitÃ¡ria recai inteiramente sobre o contribuinte.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A empresa precisa ser capaz de demonstrar o propÃ³sito comercial de cada despesa com itens distribuÃ­dos.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: substancia_sobre_forma, finalidade_despesa, publicidade, liberalidade, onus_da_prova, nexo_causal
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Regra Geral de Dedutibilidade (Tese do Contribuinte)
+[BASE LEGAL]: Decreto nÂº 9.580/2018 (RIR/2018), Art. 311
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Este artigo Ã© a principal tese de defesa do contribuinte. Ele define como operacionais as despesas necessÃ¡rias, usuais e normais Ã  atividade. Gastos com itens promocionais, quando inseridos em uma estratÃ©gia comercial clara e documentada, sÃ£o defendidos como despesas de publicidade necessÃ¡rias, argumentando que a substÃ¢ncia do gasto Ã© promocional, nÃ£o uma mera liberalidade.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: rir_2018, art_311, despesa_necessaria, despesa_propaganda, tese_contribuinte
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_04
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: BÃ¡sico
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: VedaÃ§Ã£o EspecÃ­fica (Tese do Fisco)
+[BASE LEGAL]: Lei nÂº 9.249/1995, Art. 13, Inciso VII
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Este Ã© o dispositivo restritivo usado pelo Fisco como fundamento para a glosa. Ele estabelece, de forma clara e direta, a vedaÃ§Ã£o Ã  deduÃ§Ã£o de "despesas com brindes" na apuraÃ§Ã£o do lucro real. A lei Ã© taxativa e nÃ£o abre exceÃ§Ãµes, o que exige uma interpretaÃ§Ã£o sistemÃ¡tica para definir o alcance do termo "brinde".
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: lei_9249_1995, art_13, vedacao, indedutibilidade, brindes, tese_fisco
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_05
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Ajuste Fiscal ObrigatÃ³rio no e-LALUR e e-LACS
+[EXEMPLO PRÃTICO]: Caso "Auto Luxo Brasil Ltda." (R$ 80k em kits vs. R$ 150k em relÃ³gios)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A divergÃªncia entre contabilidade e fiscalidade Ã© resolvida nos livros de apuraÃ§Ã£o. **CenÃ¡rio DedutÃ­vel (Kits promocionais):** Por se enquadrar como publicidade, nenhum ajuste fiscal Ã© necessÃ¡rio. **CenÃ¡rio IndedutÃ­vel (RelÃ³gios de luxo):** Por ser classificada como liberalidade, a despesa deve ter seu efeito neutralizado. Realiza-se uma **AdiÃ§Ã£o Permanente** do valor total (R$ 150.000) na Parte A do e-LALUR e do e-LACS.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o Permanente no Registro M300 (e-Lalur) e M350 (e-Lacs) da ECF.
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: e-lalur, e-lacs, adicao_permanente, ajuste_fiscal, ecf, despesa_indedutivel, liberalidade
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_06
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o da Receita Federal (COSIT) - CritÃ©rio do "Diminuto Valor"
+[BASE LEGAL]: SoluÃ§Ã£o de Consulta COSIT nÂº 4/2001
+[JURISPRUDÃŠNCIA]: SC COSIT nÂº 4/2001
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Este precedente, favorÃ¡vel ao contribuinte, estabeleceu que "os gastos com a aquisiÃ§Ã£o e distribuiÃ§Ã£o de objetos, desde que de diminuto valor e diretamente relacionados com a atividade explorada pela empresa, poderÃ£o ser deduzidos a tÃ­tulo de despesas de propaganda". A soluÃ§Ã£o criou uma "vÃ¡lvula de escape" Ã  vedaÃ§Ã£o legal, reconhecendo que itens promocionais de baixo custo sÃ£o, em essÃªncia, ferramentas de publicidade, nÃ£o meros brindes.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: Este Ã© um pilar da defesa para justificar a dedutibilidade de material promocional.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: cosit, solucao_consulta, jurisprudencia, diminuto_valor, despesa_propaganda, dedutibilidade
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_07
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o do CARF - Leading Case FavorÃ¡vel (SubstÃ¢ncia sobre a Forma)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: AcÃ³rdÃ£o CARF nÂº 10872.000392/2010-81 (CSRF)
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Em decisÃ£o unÃ¢nime, a CÃ¢mara Superior do CARF entendeu que itens promocionais distribuÃ­dos em conjunto com a venda de um produto nÃ£o sÃ£o "brindes" vedados, mas sim despesas de propaganda dedutÃ­veis. Os fundamentos foram: (1) os itens eram de pequeno valor em relaÃ§Ã£o ao produto principal; e (2) a entrega estava atrelada a uma operaÃ§Ã£o comercial ("certa contraprestaÃ§Ã£o em compras"), nÃ£o sendo pura liberalidade.
+[OBSERVAÃ‡ÃƒO]: Este acÃ³rdÃ£o Ã© a mais forte defesa para o contribuinte que comprova o nexo causal do gasto com a atividade de vendas e a expectativa de retorno.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, jurisprudencia, csrf, substancia_sobre_forma, despesa_propaganda, nexo_causal, contraprestacao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_08
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o do CARF - Precedente Restritivo (Literalidade da Lei)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: AcÃ³rdÃ£o CARF nÂº 9101-004.062 (CSRF)
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Representa a linha de interpretaÃ§Ã£o mais dura e alinhada Ã  literalidade da lei. Neste julgado, o CARF manteve a indedutibilidade, definindo brinde como a distribuiÃ§Ã£o gratuita e instantÃ¢nea de mercadoria que nÃ£o Ã© objeto da atividade da empresa. Ã‰ o precedente frequentemente utilizado pela fiscalizaÃ§Ã£o para sustentar as glosas.
+[RISCO]: Elevado. Este precedente representa o risco a ser mitigado por meio de documentaÃ§Ã£o robusta.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: carf, jurisprudencia, csrf, vedacao, indedutibilidade, liberalidade, risco_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_09
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: CÃ¡lculo da ContingÃªncia Fiscal
+[EXEMPLO PRÃTICO]: Glosa dos relÃ³gios de R$ 150.000,00 ("Auto Luxo Brasil Ltda.")
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A deduÃ§Ã£o indevida de R$ 150.000,00, se glosada, gera a seguinte contingÃªncia fiscal: **1. Tributo Principal (IRPJ e CSLL a 34%):** R$ 51.000,00. **2. Multa de OfÃ­cio (75% sobre o tributo):** R$ 38.250,00. **3. Total do Auto de InfraÃ§Ã£o (sem juros): R$ 89.250,00**. A este valor seriam acrescidos os juros de mora (taxa SELIC).
+[RISCO]: CrÃ­tico. O custo da nÃ£o conformidade pode superar 175% do valor do tributo original (sem contar os juros).
+[OBSERVAÃ‡ÃƒO]: N/A
+[TAGS]: risco_fiscal, impacto_financeiro, glosa, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_10
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: PolÃ­tica Interna de Brindes e Material Promocional ("Teste de TrÃªs Fatores")
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Recomenda-se a criaÃ§Ã£o de uma polÃ­tica corporativa que estabeleÃ§a diretrizes claras para a classificaÃ§Ã£o e registro de despesas, baseada em um "teste de trÃªs fatores": **1. Valor do Item:** Definir um limite monetÃ¡rio objetivo (ex: R$ 100,00) para classificar o item como material promocional dedutÃ­vel. **2. AbrangÃªncia da DistribuiÃ§Ã£o:** Diferenciar distribuiÃ§Ã£o em massa (propaganda) de distribuiÃ§Ã£o seletiva (presente). **3. Finalidade do Gasto:** Exigir que toda aÃ§Ã£o tenha um objetivo comercial claro e documentado.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Esta polÃ­tica Ã© a principal ferramenta de governanÃ§a para mitigar o risco de glosa.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, politica_interna, governanca, teste_tres_fatores, gestao_riscos
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_11
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: DossiÃª de Suporte Ã  Dedutibilidade ("Defense File")
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Para cada campanha de marketing com distribuiÃ§Ã£o de material promocional dedutÃ­vel, a empresa deve manter um dossiÃª de comprovaÃ§Ã£o contendo: o plano da campanha com objetivos e pÃºblico-alvo; cÃ³pias das notas fiscais de aquisiÃ§Ã£o dos itens; provas da distribuiÃ§Ã£o (fotos, listas de envio, relatÃ³rios); e evidÃªncias da finalidade promocional (layout dos itens com o logo). Este dossiÃª Ã© a prova material que sustenta a deduÃ§Ã£o.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: Segregar as despesas em contas contÃ¡beis distintas ("Publicidade" e "Brindes") e realizar o ajuste fiscal proativo para a conta de brindes.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, dossie_de_suporte, defense_file, prova_documental, compliance_fiscal
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes
+
+---
+
+[ID]: trib_irpj_brindes_12
+[TIPO DE CONTEÃšDO]: ConclusÃ£o TÃ©cnica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Brindes e Materiais Promocionais
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: DiagnÃ³stico Final, Melhor Conduta e Tese DefensÃ¡vel
+[EXEMPLO PRÃTICO]: Caso "Auto Luxo Brasil Ltda."
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **DiagnÃ³stico:** A despesa com kits (R$ 80k) Ã© **DEDUTÃVEL** por se alinhar Ã  jurisprudÃªncia favorÃ¡vel (baixo valor, finalidade promocional). A despesa com relÃ³gios (R$ 150k) Ã© **INDEDUTÃVEL** por caracterizar liberalidade (alto valor, distribuiÃ§Ã£o restrita). **Melhor Conduta:** Realizar a adiÃ§Ã£o permanente dos R$ 150k no LALUR/LACS e, se jÃ¡ deduzido, fazer a autorregularizaÃ§Ã£o para evitar a multa de 75%. **EstratÃ©gia Contenciosa:** A via administrativa (DRJ/CARF) Ã© a mais adequada por ser uma disputa fÃ¡tico-probatÃ³ria. A defesa para os kits Ã© sÃ³lida; a defesa para os relÃ³gios Ã© de altÃ­ssimo risco e probabilidade de Ãªxito remota.
+[RISCO]: N/A
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[TAGS]: conclusao_tecnica, diagnostico, melhor_conduta, enfoque_contencioso, carf, drj
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise da Fronteira JurÃ­dico-ContÃ¡bil de Brindes

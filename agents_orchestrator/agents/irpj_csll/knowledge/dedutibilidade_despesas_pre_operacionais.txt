@@ -1,0 +1,203 @@
+﻿[ID]: trib_irpj_preop_01
+[TIPO DE CONTEÃšDO]: Conceito TeÃ³rico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: Conflito Fundamental: Regime de CompetÃªncia ContÃ¡bil vs. RealizaÃ§Ã£o Fiscal
+[BASE LEGAL]: CPC 04 (R1)
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A controvÃ©rsia sobre despesas prÃ©-operacionais (aluguÃ©is, salÃ¡rios antes do inÃ­cio da atividade) reside no momento da deduÃ§Ã£o. A visÃ£o contÃ¡bil (IFRS/CPC 04) exige o reconhecimento como despesa no perÃ­odo em que Ã© incorrida. A visÃ£o fiscal impÃµe uma regra de *timing* especÃ­fica, vedando a deduÃ§Ã£o imediata e exigindo o diferimento (ativaÃ§Ã£o fiscal) para amortizaÃ§Ã£o futura, a fim de correlacionar a despesa com as receitas que ela ajudarÃ¡ a gerar.
+[OBSERVAÃ‡ÃƒO]: Ã‰ um conflito puramente temporal: a contabilidade reconhece o gasto agora, o Fisco sÃ³ permite a deduÃ§Ã£o depois.
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: despesas_pre_operacionais, controversia, regime_competencia, ifrs, cpc_04, realizacao_fiscal, diferimento
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_02
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: ControvÃ©rsia TÃ©cnica
+[TOPICO]: EvoluÃ§Ã£o Normativa: Do Ativo Diferido ao Controle Fiscal no LALUR
+[BASE LEGAL]: Lei nÂº 11.638/2007; Lei nÂº 12.973/2014
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Historicamente, as despesas prÃ©-operacionais eram registradas no "Ativo Diferido", uma figura contÃ¡bil-fiscal. A Lei nÂº 11.638/2007 extinguiu o Ativo Diferido da contabilidade societÃ¡ria. Para resolver o vÃ¡cuo, a Lei nÂº 12.973/2014 instituiu um mecanismo de diferimento puramente fiscal: a empresa registra a despesa no resultado (contabilidade), mas Ã© obrigada a adicionÃ¡-la no e-LALUR/e-LACS, controlando o saldo na Parte B para amortizaÃ§Ã£o futura.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: A controvÃ©rsia hoje nÃ£o Ã© mais de interpretaÃ§Ã£o legal, mas de conformidade procedimental. A lei Ã© clara e imperativa.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: ativo_diferido, lei_11638_2007, lei_12973_2014, evolucao_normativa, ifrs, e-lalur_parte_b
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_03
+[TIPO DE CONTEÃšDO]: InterpretaÃ§Ã£o Legal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: Enquadramento Normativo
+[TOPICO]: Fundamento Legal do Diferimento e AmortizaÃ§Ã£o
+[BASE LEGAL]: Lei nÂº 12.973/2014, Art. 11; RIR/2018, Art. 338; IN RFB nÂº 1.700/2017, Art. 128
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O Art. 11 da Lei nÂº 12.973/14 (consolidado no Art. 338 do RIR/2018) estabelece que despesas prÃ©-operacionais nÃ£o serÃ£o computadas no lucro real no perÃ­odo em que forem incorridas. O Art. 128 da IN 1.700/2017 detalha o procedimento: 1. AdiÃ§Ã£o do valor na Parte A do LALUR/LACS; 2. Registro do valor em conta de controle na Parte B; 3. ExclusÃ£o (amortizaÃ§Ã£o) em quotas mensais por um prazo mÃ­nimo de 5 anos (60 meses) a partir do inÃ­cio das operaÃ§Ãµes.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[RISCO]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: lei_12973_2014, rir_2018, art_338, in_1700_2017, art_128, diferimento, amortizacao, 5_anos
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_04
+[TIPO DE CONTEÃšDO]: Procedimento Fiscal
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Fluxo do Registro Correto (Passo a Passo)
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: O fluxo correto se dÃ¡ em dois momentos: **Momento 1 (IncorrÃªncia):** A despesa Ã© registrada no resultado contÃ¡bil (DRE). Na apuraÃ§Ã£o fiscal, o valor Ã© adicionado na Parte A do LALUR/LACS e, simultaneamente, registrado em uma conta de controle na Parte B. **Momento 2 (AmortizaÃ§Ã£o):** A partir do inÃ­cio das operaÃ§Ãµes, a cada perÃ­odo de apuraÃ§Ã£o, uma quota de amortizaÃ§Ã£o (ex: 1/60 do total) Ã© lanÃ§ada como exclusÃ£o na Parte A do LALUR/LACS, com a correspondente baixa no saldo da Parte B.
+[CAMINHO DE AJUSTE]: AdiÃ§Ã£o TemporÃ¡ria na Parte A com controle na Parte B, seguida de ExclusÃµes futuras na Parte A com baixa na Parte B.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: procedimento_fiscal, e-lalur, e-lacs, adicao_temporaria, exclusao, parte_b, amortizacao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_05
+[TIPO DE CONTEÃšDO]: Exemplo PrÃ¡tico
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: AnÃ¡lise ContÃ¡bil e Fiscal
+[TOPICO]: Exemplo NumÃ©rico da Jornada Fiscal-ContÃ¡bil
+[EXEMPLO PRÃTICO]: Empresa incorre em R$ 200.000 de despesas prÃ©-operacionais no Ano 1. No Ano 2, inicia as operaÃ§Ãµes e amortiza em 5 anos.
+[TRATAMENTO FISCAL]: **Ano 1:** Despesa de R$ 200k na DRE; AdiÃ§Ã£o de R$ 200k no LALUR-A; Saldo de R$ 200k no LALUR-B. **Ano 2 ao Ano 6:** ExclusÃ£o anual de R$ 40k no LALUR-A; Baixa anual de R$ 40k no saldo do LALUR-B.
+[DESCRIÃ‡ÃƒO DETALHADA]: A tabela "Jornada Fiscal-ContÃ¡bil" ilustra o fluxo: no Ano 1, o impacto na base fiscal Ã© nulo. A partir do Ano 2, hÃ¡ uma reduÃ§Ã£o de R$ 40.000 por ano na base de cÃ¡lculo do IRPJ/CSLL, atÃ© que o saldo controlado na Parte B do LALUR seja zerado.
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[RISCO]: N/A
+[TAGS]: exemplo_pratico, jornada_fiscal, amortizacao, e-lalur, e-lacs, adicao, exclusao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_06
+[TIPO DE CONTEÃšDO]: JurisprudÃªncia
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: JurisprudÃªncia TributÃ¡ria
+[TOPICO]: PosiÃ§Ã£o do CARF e dos Tribunais Superiores
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: CARF, AcÃ³rdÃ£o 1302-006.868; AcÃ³rdÃ£o 9101-006.756
+[POSICIONAMENTO FISCO]: A jurisprudÃªncia do CARF Ã© pacÃ­fica e consolidada, mantendo invariavelmente a glosa de despesas prÃ©-operacionais deduzidas no perÃ­odo de sua incorrÃªncia. A prÃ¡tica Ã© classificada como "antecipaÃ§Ã£o de despesa".
+[POSICIONAMENTO CONTRIBUINTE]: NÃ£o hÃ¡ tese defensÃ¡vel. A ausÃªncia de litÃ­gios sobre o mÃ©rito da regra no STJ e STF sugere que a clareza da legislaÃ§Ã£o (pÃ³s-Lei 12.973/14) tornou a tese da deduÃ§Ã£o imediata juridicamente inviÃ¡vel.
+[DESCRIÃ‡ÃƒO DETALHADA]: O panorama jurisprudencial Ã© totalmente desfavorÃ¡vel a qualquer tentativa de deduÃ§Ã£o imediata. A questÃ£o Ã© considerada matÃ©ria resolvida na esfera administrativa. O voto de qualidade Ã© irrelevante, pois as decisÃµes sÃ£o unÃ¢nimes ou por ampla maioria contra o contribuinte.
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: carf, stj, stf, jurisprudencia, pacifico, antecipacao_despesa, diferimento, voto_de_qualidade
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_07
+[TIPO DE CONTEÃšDO]: AnÃ¡lise de Risco
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: IntermediÃ¡rio
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: Riscos e Impactos
+[TOPICO]: CÃ¡lculo Simulado do Impacto da Glosa Fiscal
+[BASE LEGAL]: Lei nÂº 9.430/1996, Art. 44
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: A deduÃ§Ã£o imediata de despesas prÃ©-operacionais expÃµe a empresa a riscos severos. A contingÃªncia Ã© composta por: 1. **Tributo Principal** (IRPJ/CSLL sobre o valor adicionado); 2. **Multa de OfÃ­cio** (padrÃ£o de 75% sobre o tributo); e 3. **Juros de Mora** (taxa SELIC).
+[EXEMPLO PRÃTICO]: Uma deduÃ§Ã£o indevida de R$ 200.000,00 gera R$ 68.000,00 de tributo principal e R$ 51.000,00 de multa de ofÃ­cio, totalizando uma autuaÃ§Ã£o de R$ 119.000,00 (sem juros).
+[RISCO]: CrÃ­tico. O custo da nÃ£o conformidade pode corresponder a 68% do valor original da despesa, sem contar os juros.
+[OBSERVAÃ‡ÃƒO]: N/A
+[TAGS]: risco_fiscal, impacto_financeiro, glosa, multa_de_oficio, juros_selic, contingencia
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_08
+[TIPO DE CONTEÃšDO]: RecomendaÃ§Ã£o PrÃ¡tica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: Especializado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: RecomendaÃ§Ãµes TÃ©cnicas e Compliance
+[TOPICO]: Melhores PrÃ¡ticas de Controle e DocumentaÃ§Ã£o
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: Para garantir a conformidade e otimizar o benefÃ­cio da amortizaÃ§Ã£o, recomenda-se: 1. **Implementar uma PolÃ­tica Interna:** Definir critÃ©rios claros para classificar despesas prÃ©-operacionais e, crucialmente, para estabelecer o "marco de inÃ­cio das operaÃ§Ãµes". 2. **Criar um DossiÃª de Suporte:** Manter um dossiÃª para cada projeto, com toda a documentaÃ§Ã£o que comprove a data de inÃ­cio das operaÃ§Ãµes (ex: primeira nota fiscal de venda, licenÃ§a de operaÃ§Ã£o). 3. **Parametrizar Sistemas:** Configurar o ERP e o software fiscal para automatizar a adiÃ§Ã£o no LALUR/LACS e o controle dos saldos na Parte B.
+[APLICAÃ‡ÃƒO EMPRESARIAL]: Um dossiÃª robusto sobre o inÃ­cio das operaÃ§Ãµes Ã© a principal ferramenta de defesa contra uma eventual glosa das quotas de amortizaÃ§Ã£o.
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[RISCO]: N/A
+[TAGS]: recomendacao, compliance_fiscal, politica_interna, dossie_de_suporte, inicio_operacoes, amortizacao
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais
+
+---
+
+[ID]: trib_irpj_preop_09
+[TIPO DE CONTEÃšDO]: ConclusÃ£o TÃ©cnica
+[VERSÃƒO LEGAL]: Vigente em 2025-10-23
+[NÃVEL DE COMPLEXIDADE]: AvanÃ§ado
+[REGIME]: Lucro Real
+[IMPOSTO]: IRPJ / CSLL
+[TEMA]: Dedutibilidade de Despesas PrÃ©-Operacionais
+[SEÃ‡ÃƒO]: ConclusÃ£o e EstratÃ©gia Contenciosa
+[TOPICO]: DiagnÃ³stico, Melhor Conduta e Tese DefensÃ¡vel
+[BASE LEGAL]: N/A
+[JURISPRUDÃŠNCIA]: N/A
+[INTERPRETAÃ‡ÃƒO DOUTRINA]: N/A
+[DESCRIÃ‡ÃƒO DETALHADA]: **DiagnÃ³stico:** A deduÃ§Ã£o imediata de despesas prÃ©-operacionais Ã© **permanentemente INDEDUTÃVEL** no perÃ­odo de incorrÃªncia. **Melhor Conduta:** A Ãºnica prÃ¡tica segura Ã© a autorregularizaÃ§Ã£o (denÃºncia espontÃ¢nea), com a retificaÃ§Ã£o da ECF para adicionar os valores e recolher o tributo com juros/multa de mora, evitando a multa de ofÃ­cio de 75%. **Tese DefensÃ¡vel:** NÃ£o existe tese defensÃ¡vel para o mÃ©rito da deduÃ§Ã£o imediata. A defesa em uma autuaÃ§Ã£o deve focar em vÃ­cios formais do lanÃ§amento ou em erros de cÃ¡lculo.
+[RECOMENDAÃ‡ÃƒO PRÃTICA]: N/A
+[RISCO]: N/A
+[OBSERVAÃ‡ÃƒO]: N/A
+[EXEMPLO PRÃTICO]: N/A
+[TAGS]: conclusao_tecnica, melhor_conduta, denuncia_espontanea, tese_defensavel, enfoque_contencioso
+[DATA]: 2025-10-23
+[ORIGEM]: AnÃ¡lise do Tratamento Fiscal-ContÃ¡bil de Despesas PrÃ©-Operacionais

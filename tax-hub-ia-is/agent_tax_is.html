@@ -1,0 +1,46 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../tax-hub-ia-is/agent_tax_is.css">
+
+<div
+  id="chat-container"
+  class="agent-chat"
+  data-agent-id="is"
+  data-agent-name="Agente Tax - Consultor IS"
+  data-agent-context="IS"
+>
+  <div id="chat-header" class="chat-header">
+    <div class="header-info">
+      <div class="agent-avatar">
+          <i class="fa-solid fa-industry"></i>
+      </div>
+      <div class="header-text">
+        <span class="header-title">Agente Tax - Consultor IS</span>
+        <small class="header-subtitle">Imposto Seletivo (IS)</small>
+      </div>
+    </div>
+    
+    <button type="button" class="close-chat-button" data-close-chat title="Encerrar conversa">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <div class="chat-window" id="chat-window">
+    </div>
+
+  <form class="chat-input-area" id="chat-form">
+    <div class="input-wrapper">
+      <textarea
+        id="message-input"
+        placeholder="Descreva sua duvida sobre o Imposto Seletivo... (Shift+Enter para nova linha)"
+        rows="1"
+        required
+      ></textarea>
+      <button type="submit" id="send-button" title="Enviar mensagem">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../tax-hub-ia-is/agent_tax_is.js"></script>

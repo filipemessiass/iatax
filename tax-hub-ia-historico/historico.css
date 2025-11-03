@@ -1,0 +1,690 @@
+/*
+==================================================================
+ AGENTE HIST�"RICO - ESTILO PADR�fO PREMIUM (CSS Unificado)
+ 
+ Comentários Educativos:
+ Este CSS combina o Padrão Premium (Azul/Laranja) com os 
+ estilos específicos da página de histórico (filtros, cards, etc.).
+==================================================================
+*/
+
+/* SE�?�fO 1: VARIÁVEIS DE DESIGN (:root)
+  Paleta de cores padrão (Azul/Laranja).
+*/
+:root {
+    --color-primary: #7AC143;
+    --color-secondary: #5A7E18;
+    --color-text-dark: #0F0F0F;
+    --color-text-light: #2E2E2E;
+    --color-white: #FFFFFF;
+    --color-light-grey: #E8EAE9;
+    --color-dark-surface: #F8F9F8;
+    --color-blue-accent: #7AC143;
+    --color-orange-accent: #7AC143;
+    --color-success: #7AC143;
+    --color-warning: #2E2E2E;
+    --color-danger: #0F0F0F;
+    
+    --chat-padding: clamp(20px, 3vw, 32px);
+    --border-radius: 16px;
+    --transition: 0.3s ease;
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 28px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 18px 46px rgba(0, 0, 0, 0.12);
+    --avatar-size: clamp(40px, 5vw, 48px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    color: var(--color-text-dark);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* SE�?�fO 2: LAYOUT PRINCIPAL (Padrão Agente)
+  Define o container principal como uma coluna flexível.
+*/
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background: var(--color-white);
+    position: relative;
+}
+
+/* SE�?�fO 3: CABE�?ALHO (Padrão Agente)
+  Estiliza a barra superior com o gradiente Azul/Laranja.
+*/
+#chat-container #chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: clamp(20px, 3vh, 28px) var(--chat-padding);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-blue-accent) 50%, var(--color-secondary) 100%);
+    color: var(--color-white);
+    flex-shrink: 0;
+    box-shadow: var(--shadow-md);
+    position: relative;
+    overflow: hidden;
+}
+
+#chat-container #chat-header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+#chat-container .header-info {
+    display: flex;
+    align-items: center;
+    gap: clamp(16px, 2vw, 20px);
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Avatar do Header (Padrão Agente) */
+#chat-container .agent-avatar {
+    width: clamp(52px, 7vw, 64px);
+    height: clamp(52px, 7vw, 64px);
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-orange-accent));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: all var(--transition);
+}
+#chat-container .agent-avatar i {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    color: var(--color-white);
+}
+
+/* Textos do Header (Padrão Agente) */
+#chat-container .header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+#chat-container .header-title {
+    font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-white);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#chat-container .header-subtitle {
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+    line-height: 1.3;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Botão de Fechar (Padrão Agente) */
+#chat-container .close-chat-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(42px, 6vw, 48px);
+    height: clamp(42px, 6vw, 48px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--color-white);
+    font-size: clamp(1.2rem, 2.5vw, 1.4rem);
+    cursor: pointer;
+    transition: all var(--transition);
+    flex-shrink: 0;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}
+#chat-container .close-chat-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    opacity: 0;
+    transition: opacity var(--transition);
+}
+#chat-container .close-chat-button i {
+    position: relative;
+    z-index: 1;
+}
+#chat-container .close-chat-button:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05) rotate(90deg);
+}
+#chat-container .close-chat-button:hover::before {
+    opacity: 1;
+}
+
+/* SE�?�fO 4: CONTE�sDO DA PÁGINA DE HIST�"RICO */
+/* Estilos específicos da página de histórico (filtros, stats, cards) */
+
+#chat-container .historico-toolbar {
+  padding: 16px 32px;
+  background: rgba(122, 193, 67, 0.03);
+  border-bottom: 1px solid rgba(122, 193, 67, 0.1);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#chat-container .search-box {
+  flex: 1;
+  min-width: 240px;
+  position: relative;
+}
+
+#chat-container .search-box input {
+  width: 100%;
+  padding: 10px 42px 10px 16px;
+  border: 2px solid rgba(122, 193, 67, 0.15);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#chat-container .search-box input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(122, 193, 67, 0.1);
+}
+
+#chat-container .search-box i {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-light);
+  font-size: 1.1rem;
+}
+
+#chat-container .filter-select {
+  padding: 10px 14px;
+  border: 2px solid rgba(122, 193, 67, 0.15);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: var(--color-white);
+}
+
+#chat-container .filter-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(122, 193, 67, 0.1);
+}
+
+/* Botões da Toolbar */
+#chat-container .btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#chat-container .btn-danger {
+  background: var(--color-danger);
+  color: var(--color-white);
+  box-shadow: 0 4px 12px rgba(15, 15, 15, 0.16);
+}
+
+#chat-container .btn-danger:hover {
+  background: var(--color-text-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 15, 15, 0.24);
+}
+
+/* Estatísticas */
+#chat-container .historico-stats {
+  padding: 16px 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  background: rgba(122, 193, 67, 0.02);
+  border-bottom: 1px solid rgba(122, 193, 67, 0.1);
+  flex-shrink: 0;
+}
+
+#chat-container .stat-card {
+  background: var(--color-white);
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-soft);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+#chat-container .stat-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: var(--color-white);
+  flex-shrink: 0;
+}
+
+#chat-container .stat-card__icon--blue {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-blue-accent));
+}
+
+#chat-container .stat-card__icon--orange {
+  background: linear-gradient(135deg, var(--color-secondary), #F2F2F2);
+}
+
+#chat-container .stat-card__icon--green {
+  background: linear-gradient(135deg, var(--color-success), #7AC143);
+}
+
+#chat-container .stat-card__info h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 3px;
+  line-height: 1;
+}
+
+#chat-container .stat-card__info p {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  line-height: 1.2;
+}
+
+/* Conteúdo (Lista de Conversas) */
+#chat-container .historico-content {
+  padding: 24px 32px;
+  flex: 1; /* Ocupa o espaço restante */
+  overflow-y: auto; /* Adiciona scroll AQUI */
+  overflow-x: hidden;
+}
+
+#chat-container .conversas-list {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 20px;
+}
+
+#chat-container .conversa-card {
+  background: var(--color-white);
+  border: 2px solid rgba(122, 193, 67, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#chat-container .conversa-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 6px 24px rgba(122, 193, 67, 0.12);
+  transform: translateY(-2px);
+}
+
+#chat-container .conversa-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+  gap: 14px;
+}
+
+#chat-container .conversa-card__info {
+  flex: 1;
+  min-width: 0;
+}
+
+#chat-container .conversa-card__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#chat-container .conversa-card__agent {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  background: rgba(122, 193, 67, 0.08);
+  color: var(--color-primary);
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+#chat-container .conversa-card__meta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+#chat-container .conversa-card__meta span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#chat-container .conversa-card__preview {
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#chat-container .conversa-card__actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#chat-container .btn-sm {
+  padding: 7px 14px;
+  font-size: 0.8rem;
+}
+
+#chat-container .btn-primary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+#chat-container .btn-primary:hover {
+  background: #7AC143;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+#chat-container .btn-outline {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+#chat-container .btn-outline:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: none;
+  box-shadow: none;
+}
+
+#chat-container .empty-state {
+  text-align: center;
+  padding: 60px 32px;
+}
+
+#chat-container .empty-state__icon {
+  font-size: 4rem;
+  color: rgba(122, 193, 67, 0.2);
+  margin-bottom: 20px;
+}
+
+#chat-container .empty-state__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    margin-bottom: 10px;
+}
+
+#chat-container .empty-state__text {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* SE�?�fO 5: MODAL (POPUP) */
+/* O modal fica fora do #chat-container para sobrepor a tela toda */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: var(--color-white);
+  border-radius: 20px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-blue-accent) 100%);
+  color: var(--color-white);
+  padding: 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.modal-close {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--color-white);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  max-height: calc(90vh - 100px);
+}
+
+.chat-message-item {
+  margin-bottom: 16px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border-left: 4px solid;
+}
+
+.chat-message-item.user {
+  background: rgba(122, 193, 67, 0.05);
+  border-left-color: var(--color-primary);
+}
+
+.chat-message-item.bot {
+  background: rgba(0, 0, 0, 0.05);
+  border-left-color: var(--color-secondary);
+}
+
+.chat-message-item__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+.chat-message-item__content {
+  color: var(--color-text-dark);
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+/* Scrollbar personalizada */
+.historico-content::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.historico-content::-webkit-scrollbar-track,
+.modal-body::-webkit-scrollbar-track {
+  background: rgba(122, 193, 67, 0.05);
+  border-radius: 4px;
+}
+
+.historico-content::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb {
+  background: rgba(122, 193, 67, 0.2);
+  border-radius: 4px;
+}
+
+.historico-content::-webkit-scrollbar-thumb:hover,
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 193, 67, 0.35);
+}
+
+/* SE�?�fO 6: RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  #chat-container .historico-toolbar {
+    padding: 14px 24px;
+  }
+  #chat-container .historico-stats {
+    padding: 14px 24px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+  #chat-container .historico-content {
+    padding: 20px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  #chat-container .historico-toolbar {
+    padding: 12px 16px;
+  }
+  #chat-container .search-box {
+    min-width: 100%;
+  }
+  #chat-container .historico-stats {
+    padding: 12px 16px;
+    grid-template-columns: 1fr;
+  }
+  #chat-container .historico-content {
+    padding: 16px;
+  }
+  #chat-container .conversa-card {
+    padding: 16px;
+  }
+  .modal-content {
+    max-width: 100%;
+    margin: 0 10px;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  #chat-container .btn {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #chat-container .stat-card {
+    padding: 12px 14px;
+  }
+  #chat-container .stat-card__icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  #chat-container .stat-card__info h3 {
+    font-size: 1.4rem;
+  }
+  #chat-container .conversa-card__title {
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #chat-container .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  #chat-container .btn-sm {
+    padding: 8px 12px;
+  }
+}
